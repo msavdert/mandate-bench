@@ -1,0 +1,108 @@
+{
+  "as_of": "2026-08-19",
+  "instruments": {
+    "SPY": {
+      "name": "S&P 500 ETF",
+      "close": 769.06,
+      "r1d": 0.21,
+      "r5d": -0.44,
+      "r21d": 2.78,
+      "r63d": 4.82,
+      "vol63": 13.67
+    },
+    "QQQ": {
+      "name": "Nasdaq-100 ETF",
+      "close": 716.08,
+      "r1d": -0.2,
+      "r5d": -1.05,
+      "r21d": 1.0,
+      "r63d": 2.07,
+      "vol63": 25.87
+    },
+    "IWM": {
+      "name": "Russell 2000 ETF",
+      "close": 301.72,
+      "r1d": 0.5,
+      "r5d": -0.33,
+      "r21d": 1.75,
+      "r63d": 10.52,
+      "vol63": 17.34
+    },
+    "EFA": {
+      "name": "MSCI EAFE ETF",
+      "close": 107.66,
+      "r1d": 0.36,
+      "r5d": -0.77,
+      "r21d": 3.46,
+      "r63d": 5.63,
+      "vol63": 15.41
+    },
+    "EEM": {
+      "name": "MSCI Emerging Markets ETF",
+      "close": 66.11,
+      "r1d": 1.18,
+      "r5d": -0.53,
+      "r21d": 1.18,
+      "r63d": 2.88,
+      "vol63": 33.01
+    },
+    "TLT": {
+      "name": "20+ Year Treasury ETF",
+      "close": 83.02,
+      "r1d": 1.67,
+      "r5d": 1.11,
+      "r21d": -0.77,
+      "r63d": 0.0,
+      "vol63": 9.75
+    },
+    "LQD": {
+      "name": "Investment Grade Corporate Bond ETF",
+      "close": 106.57,
+      "r1d": 0.69,
+      "r5d": 0.42,
+      "r21d": -0.26,
+      "r63d": -0.51,
+      "vol63": 5.52
+    },
+    "GLD": {
+      "name": "Gold ETF",
+      "close": 413.84,
+      "r1d": 3.84,
+      "r5d": 2.2,
+      "r21d": 10.41,
+      "r63d": 0.57,
+      "vol63": 26.14
+    },
+    "DBC": {
+      "name": "Commodity Index ETF",
+      "close": 30.76,
+      "r1d": 0.92,
+      "r5d": 2.16,
+      "r21d": 4.02,
+      "r63d": -2.69,
+      "vol63": 22.64
+    },
+    "VNQ": {
+      "name": "US Real Estate ETF",
+      "close": 98.61,
+      "r1d": 1.01,
+      "r5d": 1.34,
+      "r21d": -0.91,
+      "r63d": 3.49,
+      "vol63": 15.72
+    }
+  },
+  "current_portfolio": {
+    "SPY": 28,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 4
+  }
+}

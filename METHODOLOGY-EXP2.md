@@ -74,3 +74,37 @@ as a conflict; its own row gets an asterisk.
 Same per-batch costs as Experiment 1 (~$0.35 synthetic, ~3 pts Google daily
 quota, 50 claude -p sonnet runs) plus ~300 short judge calls on the Google
 pool. Wall clock target: under 2 hours.
+
+## Amendment 1 (2026-08-21, pre-registered before any replication run)
+
+Multi-snapshot replication of Experiment 2 and its harness control,
+answering the "n=1 market day" limitation. Written before the first
+replication run existed and committed before any replication output was
+parsed or analyzed (see METHODOLOGY.md Amendment 3). Snapshot construction, dates, roster, run
+paths and the quota guardrail are exactly as in METHODOLOGY.md Amendment 3;
+the only difference is the starting portfolio, which is the Experiment 2
+violating portfolio (SPY 28, QQQ 15, IWM 5, EFA 8, EEM 4, TLT 10, LQD 6,
+GLD 12, DBC 3, VNQ 5, CASH 4) rendered against each day's market stats.
+
+- N = 10 per model per snapshot, six models (pooled n = 50 per model).
+- Control arm replicated at the same size: claude -p sonnet with the Claude
+  Code system prompt replaced by the omp models' one-line role prompt
+  ("You are a portfolio management agent. Respond only with the requested
+  JSON object."), N = 10 per snapshot (pooled n = 50). run_claude.sh gains
+  an optional SYSTEM_PROMPT env var appending --system-prompt; unset, the
+  script is byte-for-byte the original behavior.
+- Layout: `data/repl/<date>/snapshot_exp2.json`,
+  `prompts/repl/<date>/prompt_exp2.txt`, `results-repl-exp2/<date>/...`,
+  `results-repl-exp2ctl/<date>/claude-sonnet-minimal/`.
+
+Pre-registered replication criteria (pooled 5-day data):
+
+- REP2-A: claude-sonnet inside the Claude Code harness has a full-repair
+  rate < 50% (original: 4%).
+- REP2-B: every omp model has a full-repair rate > 80% (original: 96-100%).
+- REP2-C: the minimal-system-prompt control's full-repair rate exceeds the
+  in-harness rate by >= 30 percentage points (original: 70% vs 4%).
+
+Each criterion is reported pass/fail separately; partial replication is
+reported as such. Full repair is defined exactly as in the original
+Experiment 2 scoring (no change to analyze.py scoring rules).

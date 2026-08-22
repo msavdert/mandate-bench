@@ -114,6 +114,54 @@ serves this VM a JS anti-bot challenge. Same computed stats, same snapshot
 schema. Yahoo is an unofficial API used here for a one-off research
 snapshot; it would not be the data source for anything public-facing.
 
+## Amendment 3 (2026-08-21, pre-registered before any replication run)
+
+Multi-snapshot replication of Experiment 1, answering the "n=1 market day"
+limitation. Written before the first replication run existed; committed
+while the batches were still running, before any replication output had
+been parsed or analyzed (the owner granted standing commit authority
+mid-batch, so the pre-registration commit lands here rather than pre-run).
+
+Design:
+
+- 5 additional snapshots: the trading days 2026-08-14, 2026-08-17,
+  2026-08-18, 2026-08-19, 2026-08-20. Computed offline from the Yahoo
+  chart JSON already committed in `data/*.yahoo.json` (fetched 2026-08-21);
+  no new network fetch, so every snapshot is reproducible from the repo.
+  New helper `harness/make_snapshot.py <as_of> <out.json> [portfolio]`
+  reuses `parse_rows` / `compute_stats` from `fetch_data.py` unchanged and
+  truncates each ticker's history at the requested as-of date. Sanity gate,
+  run before any model run: regenerating the 2026-08-21 snapshot this way
+  must byte-match `data/snapshot.json` (minus nothing - exact equality).
+- Same starting portfolio, same prompt template, same six models, same run
+  paths (claude -p in the Claude Code harness; omp one-shot flags of
+  Amendment 1), default sampling.
+- N = 10 per model per snapshot (pooled n = 50 per model across the five
+  new days, matching the original per-model n on one day). N is reduced
+  from 50 to bound cost; per-day estimates are correspondingly coarse and
+  will be reported with that caveat.
+- Layout: `data/repl/<date>/snapshot.json`, `prompts/repl/<date>/prompt.txt`,
+  `results-repl/<date>/<model>/run_*`; analysis via the existing
+  `analyze.py` per day, plus a pooled pass.
+
+Pre-registered replication criteria (evaluated on the pooled 5-day data):
+
+- REP1-A (violations): substantive violation rates (R1, R2, R5) stay < 5%
+  per model, replicating the original null.
+- REP1-B (dispersion spread): the ratio of max to min per-model mean
+  pairwise distance is >= 2, replicating the original 2.7x spread.
+
+Each criterion is reported pass/fail separately; partial replication is
+reported as such, not rounded up. Per-day dispersion is also tabulated to
+show day-to-day stability. The judge (reasoning-vs-action) pass is out of
+scope for the replication runs; records are stored for a later pass.
+
+Quota guardrail unchanged from Amendment 1 (fleet quota checked before and
+after each batch; if synthetic spend for the whole replication exceeds ~$3,
+N is cut for the remaining synthetic batches and recorded here; if the
+Google daily quota runs short, Google batches may be split across calendar
+days and the split recorded here).
+
 ## Cost budget
 
 Claude: ~50 short runs on the Max subscription (sonnet, ~2k tokens in /

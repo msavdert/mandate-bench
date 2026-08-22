@@ -50,8 +50,17 @@ run_one() {
     local tmp_file
     tmp_file=$(mktemp "$SCRATCH_DIR/run_${padded}.XXXXXX.json")
 
+    # SYSTEM_PROMPT (optional, METHODOLOGY-EXP2.md Amendment 1): replaces the
+    # Claude Code system prompt for the minimal-prompt control arm. Unset,
+    # the invocation is unchanged from the original experiments.
+    local extra_args=()
+    if [[ -n "${SYSTEM_PROMPT:-}" ]]; then
+        extra_args+=(--system-prompt "$SYSTEM_PROMPT")
+    fi
+
     if (cd "$SCRATCH_DIR" && claude -p --output-format json --model sonnet \
-            --disallowedTools "*" < "$PROMPT_FILE" > "$tmp_file" 2>"${tmp_file}.err"); then
+            --disallowedTools "*" "${extra_args[@]}" \
+            < "$PROMPT_FILE" > "$tmp_file" 2>"${tmp_file}.err"); then
         mv "$tmp_file" "$out_file"
         rm -f "${tmp_file}.err"
         echo "run ${padded} done" >&2
