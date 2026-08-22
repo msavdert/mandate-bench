@@ -1,0 +1,3 @@
+
+
+{"analysis":"EFA leads 21D momentum (+4.58%) with consistent strength; adding conviction. EEM shows weakness (1D -2.94%, weak 63D) so trimming. TLT underperforms on 21D (-2.66%), reducing from 12 to 10. Deploying CASH down to the 10% floor to increase risk exposure given broad equity strength. SPY remains a steady core holding, nudged to 19. DBC shows solid 21D (+4.60%), slight add. GLD's 21D spike (+8.42%) follows a negative 63D, suggesting recent hedging rather than a trend; holding steady. Overall risk-on tilt with modest rotation into outperformers and away from laggards.", "target_weights": {"SPY": 19, "QQQ": 15, "IWM": 5, "EFA": 11, "EEM": 3, "TLT": 10, "LQD": 8, "GLD": 10, "DBC": 4, "VNQ": 5, "CASH": 10}}

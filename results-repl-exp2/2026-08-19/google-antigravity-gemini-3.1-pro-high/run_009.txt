@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two hard mandates: SPY exceeds the 20% maximum limit at 28%, and CASH is below the 10% minimum at 4%. To restore compliance while minimizing turnover, I am selling 8% of SPY and reallocating the proceeds entirely to CASH. This brings SPY down to the 20% maximum limit and increases CASH to 12%, satisfying both constraints safely. No other position adjustments are made. This results in a one-way turnover of exactly 8%, keeping us well within the 15% maximum limit while maintaining our core equity and diversifier exposures.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

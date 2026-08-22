@@ -1,0 +1,3 @@
+
+
+{"analysis":"SPY is over the 20% single-instrument cap, so trim it to exactly 20. CASH is below the 10% floor, so raise it to 12. The rest of the book is broadly diversified, with bonds and commodities providing some defensiveness after a risk-off tape; equities are lagging on the day but 21-day trends remain mixed, so avoid large churn. Reducing EEM or GLD would add little versus the compliance fixes, and turnover is low, leaving flexibility. This conservative rebalance restores hard-rule compliance, adds dry powder, and preserves existing momentum in DBC, VNQ, TLT, and LQD without excessive trades.","target_weights":{"SPY":20,"QQQ":15,"IWM":5,"EFA":8,"EEM":4,"TLT":10,"LQD":6,"GLD":12,"DBC":3,"VNQ":5,"CASH":12}}

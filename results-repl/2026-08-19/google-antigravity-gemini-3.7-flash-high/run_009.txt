@@ -1,0 +1,18 @@
+```json
+{
+  "analysis": "Gold exhibits strong momentum across 1-day, 5-day, and 21-day horizons, showing resilience and upside participation. Meanwhile, tech equities (QQQ) display short-term weakness and elevated 63-day volatility. We reduce QQQ exposure by 3% and reallocate into GLD to capture precious metals strength while keeping portfolio risk controlled, turnover low (3%), and cash well above the 10% mandate floor.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 12,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 13,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}
+```

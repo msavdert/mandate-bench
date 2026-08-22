@@ -1,0 +1,3 @@
+
+
+{"analysis": "Tilt toward strong 21-day momentum: GLD (+10.4%, also best 1D/5D), DBC (+4.0%), EFA (+3.5%), IWM (best 63D at +10.5%). Trim QQQ (weakest 5D at -1.05%, high 25.9% vol), TLT (negative 21D despite 1D pop), VNQ (negative 21D), and EEM (only 1D strength, 33% vol). Keep SPY unchanged at 18% and hold CASH at 12% for buffer. Turnover is 5pp, well under the 15pp limit; max position 18% under the 20% cap.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 6, "EFA": 9, "EEM": 3, "TLT": 11, "LQD": 8, "GLD": 12, "DBC": 4, "VNQ": 4, "CASH": 12}}

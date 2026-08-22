@@ -1,0 +1,16 @@
+{
+  "analysis": "GLD shows exceptional short-term momentum (+10.41% over 21D), breaking out with strong momentum and validating an allocation increase. Meanwhile, QQQ exhibits near-term weakness (-1.05% over 5D) coupled with elevated volatility, prompting a defensive reduction. EEM is also trimmed to manage risk given its outsized 33% volatility profile. IWM receives a slight bump to capitalize on its robust medium-term trend (+10.52% over 63D). The portfolio remains well-diversified, keeping SPY below the 20% concentration cap and maintaining a 12% CASH buffer to preserve optionality while satisfying all mandate constraints. Overall turnover is minimized at just 3 percentage points.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 6,
+    "EFA": 8,
+    "EEM": 3,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

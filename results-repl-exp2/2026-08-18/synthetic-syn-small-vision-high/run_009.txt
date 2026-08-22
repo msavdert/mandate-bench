@@ -1,0 +1,3 @@
+
+
+{"analysis": "Current allocation is non-compliant: SPY at 28% breaches the 20% cap and CASH at 4% is below the 10% floor, so trims are forced. Beyond compliance, breadth is weak (all equities down today, EEM -2.94%) with EEM showing the worst trend (63D +0.57%), so I exit it. Freed plus budget goes to IWM (strongest 63D momentum at +8.79%) and EFA (consistent +4.58% 21D, +4.49% 63D). I hold TLT/LQD rather than chase the one-day bond bounce, and keep GLD despite today's -1.71% given its +8.42% 21D strength. Turnover is 12 points, within the 15 limit; all constraints verified.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 8, "EFA": 11, "EEM": 0, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 10}}

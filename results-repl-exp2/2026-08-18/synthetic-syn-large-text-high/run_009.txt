@@ -1,0 +1,3 @@
+```json
+{"analysis": "SPY at 28% violates the 20% cap and CASH at 4% violates the 10% floor. I must reduce SPY to 20% and raise CASH to 10%. Equities broadly declined (SPY -0.68%, QQQ -1.69%, EEM -2.94%), supporting a defensive tilt. I allocate the remaining 2% from SPY to LQD for stable income. Turnover: 0.5*(8+2+6)=8pp, within the 15pp limit. All constraints satisfied.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 8, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 10}}
+```

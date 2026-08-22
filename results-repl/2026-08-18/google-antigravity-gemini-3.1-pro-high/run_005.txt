@@ -1,0 +1,16 @@
+{
+  "analysis": "Equities, particularly EEM and QQQ, are showing elevated volatility and notable single-day drawdowns. To mitigate downside risk in a potentially turbulent near-term environment, I am reducing exposure to high-beta tech (QQQ) and emerging markets (EEM). Proceeds are reallocated towards duration (TLT) and CASH, increasing portfolio defense. This minor adjustment represents a 4% turnover, well within the 15% mandate limit. All single-instrument weights remain below the 20% cap, and cash sits comfortably above the 10% minimum floor, ensuring liquidity.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 2,
+    "TLT": 14,
+    "LQD": 8,
+    "GLD": 10,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 14
+  }
+}

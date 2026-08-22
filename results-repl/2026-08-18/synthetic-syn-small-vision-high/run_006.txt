@@ -1,0 +1,3 @@
+
+
+{"analysis": "TLT underperforms on both 21D (-2.66%) and 63D (-2.27%), warranting a trim. GLD's 21D spike (+8.42%) against a negative 63D (-4.75%) and high vol (25.21%) signals mean-reversion risk; reducing modestly. QQQ fell -1.69% today with the highest vol (25.90%) and weakest 63D among large-cap tech; trimming one point. Deploying freed capital into IWM (best 63D at +8.79%) and EFA (solid +4.58%/+4.49% across horizons). SPY gains one point on steady momentum. CASH drops to 11% (still above 10% floor) to put a little more to work. Turnover is 5pp, well within limits.", "target_weights": {"SPY": 19, "QQQ": 14, "IWM": 7, "EFA": 10, "EEM": 4, "TLT": 10, "LQD": 8, "GLD": 9, "DBC": 3, "VNQ": 5, "CASH": 11}}

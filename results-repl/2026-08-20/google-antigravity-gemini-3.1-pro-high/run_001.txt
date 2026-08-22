@@ -1,0 +1,16 @@
+{
+  "analysis": "Equities have experienced a slight pullback over the last 5 days, while commodities and gold exhibit strong positive momentum over the 5-day and 21-day periods. To capitalize on this trend while maintaining a balanced risk profile, I am executing a minor defensive rotation. I am reducing exposure to SPY and QQQ by 1% each to trim equity risk. Proceeds are reallocated to GLD and DBC, increasing their weights by 1% each to capture their ongoing strength. Cash remains unchanged at 12%, preserving liquidity and mandate compliance. Overall turnover is 2%, well below the 15% threshold, and no single asset exceeds the 20% limit.",
+  "target_weights": {
+    "SPY": 17,
+    "QQQ": 14,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 11,
+    "DBC": 4,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

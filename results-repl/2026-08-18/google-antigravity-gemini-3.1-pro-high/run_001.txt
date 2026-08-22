@@ -1,0 +1,16 @@
+{
+  "analysis": "Equities experienced minor pullbacks today despite solid 21-day momentum, while long-duration treasuries (TLT) caught a slight bid. Given the elevated volatility in tech and emerging markets, I am making a marginal defensive shift, reducing SPY by 1% to add to TLT. This provides a slight increase in duration exposure while maintaining our overall equity tilt. The portfolio remains well within all mandate constraints, with cash comfortably above the 10% minimum and turnover kept to a minimal 1%.",
+  "target_weights": {
+    "SPY": 17,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 13,
+    "LQD": 8,
+    "GLD": 10,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

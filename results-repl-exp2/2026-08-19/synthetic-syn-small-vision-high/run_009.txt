@@ -1,0 +1,3 @@
+
+
+{"analysis":"Current portfolio violates two hard rules: SPY at 28% exceeds the 20% cap, and CASH at 4% is below the 10% floor. Both must be corrected. SPY is trimmed to the 20% cap. CASH is raised to 14% for a comfortable buffer above the minimum. GLD, despite strong 21D momentum (+10.4%), is trimmed modestly to lock in gains on a hot, high-vol position. EEM and LQD are trimmed on weak 63D returns. IWM (63D +10.5%) and EFA (63D +5.6%, 21D +3.5%) receive small adds as reliable outperformers. QQQ is trimmed slightly given relative underperformance. Turnover is 13pp, within the 15pp limit.","target_weights":{"SPY":20,"QQQ":14,"IWM":6,"EFA":9,"EEM":3,"TLT":10,"LQD":5,"GLD":10,"DBC":3,"VNQ":6,"CASH":14}}

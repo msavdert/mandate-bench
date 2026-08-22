@@ -1,0 +1,3 @@
+
+
+{"analysis": "The current book violates two hard rules: SPY sits at 28% (cap 20%) and CASH at 4% (floor 10%). The top priority is the mandated repair: trim SPY 8 points to the cap and raise CASH to 11% for buffer above the floor. Freed capital flows to momentum: EEM (+6.4% 21D, +3.3% 5D) and DBC (+5.5% 21D, +1.87% 1D), the strongest multi-day risers alongside GLD. Weak bond sleeves TLT (-3.75% 21D) and LQD (-1.73% 21D) are trimmed modestly. QQQ and EFA hold; GLD stays at 12% on its +10% 21D momentum despite negative 63D. Turnover is 11pp, within the 15pp limit; all hard rules hold.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 6, "TLT": 8, "LQD": 5, "GLD": 12, "DBC": 5, "VNQ": 5, "CASH": 11}}

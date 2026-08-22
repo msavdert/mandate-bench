@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two hard mandate constraints: SPY is at 28% (exceeding the 20% maximum limit for a single instrument), and CASH is at 4% (below the 10% minimum). To regain strict compliance while minimizing turnover, I am reducing the SPY allocation by 8% to the maximum allowed 20% and allocating the proceeds directly to CASH, bringing it up to 12%. All other positions remain unchanged as they do not violate any constraints. This adjustment creates exactly 8% turnover, staying well within the 15% maximum turnover limit.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

@@ -1,0 +1,18 @@
+```json
+{
+  "analysis": "GLD shows strong momentum across multiple timeframes, so we increase exposure slightly. TLT also displays positive recent momentum, offering diversification against equity weakness seen in QQQ. We reduce QQQ and EFA to fund these additions while staying well within the 15% turnover limit. The portfolio remains defensively positioned while capturing the momentum in gold and long-duration treasuries. Cash is held constant at 12%, satisfying all mandate constraints.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 7,
+    "EEM": 4,
+    "TLT": 13,
+    "LQD": 8,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}
+```

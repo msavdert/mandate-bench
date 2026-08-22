@@ -1,0 +1,3 @@
+
+
+{"analysis":"Current portfolio violates two mandate rules (SPY at 28% exceeds the 20% cap; CASH at 4% is below the 10% floor), so correction is mandatory. I bring SPY to the 20% limit and CASH to 10%. Bond weakness (TLT/LQD negative across all timeframes) justifies trimming TLT by 2%. EEM's negative 63D return and 33% volatility support a 1% reduction. I add modestly to GLD (strong 21D momentum at +10%), IWM (best 63D at +7.3%), EFA (steady positive returns), and DBC (positive 5D/21D). Turnover is 11pp, within the 15pp limit.","target_weights":{"SPY":20,"QQQ":15,"IWM":6,"EFA":9,"EEM":3,"TLT":8,"LQD":6,"GLD":14,"DBC":4,"VNQ":5,"CASH":10}}

@@ -1,0 +1,16 @@
+{
+  "analysis": "Equities are exhibiting short-term weakness across the board, particularly in tech and small caps. Conversely, commodities and gold are demonstrating strong momentum over the last 5 to 21 days. To capitalize on this trend while managing risk, I am reducing exposure to SPY, QQQ, and IWM to fund modest increases in GLD, DBC, and CASH. This defensive tilt bolsters the portfolio against continued equity drawdowns and respects all constraints, utilizing only a 5% turnover.",
+  "target_weights": {
+    "SPY": 16,
+    "QQQ": 13,
+    "IWM": 4,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 13,
+    "DBC": 4,
+    "VNQ": 5,
+    "CASH": 13
+  }
+}

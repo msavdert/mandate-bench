@@ -1,0 +1,3 @@
+
+
+{"analysis": "The current book breaches two hard rules: SPY at 28% exceeds the 20% cap and CASH at 4% is below the 10% floor, so rebalancing is mandatory. Cut SPY to exactly 20 and raise CASH to 14 for a buffer and dry powder. Trim GLD after its overheated +10% 21-day spike on a still-negative 63-day trend, cut LQD and TLT amid negative bond momentum, and reduce EEM (negative 63-day, highest volatility). Add to IWM (best 63-day momentum, +7.26%), EFA (steady gains), and DBC (fresh 5-day +3.77 commodity strength). Net turnover is 14pp, within the 15pp limit; all weights are non-negative, sum to 100, and no instrument exceeds 20%.", "target_weights": {"SPY": 20, "QQQ": 14, "IWM": 7, "EFA": 9, "EEM": 3, "TLT": 9, "LQD": 5, "GLD": 10, "DBC": 4, "VNQ": 5, "CASH": 14}}

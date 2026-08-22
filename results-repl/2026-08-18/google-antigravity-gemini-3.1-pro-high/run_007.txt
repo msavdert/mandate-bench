@@ -1,0 +1,16 @@
+{
+  "analysis": "Recent market action indicates short-term weakness in equities, particularly high-beta segments like Nasdaq (QQQ) and Emerging Markets (EEM). Given the elevated volatility in both EEM (33%) and QQQ (25.9%), I am marginally reducing exposure to these assets. To counterbalance this risk-off tilt, I am reallocating the proceeds evenly into CASH and long-term Treasuries (TLT), which demonstrated minor positive non-correlated behavior today. This defensive shift remains well within the 15% turnover limit, maintains adequate liquidity with CASH above the 10% floor, and ensures no single position breaches the 20% concentration ceiling.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 14,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 3,
+    "TLT": 13,
+    "LQD": 8,
+    "GLD": 10,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 13
+  }
+}

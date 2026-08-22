@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two strict mandates: SPY exceeds the 20% maximum limit and CASH is below the 10% minimum. To correct this, I am reducing SPY by 8% to the maximum allowed 20%, and increasing CASH by 6% to reach the 10% minimum threshold. With the remaining turnover budget, I am trimming underperforming long-term treasuries (TLT) by 2% and adding the available 4% to Emerging Markets (EEM) to capture its strong short-term momentum. This rebalance restores full mandate compliance with a total turnover of 10%, safely below the 15% limit.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 8,
+    "TLT": 8,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}

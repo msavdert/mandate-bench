@@ -1,0 +1,3 @@
+
+
+{"analysis":"Bonds (TLT -2.58%, LQD -1.28% over 21D; both negative 63D) are the weakest sleeve, so I trim TLT by 2pp and LQD by 1pp. Equities are broadly constructive: IWM leads 63D at +7.26% with continued 21D strength (+3.21%), warranting a 2pp add. GLD's 21D spike (+10%) off a -6% 63D base is likely a relief rally; I hold rather than chase. SPY stays at 18% near the cap; QQQ, EFA, EEM, DBC, VNQ unchanged. Freed bond weight plus 1pp moves to CASH (13%), preserving dry powder given the mixed 63D signals in GLD, DBC, and EEM. Turnover is 3pp, well within the 15pp limit.","target_weights":{"SPY":18,"QQQ":15,"IWM":7,"EFA":8,"EEM":4,"TLT":10,"LQD":7,"GLD":10,"DBC":3,"VNQ":5,"CASH":13}}

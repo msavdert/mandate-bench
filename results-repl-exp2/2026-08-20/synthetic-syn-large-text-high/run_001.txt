@@ -1,0 +1,3 @@
+```json
+{"analysis": "SPY at 28% violates the 20% cap; CASH at 4% violates the 10% floor. Both must be fixed. Equities show near-term weakness (SPY -1.96% 5D, QQQ -2.89% 5D) while GLD (+9.53% 21D) and DBC (+4.47% 5D) show strong momentum. Cut SPY to 20 and QQQ to 12, trim TLT to 8 on bond weakness, and reallocate into GLD (14), DBC (5), EEM (5), and CASH (12) for defensive posture with momentum tilt. Turnover 13pp, within 15pp limit.", "target_weights": {"SPY": 20, "QQQ": 12, "IWM": 5, "EFA": 8, "EEM": 5, "TLT": 8, "LQD": 6, "GLD": 14, "DBC": 5, "VNQ": 5, "CASH": 12}}
+```

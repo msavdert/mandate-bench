@@ -1,0 +1,3 @@
+
+
+{"analysis": "Trim weak bonds: TLT (-1.32% 21D) and LQD (-1.75% 63D) both underperforming. Reduce QQQ 1pt on negative 63D return and high vol. Add 2pts to EFA (steady +2.97% 21D, reasonable vol). Bump DBC 1pt on 5D/21D momentum. Keep GLD at 10 despite hot 21D run to avoid chasing. Move freed 4pts partly to CASH (12→14) for dry powder and optionality. Modest, low-turnover rotation from laggards into relative strength.", "target_weights": {"SPY": 18, "QQQ": 14, "IWM": 5, "EFA": 10, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 10, "DBC": 4, "VNQ": 5, "CASH": 14}}

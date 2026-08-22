@@ -1,0 +1,3 @@
+
+
+{"analysis":"Two mandate violations require correction: SPY at 28% breaches the 20% cap, and CASH at 4% is below the 10% floor. I trim SPY to 20% and raise CASH to 10%, directing the residual 2% into IWM, which shows the strongest 63-day equity return (+7.26%) and is underweight. Bonds (TLT, LQD) are underperforming on both 21D and 63D horizons, but trimming them would add unnecessary turnover; I defer that to a future rebalance. GLD's 21-day surge (+10%) is notable but its 63-day return is still negative (-6%), so I hold rather than chase. Turnover is 8 pp, well within the 15 pp limit.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 7, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 10}}

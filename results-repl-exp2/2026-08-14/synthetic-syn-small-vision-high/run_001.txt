@@ -1,0 +1,3 @@
+
+
+{"analysis": "Two mandate violations force action: SPY at 28% exceeds the 20% cap and CASH at 4% is below the 10% floor. I trim SPY to 20% (the maximum allowed) and raise CASH to exactly 10%. The 2 residual points from the SPY cut go to IWM, which shows the strongest 63-day momentum (+7.26%) among equities, adding a small-cap diversification tilt. The rest of the book stays put: bonds (TLT/LQD) are underperforming but positions are modest and trimming further would add unnecessary turnover. GLD's 21-day surge (+10%) is notable but the 63-day figure (-6%) keeps me from chasing. Turnover is 8pp, well under the 15pp limit.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 7, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 10}}

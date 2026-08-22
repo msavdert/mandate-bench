@@ -1,0 +1,3 @@
+
+
+{"analysis": "The binding issue is mandate compliance: SPY sits at 28%, breaching the 20% single-instrument cap, and CASH is at 4%, below the 10% floor. I trim SPY to 20% and lift CASH to 10%; that alone consumes 14pp of gross change. With the remaining turnover budget I make small tilts: reduce TLT (10 to 8) on its weak -3.75% 21D, and add to EFA (8 to 10, strong 63D) and EEM (4 to 6, best 21D at +6.37%). All other weights are held. Gross turnover is 20pp (10pp half-turnover), within the 15 limit. No position exceeds 20%, CASH is at the 10% floor, and weights sum to exactly 100.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 10, "EEM": 6, "TLT": 8, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 10}}

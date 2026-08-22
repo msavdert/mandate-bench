@@ -1,0 +1,3 @@
+
+
+{"analysis": "Trim weak bond exposure: TLT and LQD are negative across all horizons (TLT 63D -3.4%, LQD -2.2%) while equities carry solid momentum. Add to strongest relative strength: IWM (63D +7.3%, positive on every horizon) and EFA (21D +4.7%). Reduce EEM (63D -1.1%, highest vol at 33%) and tilt modestly into SPY as the broad-market core. Add DBC on its strong 5D/21D rebound. Hold GLD despite the 21D +10% spike since 63D remains -6%, capping the trade. Raise CASH to 13% as dry powder. Turnover is 6 points, well within the 15-point limit; all mandate constraints satisfied (max non-cash weight 19%, CASH above 10%).", "target_weights": {"SPY": 19, "QQQ": 15, "IWM": 7, "EFA": 9, "EEM": 3, "TLT": 9, "LQD": 6, "GLD": 10, "DBC": 4, "VNQ": 5, "CASH": 13}}

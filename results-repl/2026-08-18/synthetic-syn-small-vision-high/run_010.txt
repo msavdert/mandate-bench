@@ -1,0 +1,3 @@
+
+
+{"analysis": "Momentum (21d+63d) ranks EFA, DBC, SPY, IWM, VNQ, QQQ, TLT, GLD, EEM. Equities are grinding higher; the two weakest signals are TLT (negative 21d and 63d) and EEM (high 33% vol, near-zero 63d, -2.94% yesterday). I trim TLT from 12 to 10 and EEM from 4 to 2 to cut weak/high-vol exposure, and rotate the 4 points into the strongest positive-momentum, lower-risk names: EFA +1, SPY +1, DBC +1, CASH +1. This keeps CASH at 12% (above the 10% floor), leaves every non-cash instrument under the 20% cap, and yields a turnover of 0.5*(1+1+2+2+1+1+1+1)=5, well within the 15pp limit.", "target_weights": {"SPY": 19, "QQQ": 15, "IWM": 5, "EFA": 9, "EEM": 2, "TLT": 10, "LQD": 8, "GLD": 10, "DBC": 4, "VNQ": 5, "CASH": 13}}

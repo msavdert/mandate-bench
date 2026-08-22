@@ -1,0 +1,3 @@
+
+
+{"analysis": "SPY at 28% breaches the 20% cap and CASH at 4% is below the 10% floor, so mandatory compliance drives most moves: cut SPY 8 points, raise CASH 6 points. Deploy the remainder into IWM (+2, strongest 63-day trend at +10.52% with today +0.50%) and TLT (+1, positive 1D and 5D signals). Trim GLD 1 point: its +10.41% 21-day surge against a flat +0.57% 63-day record looks overheated, so take some profit. All other holdings stay put to keep turnover modest. Total turnover is 9 percentage points, well under the 15-point limit, and all mandate constraints are satisfied.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 7, "EFA": 8, "EEM": 4, "TLT": 11, "LQD": 6, "GLD": 11, "DBC": 3, "VNQ": 5, "CASH": 10}}

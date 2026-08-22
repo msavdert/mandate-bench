@@ -1,0 +1,16 @@
+{
+  "analysis": "Yields appear to be rising given recent underperformance in TLT and LQD. Conversely, GLD, DBC, and EEM show strong short-term momentum. I am making a minor tactical shift: reducing TLT by 2% and LQD by 1% to allocate 1% each to GLD, DBC, and EEM. This captures ongoing commodity and emerging market strength while trimming rate-sensitive duration risk. Cash remains at 12% to preserve a defensive buffer. Turnover is 3%, well within the 15% limit, and all position constraints are respected.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 5,
+    "TLT": 10,
+    "LQD": 7,
+    "GLD": 11,
+    "DBC": 4,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

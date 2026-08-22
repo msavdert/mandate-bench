@@ -1,0 +1,3 @@
+
+
+{"analysis":"Rotating from underperforming long-duration bonds (TLT -3.4% 63D, LQD -2.2% 63D) and weak EM (EEM -1.1% 63D) into stronger-momentum assets. IWM leads with +7.3% 63D and positive 21D, supporting a small-caps tilt. GLD's +10% 21D surge signals risk-hedging demand; DBC's +5.4% 21D and +3.8% 5D shows commodity strength. Trimming TLT and LQD frees capital for modest additions to these momentum names plus a small CASH buffer. SPY and QQQ held flat given stable 21D returns. Overall a low-turnover, defensive-momentum rotation.","target_weights":{"SPY":18,"QQQ":15,"IWM":7,"EFA":8,"EEM":3,"TLT":10,"LQD":6,"GLD":11,"DBC":4,"VNQ":5,"CASH":13}}

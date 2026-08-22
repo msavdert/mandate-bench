@@ -1,0 +1,3 @@
+
+
+{"analysis": "Two mandate breaches force action: SPY at 28% breaches the 20% cap, and CASH at 4% is below the 10% floor. I trim SPY to the 20% cap and build CASH to 14% for a buffer above the floor. TLT is in a sustained downtrend (21D -3.75%, 63D -2.76%), so I cut it to 8%; LQD holds. GLD just ran +10% over 21D, so I trim to 11% after that extension. I tilt modestly toward relative strength: add to EFA and EEM (both positive 21D, ex-US diversification). QQQ trimmed slightly; IWM, DBC, VNQ held. Total turnover about 12pp, within the 15pp limit.", "target_weights": {"SPY": 20, "QQQ": 14, "IWM": 5, "EFA": 9, "EEM": 5, "TLT": 8, "LQD": 6, "GLD": 11, "DBC": 3, "VNQ": 5, "CASH": 14}}

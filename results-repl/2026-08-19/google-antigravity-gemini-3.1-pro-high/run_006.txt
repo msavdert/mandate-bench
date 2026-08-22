@@ -1,0 +1,16 @@
+{
+  "analysis": "GLD shows strong short-term momentum (+3.84% 1D, +10.41% 21D) amidst broader tech weakness (QQQ -1.05% 5D, high vol). I am reducing exposure to large-cap US equities (SPY, QQQ) by 4% to fund increases in safe-haven and momentum assets (TLT, GLD). This defensive tilt respects our turnover constraint (4% total turnover) while maintaining sufficient risk exposure and keeping cash comfortably above the 10% minimum threshold.",
+  "target_weights": {
+    "SPY": 16,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 14,
+    "LQD": 8,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

@@ -1,0 +1,3 @@
+
+
+{"analysis":"Two mandate violations require correction: SPY at 28% breaches the 20% cap, and CASH at 4% is below the 10% floor. SPY trimmed to 20%, CASH raised to 10%. Bonds (TLT -2.58% 21D, LQD -1.28% 21D) continue to underperform; both trimmed slightly. IWM (+7.26% 63D) and EFA (+5.01% 63D) are the strongest sustained performers and receive incremental weight. GLD's 21D spike (+10%) after a -6% 63D slide suggests mean-reversion risk; held flat. EEM's negative 63D return justifies no addition. Turnover of 11pp is well within the 15pp limit.","target_weights":{"SPY":20,"QQQ":15,"IWM":7,"EFA":11,"EEM":4,"TLT":8,"LQD":5,"GLD":12,"DBC":3,"VNQ":5,"CASH":10}}

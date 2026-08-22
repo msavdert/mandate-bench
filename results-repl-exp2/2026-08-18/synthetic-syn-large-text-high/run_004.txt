@@ -1,0 +1,3 @@
+```json
+{"analysis": "SPY at 28% violates the 20% cap and CASH at 4% violates the 10% floor. Both must be fixed now. Reducing SPY to 20% and raising CASH to 10% costs 7 turnover points (0.5*14), well within the 15 limit. Equities are mildly down today but positive over 21/63 days; no compelling signal to shift further. Gold's 21D strength is fading on its 63D trend. Keeping remaining weights stable preserves optionality.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 10}}
+```

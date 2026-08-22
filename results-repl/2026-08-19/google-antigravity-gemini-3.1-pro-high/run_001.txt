@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) shows strong short-term momentum (+10.41% over 21 days) alongside a recent bid in long-duration Treasuries. Conversely, tech-heavy QQQ has lagged the broader market recently and exhibits elevated volatility. To capitalize on this momentum while strictly adhering to the 15% turnover limit, I am making a minor 1% shift from QQQ to GLD. This increases our exposure to the trending asset while reducing concentration in a lagging, high-volatility sector. The rest of the portfolio remains unchanged to minimize unnecessary turnover. Cash is maintained at 12%, satisfying the liquidity mandate.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 14,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 11,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

@@ -1,0 +1,18 @@
+```json
+{
+  "analysis": "Fixed income and real estate continue to face pressure, with TLT and VNQ posting negative short- and medium-term returns amid rising rate concerns. Conversely, commodities and emerging markets exhibit strong positive momentum, with DBC, GLD, and EEM demonstrating solid 5-day and 21-day relative strength. We trim duration and rate-sensitive exposure (TLT -3%, LQD -1%, VNQ -1%) to fund increases in momentum leaders (EEM +2%, DBC +2%, GLD +1%). Equity core allocations and CASH (12%) remain steady. Total turnover is 5%, well within mandate constraints.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 6,
+    "TLT": 9,
+    "LQD": 7,
+    "GLD": 11,
+    "DBC": 5,
+    "VNQ": 4,
+    "CASH": 12
+  }
+}
+```

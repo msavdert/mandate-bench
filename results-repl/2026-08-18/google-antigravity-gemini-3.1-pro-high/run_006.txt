@@ -1,0 +1,16 @@
+{
+  "analysis": "Equities faced downward pressure today, particularly in high-beta and emerging market segments like QQQ and EEM, alongside elevated volatility. To manage risk and preserve capital, we slightly reduce exposure to QQQ and EEM. The proceeds are reallocated to TLT, which is showing minor positive momentum in a risk-off environment, and CASH, strengthening our defensive buffer and providing dry powder for future opportunities. The overall portfolio remains well-diversified with low turnover.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 14,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 2,
+    "TLT": 13,
+    "LQD": 8,
+    "GLD": 10,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 14
+  }
+}

@@ -1,0 +1,3 @@
+
+
+{"analysis": "Current book breaches two hard rules: SPY at 28% (over the 20% cap) and CASH at 4% (under the 10% floor). I trim SPY to the 20% cap, keeping maximum allowed beta in the core S&P holding, and recycle the 8 freed points into CASH at 12% — clearing the 10% floor with a 2-point buffer against drift. The rest holds: momentum is broad (QQQ, EFA, EEM, IWM all positive over 21 days) and GLD/DBC are strong 21-day leaders, so I keep the diversified book. TLT and LQD are the weak spots (negative 21D and 63D) but I hold them for ballast rather than trade. Turnover = 8, under the 15 limit.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}

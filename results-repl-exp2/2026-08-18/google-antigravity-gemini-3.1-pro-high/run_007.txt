@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two mandates: SPY exceeds the 20% single-instrument limit, and CASH is below the 10% minimum. To correct these breaches while staying within the 15% turnover limit, I am reducing SPY by 8% to the maximum allowed 20%, and allocating the proceeds directly to CASH, raising it to 12%. This brings the portfolio into full compliance with all mandate rules with an 8% turnover. Additionally, recent market data shows short-term equity weakness, making a higher cash position a reasonable tactical choice.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

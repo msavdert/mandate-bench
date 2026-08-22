@@ -1,0 +1,3 @@
+```json
+{"analysis": "SPY at 28% violates the 20% cap and CASH at 4% violates the 10% floor. Reducing SPY to 20 and raising CASH to 10 fixes both mandate breaches. The freed 8 points: 6 to CASH, 2 to TLT (oversold at -2.66% 21D, -2.27% 63D, low vol at 9.23%). QQQ down 1.69% today with high volatility (25.90) so no add. GLD strong 21D (+8.42%) hold. EEM weakest today (-2.94%, vol 33%) but small position, maintain.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 12, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 10}}
+```

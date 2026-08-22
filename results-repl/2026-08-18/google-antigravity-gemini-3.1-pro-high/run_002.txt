@@ -1,0 +1,16 @@
+{
+  "analysis": "Tech (QQQ) experienced a sharper pullback today (-1.69%) and exhibits higher volatility (25.90%) compared to the broader market (SPY). We are executing a minor defensive shift, reducing QQQ by 1% to reallocate into SPY, lowering overall portfolio volatility while maintaining core equity exposure. Treasury bonds (TLT) provided slight buffering, and we hold current fixed income weights to observe if yields stabilize. Turnover is minimal at 1%, well within the 15% limit. Cash remains at 12%, safely preserving our mandate constraints.",
+  "target_weights": {
+    "SPY": 19,
+    "QQQ": 14,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 10,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

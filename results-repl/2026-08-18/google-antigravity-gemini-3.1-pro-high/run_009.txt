@@ -1,0 +1,16 @@
+{
+  "analysis": "Equities, particularly QQQ and EEM, experienced notable daily drawdowns amidst elevated volatility. To prudently manage risk while adhering to turnover constraints, we marginally reduce exposure to high-beta tech and emerging markets. We reallocate these funds to TLT, which demonstrated negative correlation during today's selloff, and increase our cash buffer. This defensive tilt respects all mandate constraints, maintaining diversified core holdings while keeping transaction costs negligible with a 2% turnover.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 14,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 3,
+    "TLT": 13,
+    "LQD": 8,
+    "GLD": 10,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 13
+  }
+}

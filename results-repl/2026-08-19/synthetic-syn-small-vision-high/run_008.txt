@@ -1,0 +1,3 @@
+
+
+{"analysis":"GLD's 21-day +10.4% spike signals rising macro caution; I keep it at 10% without chasing. IWM's 63-day +10.5% outperformance and TLT's fresh bond rally support tilting modestly toward small caps and duration. QQQ underperforms SPY on a 63-day basis, so I trim both equities slightly. EEM and VNQ lag on 21-day; small trims fund the IWM/TLT/EFA additions. CASH stays above the 10% floor at 11%. Overall a low-turnover (5pp) defensive trim-and-rotate, no violations of any mandate constraint.","target_weights":{"SPY":17,"QQQ":14,"IWM":7,"EFA":9,"EEM":3,"TLT":13,"LQD":8,"GLD":10,"DBC":4,"VNQ":4,"CASH":11}}

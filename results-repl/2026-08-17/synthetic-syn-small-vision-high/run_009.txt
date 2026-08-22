@@ -1,0 +1,3 @@
+
+
+{"analysis": "Risk-on, momentum-driven tape: gold leads (21D +10.1%), EM (+6.4%) and commodities (5D +2.1%) spiking, small caps strong (63D +9.5%), while long-duration bonds lag badly (TLT 21D -3.75%, LQD -1.73%). I trim the weak bond sleeve (TLT 12->8, LQD 8->6) and rotate into the momentum leaders - GLD (10->14), EEM (4->6), DBC (3->4), IWM (5->6). Core equity (SPY 18, QQQ 15, EFA 8) is unchanged; SPY stays under the 20% cap. Cash eases to 11%, above the 10% floor, preserving a modest buffer. Total turnover ~8pp, well inside the 15pp limit. No violations.", "target_weights": {"SPY": 18, "QQQ": 15, "IWM": 6, "EFA": 8, "EEM": 6, "TLT": 8, "LQD": 6, "GLD": 14, "DBC": 4, "VNQ": 4, "CASH": 11}}

@@ -1,0 +1,16 @@
+{
+  "analysis": "Treasuries (TLT) and investment-grade bonds (LQD) continue to show weakness across multiple timeframes. Conversely, Gold (GLD) demonstrates strong 21-day momentum (+10.01%) while broader equity indices consolidate. I am executing a minor 2% portfolio rotation, reducing TLT exposure by 2% to reallocate into GLD, capturing the precious metal's upward trend while maintaining a defensively positioned core. Cash remains at 12% to preserve optionality and comply with mandates. The portfolio turnover for this decision is 2%, well within the 15% limit, and no single asset exceeds the 20% concentration bound.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

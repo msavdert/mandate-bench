@@ -1,0 +1,3 @@
+```json
+{"analysis": "Equities pulled back broadly with SPY -0.84% and QQQ -0.72%; QQQ also negative over 63D with high vol. Bonds remain weak (TLT -1.87% 63D, LQD -1.75% 63D). Gold and commodities show strong momentum (GLD +9.53% 21D, DBC +4.47% 5D). Trim QQQ and TLT by 1pt each, add to GLD and DBC to capture commodity strength. CASH stays at 12% for buffer.", "target_weights": {"SPY": 18, "QQQ": 14, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 11, "LQD": 8, "GLD": 11, "DBC": 4, "VNQ": 5, "CASH": 12}}
+```

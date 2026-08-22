@@ -1,0 +1,3 @@
+
+
+{"analysis":"Two mandate violations require correction: SPY at 28% exceeds the 20% cap, and CASH at 4% is below the 10% floor. Reducing SPY to 20 and raising CASH to 10 is the priority. Within the remaining turnover budget, I trim EEM (weakest 63D return at 0.57%, highest volatility at 33%) by 2 points and redeploy into EFA (consistent 4.58%/4.49% over 21D/63D) and IWM (strong 8.79% 63D momentum) by 2 points each. QQQ, TLT, LQD, GLD, DBC, and VNQ remain unchanged to minimize turnover. The result is a mandate-compliant portfolio with modest tactical tilts toward relative strength.","target_weights":{"SPY":20,"QQQ":15,"IWM":7,"EFA":10,"EEM":2,"TLT":10,"LQD":6,"GLD":12,"DBC":3,"VNQ":5,"CASH":10}}

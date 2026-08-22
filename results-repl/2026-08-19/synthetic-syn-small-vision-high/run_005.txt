@@ -1,0 +1,3 @@
+
+
+{"analysis": "Trim QQQ: weakest trend with 1D -0.20, 5D -1.05, and high 25.9% vol. Add IWM (63D 10.5%, small-cap outperformance) and EFA (21D 3.46%, developed international strength). Cut TLT, whose 21D is -0.77% on rate/inflation risk, and rotate into LQD credit. Ease GLD slightly after its 1D 3.84% spike (mean reversion) while its 21D 10.4% still supports a core hold. Nudge DBC for commodity breadth (5D 2.16%). Hold SPY as a low-vol anchor and lift CASH to 13% for a dry powder buffer. Turnover 6pp, comfortably under limit.", "target_weights": {"SPY": 18, "QQQ": 12, "IWM": 7, "EFA": 10, "EEM": 4, "TLT": 10, "LQD": 9, "GLD": 9, "DBC": 4, "VNQ": 4, "CASH": 13}}

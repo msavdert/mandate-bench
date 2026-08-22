@@ -1,0 +1,3 @@
+
+
+{"analysis": "Bonds are the clear laggards: TLT is -3.4% over 63D and -2.6% over 21D, LQD negative across all horizons, so I trim both (TLT 12→8, LQD 8→6). Reallocation goes to breadth and cyclical strength: IWM (best 63D return, +7.3%) rises 5→7, EFA (+5.0% 63D, steady) 8→9, SPY nudged 18→19, VNQ 5→6, and DBC 3→4 given its +5.4% 21D momentum. GLD's 21D spike is already reflected in its 10% weight and 25% vol argues against adding. QQQ underperformed its peers over 63D but is held steady to limit turnover. CASH stays at 12%. Total one-way turnover is only ~6pp, well within limits; all mandate constraints are satisfied.", "target_weights": {"SPY": 19, "QQQ": 15, "IWM": 7, "EFA": 9, "EEM": 4, "TLT": 8, "LQD": 6, "GLD": 10, "DBC": 4, "VNQ": 6, "CASH": 12}}

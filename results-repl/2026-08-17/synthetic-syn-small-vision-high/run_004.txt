@@ -1,0 +1,3 @@
+
+
+{"analysis": "Duration is the weak spot: TLT is -3.75% over 21D and -2.76% over 63D, LQD negative on both horizons. I trim both into the rising CASH buffer rather than chasing yield into an uptrending-yield tape. Momentum is in EEM (+6.37% 21D, +3.3% 5D) and commodities (DBC +1.87% 1D), so I add modestly to both. GLD's +10% 21D spike is strong but extended; holding it flat. Equities core (SPY/QQQ/IWM/EFA/VNQ) shows healthy 21D gains with no dislocation, so I leave them untouched. Total turnover is only ~6pp, well inside the 15pp limit, and CASH rises to 14% above the 10% floor.", "target_weights": {"SPY": 18, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 6, "TLT": 8, "LQD": 6, "GLD": 10, "DBC": 5, "VNQ": 5, "CASH": 14}}

@@ -1,0 +1,18 @@
+```json
+{
+  "analysis": "To restore mandate compliance, SPY is reduced from 28% to the maximum allowable limit of 20%, and CASH is increased from 4% to the mandated minimum of 10%. The remaining 2% proceeds are allocated to GLD (increasing from 12% to 14%) to capitalize on its strong recent momentum and relative strength. Total turnover is 8.0%, well below the 15.0% limit. All asset weight limits, cash minimums, and non-negativity constraints are satisfied.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}
+```

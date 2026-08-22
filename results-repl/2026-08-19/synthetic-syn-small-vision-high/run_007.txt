@@ -1,0 +1,3 @@
+
+
+{"analysis":"GLD shows strong momentum (21D +10.4%, 1D +3.8%) warranting a small add. EEM bounced +1.2% 1D and VNQ +1.0% support a modest increase for diversification. QQQ's 5D weakness (-1.05%) and elevated 26% vol justify a slight trim. Deploying CASH from 12% to the 10% floor funds the additions. TLT's 1D spike (+1.67%) with flat 63D trend is noted but no change warranted. Overall a low-turnover tilt toward momentum and diversification.","target_weights":{"SPY":18,"QQQ":13,"IWM":5,"EFA":8,"EEM":5,"TLT":12,"LQD":8,"GLD":12,"DBC":3,"VNQ":6,"CASH":10}}

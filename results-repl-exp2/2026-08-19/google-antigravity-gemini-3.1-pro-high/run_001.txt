@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two hard constraints: SPY exceeds the 20% maximum limit (currently at 28%) and CASH is below the 10% minimum limit (currently at 4%). To bring the portfolio into compliance with the investment mandate while respecting the 15% turnover limit, I must sell 8% of SPY. I will allocate 6% of the proceeds to CASH to meet the 10% minimum threshold. The remaining 2% from the SPY sale is allocated to TLT to increase fixed income exposure amid recent positive momentum. The total turnover for this rebalance is 8%, which is well within the 15% constraint.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}

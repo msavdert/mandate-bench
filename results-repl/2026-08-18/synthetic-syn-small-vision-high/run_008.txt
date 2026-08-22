@@ -1,0 +1,3 @@
+
+
+{"analysis": "21D momentum favors EFA, DBC, GLD, SPY, IWM while bonds (TLT, LQD) and VNQ are in a downtrend; risk-adjusted momentum (21D/VOL63) ranks GLD, EFA, SPY, DBC highest. The 1D tape is risk-off (QQQ -1.69, EEM -2.94), with defensive TLT/LQD up, so I hold the cash buffer rather than add beta. I trim bonds (TLT -2, LQD -1) to respect the momentum break, add to the strongest risk-adjusted equity names (SPY +1, EFA +1), trim the high-vol weak-1D names (QQQ -1, EEM -1) and VNQ -1, add DBC +1, and hold GLD flat (strong 21D but off a -4.75% 63D base, don't chase). Cash rises to 15 for buffer.", "target_weights": {"SPY": 19, "QQQ": 14, "IWM": 5, "EFA": 9, "EEM": 3, "TLT": 10, "LQD": 7, "GLD": 10, "DBC": 4, "VNQ": 4, "CASH": 15}}

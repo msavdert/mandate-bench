@@ -1,0 +1,16 @@
+{
+  "analysis": "Equities and bonds have shown near-term weakness, while commodities, particularly gold, are demonstrating strong momentum. GLD is up 9.53% over the last 21 days, and DBC has also rallied. To capture this trend while maintaining risk limits, I am increasing exposure to GLD by 2% and DBC by 1%, funded by slightly trimming SPY (-2%) and QQQ (-1%). The portfolio remains defensively positioned with 12% cash and diversifiers, and this minor adjustment yields a low 3% turnover, adhering strictly to the 15% mandate.",
+  "target_weights": {
+    "SPY": 16,
+    "QQQ": 14,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 12,
+    "DBC": 4,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

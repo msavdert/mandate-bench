@@ -1,0 +1,3 @@
+```json
+{"analysis": "Equities show positive 21D/63D momentum but broad 1D weakness suggests caution. IWM stands out with +8.79% 63D; trim weak EEM (high vol, flat 63D) and soft LQD (negative 21D/63D) to fund IWM and slight SPY increase. Raise CASH to 13% for dry powder. Turnover ~4pp, well within limits. All constraints satisfied.", "target_weights": {"SPY": 19, "QQQ": 15, "IWM": 7, "EFA": 8, "EEM": 2, "TLT": 12, "LQD": 6, "GLD": 10, "DBC": 3, "VNQ": 5, "CASH": 13}}
+```

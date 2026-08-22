@@ -1,0 +1,16 @@
+{
+  "analysis": "Given recent tech and emerging market volatility (QQQ -1.69%, EEM -2.94%), I am taking a slight defensive stance. I am trimming QQQ by 2% and EEM by 1% to increase CASH to 15%. This reduces exposure to high-beta assets while preserving diversification across geographies and asset classes. The 3% turnover is well within the 15% limit, and SPY remains the largest single position at 18%, safely under the 20% concentration ceiling.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 3,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 10,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 15
+  }
+}

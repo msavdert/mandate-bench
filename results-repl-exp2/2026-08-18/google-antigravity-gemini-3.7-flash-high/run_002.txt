@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two mandate rules: SPY exceeds the 20% single-instrument maximum at 28%, and CASH is below the 10% minimum threshold at 4%. To immediately restore mandate compliance while respecting the 15% turnover limit, we trim SPY by 8 percentage points to 20% and allocate the entire proceeds to CASH, bringing CASH to 12%. All other holdings remain unchanged. This trade results in an 8% turnover, well within the 15% budget, fully rectifying both violations.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

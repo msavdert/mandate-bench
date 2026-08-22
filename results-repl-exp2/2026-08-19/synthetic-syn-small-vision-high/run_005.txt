@@ -1,0 +1,3 @@
+
+
+{"analysis": "Two mandate breaches force action: SPY at 28% breaches the 20% single-instrument cap and CASH at 4% sits below the 10% floor. I trim SPY to 20% and raise CASH to 10% — the minimum compliant reset. Freed capital tilts 2pp into TLT, the strongest near-term signal (TLT +1.67% 1D, +1.11% 5D; LQD +0.69%), consistent with falling rates and a de-risking tape; GLD (+10.4% 21D) already hedges that. I hold everything else — IWM's 63D momentum (+10.5%) and GLD's hedge justify current levels. Turnover is 8pp, well under the 15pp limit. All weights >= 0, none exceeds 20%, CASH holds the 10% floor.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 12, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 10}}

@@ -1,0 +1,16 @@
+{
+  "analysis": "GLD and DBC show strong 5D and 21D momentum, indicating a rotation into hard assets amidst recent equity pullbacks. Long bonds (TLT) continue to show weakness across multiple timeframes. I am trimming SPY and TLT by 2% each to fund a 2% increase in both GLD and DBC. This adjustment captures the commodity uptrend while maintaining a conservative 4% turnover, well within the 15% mandate limit. Cash remains at 12%, satisfying the minimum liquidity rule.",
+  "target_weights": {
+    "SPY": 16,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 12,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

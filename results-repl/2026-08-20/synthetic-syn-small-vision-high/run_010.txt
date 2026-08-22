@@ -1,0 +1,3 @@
+
+
+{"analysis": "Bonds (TLT -1.87% 63D, LQD -1.75%) are lagging across all horizons; trimming both slightly. QQQ is flat over 63D with rising vol (25.7%) — reducing beta. Gold (21D +9.5%) and commodities (DBC 5D +4.5%, 21D +4.2%) show cross-asset strength consistent with a flight-to-commodities trade; adding modestly. EFA (63D +3.6%) outperforms domestic; small add. SPY, IWM, EEM, VNQ, and CASH held. Total turnover ~5pp, well within the 15pp cap. CASH at 12% preserves the 10% floor with headroom.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 5, "EFA": 9, "EEM": 4, "TLT": 10, "LQD": 7, "GLD": 12, "DBC": 5, "VNQ": 5, "CASH": 12}}

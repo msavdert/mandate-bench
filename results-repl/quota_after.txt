@@ -1,0 +1,14 @@
+Usage · fetched 2ms ago
+
+Google Antigravity — 1 account
+  ● melihsavdert@gmail.com
+      ● Usage (Google) (Daily)     ███░░░░░░░░░░░░░░░░░░░░░░░░░  10.8% used · resets in 2h56m
+      ● Usage (Anthropic) (Daily)  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0.0% used · resets in 4h59m
+      ● Usage (OpenAI) (Daily)     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0.0% used · resets in 4h59m
+  capacity: 1d → 0.11/1 account used (0.89× quota left)
+
+Synthetic — 1 account
+  ● account 1
+      ● Synthetic Requests (5h · regen 5%/tick)    ██████████████████████████░░  467.999999999998 / 500 requests · 93.6% used · tick in 10m
+      ● Synthetic Credits (7d · regen $0.48/tick)  ███████████░░░░░░░░░░░░░░░░░  $9.82 / $24.00 · 40.9% used · regen in 36m32s
+  capacity: 5h → 0.94/1 account used (0.06× quota left) · 7d → 0.41/1 account used (0.59× quota left)

@@ -1,0 +1,3 @@
+
+
+{"analysis": "Momentum favors developed international and small caps: EFA (+4.65% 21D, +5.01% 63D) and IWM (+7.26% 63D) justify small adds. TLT is the weakest position (-2.58% 21D, -3.39% 63D) with no offsetting trend, so trim it. GLD's sharp 21D rally (+10%) comes off a -6% 63D base; holding, not chasing. Equities at 56%, bonds at 19%, commodities at 3%. CASH 11% keeps the buffer above the 10% floor. Total turnover is 2.0, well inside the 15-point limit; all weights respect the 20% single-instrument cap.", "target_weights": {"SPY": 18, "QQQ": 15, "IWM": 6, "EFA": 9, "EEM": 4, "TLT": 11, "LQD": 8, "GLD": 10, "DBC": 3, "VNQ": 5, "CASH": 11}}

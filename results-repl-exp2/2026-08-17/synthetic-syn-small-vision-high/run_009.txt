@@ -1,0 +1,3 @@
+
+
+{"analysis": "The current allocation breaches two hard rules: SPY at 28% exceeds the 20% cap and CASH at 4% is below the 10% floor, so a correction is mandatory, not discretionary. I cut SPY 8 points to 20% and raise cash to 12%. Everything else stays put: momentum is broad (EEM +6.4%, GLD +10.1% over 21D, small caps leading), and while bonds lag (TLT -3.8% 21D), they are already a minority of the book and trimming them adds churn without a clear better use of the turnover budget. Total turnover = 16 pp, within the 30 pp limit. All weights >= 0, sum exactly 100, max single position 20% (SPY, at the cap).", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}

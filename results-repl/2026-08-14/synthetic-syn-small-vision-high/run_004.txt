@@ -1,0 +1,3 @@
+
+
+{"analysis": "Equity momentum is broadly positive over 21D, while both bond sleeves deteriorate (TLT -2.58%, LQD -1.28% on 21D and also negative on 5D), suggesting a rate-sensitive headwind. Gold is the standout (21D +10.0%) despite a weaker 63D, supporting a larger hedge. IWM leads small-cap momentum (63D +7.26), and EFA shows the best international trend (21D +4.65). Plan: trim TLT 12->10 and LQD 8->7, reduce VNQ (negative 21D) 5->4 and EEM (weak 63D) 4->3; deploy into GLD 10->12, IWM 5->6, EFA 8->9, DBC 3->4. Core SPY/QQQ held. Turnover ~5pp, well within limits; CASH stays at 12%.", "target_weights": {"SPY": 18, "QQQ": 15, "IWM": 6, "EFA": 9, "EEM": 3, "TLT": 10, "LQD": 7, "GLD": 12, "DBC": 4, "VNQ": 4, "CASH": 12}}

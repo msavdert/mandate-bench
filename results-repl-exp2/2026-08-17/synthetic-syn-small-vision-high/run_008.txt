@@ -1,0 +1,9 @@
+
+
+<tool_call>
+<function=Read>
+<parameter=file_path>
+/home/agent/work/test/mandate-bench/prompts/repl/2026-08-17/prompt_exp2.txt
+</parameter>
+</function>
+</tool_call>

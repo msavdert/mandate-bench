@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two strict mandates: SPY exceeds the 20% maximum single-instrument limit at 28%, and CASH is below the 10% minimum at 4%. To achieve compliance while staying within the 15% turnover limit, I will reduce SPY by 8% to the 20% maximum. I will allocate 6% of those proceeds to CASH to reach the 10% minimum. The remaining 2% will be allocated to GLD, which has shown strong short-term momentum (10.41% over 21 days). This restructuring generates a turnover of 8%, satisfying all constraints without excessive trading.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}

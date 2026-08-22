@@ -1,0 +1,3 @@
+
+
+{"analysis": "Current allocation breaches two hard rules: SPY at 28% exceeds the 20% cap and CASH at 4% is below the 10% floor, so both must be corrected. Cut SPY to 20 and raise CASH to 12 (a modest buffer above the floor, given today's broad risk-off tape: all equity ETFs down, EEM -2.94%, bonds up). The extra trim comes from QQQ (15 to 14), the highest-beta sleeve (25.9% vol, -1.69% 1D), with the offset going to EFA (8 to 9), the strongest developed-equity ETF on 21D and 63D. GLD stays at 12 on its strong 21D momentum (+8.42%). No other changes. Turnover = 9pp, well within the 15pp limit. All weights non-negative, sum to 100.", "target_weights": {"SPY": 20, "QQQ": 14, "IWM": 5, "EFA": 9, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}

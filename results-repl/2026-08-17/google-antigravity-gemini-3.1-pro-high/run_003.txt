@@ -1,0 +1,16 @@
+{
+  "analysis": "Bonds (TLT, LQD) are exhibiting medium-term weakness with negative 21-day returns, warranting a slight reduction in duration exposure. Conversely, commodities (DBC) and gold (GLD) show strong positive momentum, with GLD up over 10% in the last 21 days. Emerging markets (EEM) also display robust recent performance despite high volatility. To capture these trends while strictly adhering to risk limits, I am executing a low-turnover rebalance (4%). I am reducing TLT, LQD, and SPY slightly to fund incremental additions to GLD, DBC, and EEM. Cash remains comfortably above the 10% minimum to preserve optionality, and no single position exceeds the 20% concentration limit.",
+  "target_weights": {
+    "SPY": 17,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 5,
+    "TLT": 10,
+    "LQD": 7,
+    "GLD": 12,
+    "DBC": 4,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

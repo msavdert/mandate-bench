@@ -1,0 +1,16 @@
+{
+  "analysis": "Bonds (TLT) show negative momentum over the 21-day period, likely reflecting upward pressure on yields. Meanwhile, emerging markets (EEM) and gold (GLD) are exhibiting strong positive momentum. Given the maximum turnover limit of 15%, a slight reallocation is warranted to capture these trends without incurring excessive trading friction. I am reducing the TLT position by 2% and deploying the proceeds equally into EEM and GLD to increase exposure to areas with better relative strength. The remainder of the portfolio is kept stable, and the 12% cash position is maintained above the 10% minimum to preserve optionality.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 5,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 11,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

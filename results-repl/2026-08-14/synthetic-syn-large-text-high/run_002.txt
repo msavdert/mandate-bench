@@ -1,0 +1,3 @@
+```json
+{"analysis": "Bonds are under sustained pressure: TLT down 2.58% (21D) and 3.39% (63D), LQD down 1.28% (21D) and 2.24% (63D). Both show continued near-term declines with no reversal signal. Reducing TLT by 2 pts and LQD by 1 pt, moving proceeds to CASH for dry powder. Equities are mixed but stable; gold's 21D rally (+10%) has momentum but 63D is negative, so maintain current GLD weight. Turnover is 3 pts, well within the 15-pt limit.", "target_weights": {"SPY": 18, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 7, "GLD": 10, "DBC": 3, "VNQ": 5, "CASH": 15}}
+```

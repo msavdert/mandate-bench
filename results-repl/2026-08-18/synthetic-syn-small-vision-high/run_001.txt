@@ -1,0 +1,3 @@
+
+
+{"analysis":"21D momentum favors GLD (8.42%) and DBC (4.60%), with EFA also positive (4.58%). Bonds under pressure: TLT -2.66%, LQD -1.22% on 21D. VNQ negative (-1.87%) and EEM weak (63D only 0.57%, sharp 1D drop). Tilting slightly into momentum (GLD, DBC, EFA), trimming bonds (TLT) and weak names (EEM, VNQ), adding modest CASH cushion. Core equity positions (SPY, QQQ, IWM) unchanged given solid positive momentum. All constraints satisfied; turnover well within limit.","target_weights":{"SPY":18,"QQQ":15,"IWM":5,"EFA":9,"EEM":3,"TLT":10,"LQD":8,"GLD":11,"DBC":4,"VNQ":4,"CASH":13}}

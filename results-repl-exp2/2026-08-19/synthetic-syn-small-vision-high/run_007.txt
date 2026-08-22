@@ -1,0 +1,3 @@
+
+
+{"analysis": "Two hard-rule violations require correction: SPY at 28% exceeds the 20% cap, and CASH at 4% is below the 10% floor. I reduce SPY to exactly 20% (−8pp) and raise CASH to 10% (+6pp). The remaining 2pp drifts into DBC, which shows positive 5-day (+2.16%) and 21-day (+4.02%) momentum and sits at a modest 3% weight. QQQ's weak 5-day (−1.05%) and 21-day (+1.00%) reads offer no upside argument to trim it, so I leave it. GLD's strong 21-day surge (+10.41%) is noted but adding to it would increase turnover without offsetting a rule breach. Total turnover: 0.5×(8+6+2)=8pp, well within the 15pp limit.","target_weights":{"SPY":20,"QQQ":15,"IWM":5,"EFA":8,"EEM":4,"TLT":10,"LQD":6,"GLD":12,"DBC":5,"VNQ":5,"CASH":10}}

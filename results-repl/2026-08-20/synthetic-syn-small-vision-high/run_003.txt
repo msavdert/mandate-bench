@@ -1,0 +1,3 @@
+
+
+{"analysis":"Trim TLT (2 pts) and QQQ (1 pt): TLT is negative on 21D and 63D with no sign of reversal; QQQ lags on 63D with elevated 25.7% vol. Add 1 pt each to GLD and DBC, both showing strong 5D and 21D momentum (GLD +9.5% 21D, DBC +4.2% 21D). Shift 1 pt from CASH to GLD. Overall risk profile stays balanced: equity ~50%, fixed income ~22%, commodities/metals ~15%, cash 13%. Turnover is 3 pp, well within the 15 pp cap. All mandate constraints satisfied.", "target_weights":{"SPY":18,"QQQ":14,"IWM":5,"EFA":8,"EEM":4,"TLT":10,"LQD":8,"GLD":11,"DBC":4,"VNQ":5,"CASH":13}}

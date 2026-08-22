@@ -1,0 +1,3 @@
+
+
+{"analysis": "Two hard-rule breaches in the current book: SPY at 28% exceeds the 20% cap and CASH at 4% is below the 10% floor. I trim SPY to 20% (-8 pp) and lift CASH to 10% (+6 pp). The remaining 2 pp from SPY funds a small add to EFA (+1 pp), the strongest 21D/63D equity name. TLT (-2.58% over 21D) and LQD (-1.28%) are underperforming; I shave each by 1-2 pp and redirect to CASH/EFA. GLD's 21D spike (+10%) is a bounce within a -6% 63D trend; no add. Turnover = 9 pp, well inside the 15 pp limit.","target_weights":{"SPY":20,"QQQ":15,"IWM":5,"EFA":9,"EEM":4,"TLT":8,"LQD":5,"GLD":12,"DBC":3,"VNQ":5,"CASH":10}}

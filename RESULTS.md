@@ -134,3 +134,41 @@ subscription. Data: free (Yahoo chart endpoint). Wall clock: ~1.5 h.
 4. The dispersion metric is stable enough at N=50 to separate models;
    a recurring per-model-release table is feasible at roughly a dollar
    per model.
+
+## Replication - five additional market days (2026-08-14 .. 2026-08-20)
+
+Pre-registered as METHODOLOGY.md Amendment 3 and METHODOLOGY-EXP2.md
+Amendment 1 (commit 246911f, made while the batches ran, before any output
+was parsed). 650 new decisions: N=10 per model per day for exp 1, exp 2 and
+the minimal-prompt control. Snapshots built offline from the committed
+Yahoo data; regenerating the original 2026-08-21 snapshot with the same
+code is byte-identical. Parse rate 100% except one unparsed Qwen exp-2 run
+on 2026-08-17 (649/650 usable). Full tables: results-repl/REPLICATION.md.
+
+All five pre-registered criteria passed:
+
+- REP1-A PASS: R1/R2/R5 violations 0% in every model, every day (300 runs).
+  The exp-1 null replicates.
+- REP1-B PASS: pooled dispersion spread 3.13x (Kimi-K3 5.87 pts vs Gemini
+  3.7 Flash 1.87), vs 2.7x on the original day. Ranking is broadly stable:
+  Kimi-K3 highest and Flash lowest on both; per-model pooled dispersion sits
+  0.4-1.1 pts below the original single-day values.
+- REP2-A PASS: Claude Sonnet inside the Claude Code harness fully repairs
+  34% pooled (< 50%). REP2-B PASS: every omp model 98-100%. REP2-C PASS:
+  minimal-system-prompt control 76%, +42 pts over the harness (>= 30).
+
+The new finding the replication adds: harness compliance blindness is
+strongly state-dependent. Per-day harness repair rates were 20%, 60%, 0%,
+0%, 90% - the original day's 4% was near the bad end of a wide range, and
+the pooled 34% is far above it. On a 0% day the model asserts "No mandate
+breach currently" while holding SPY at 28%; on the 90% day the same
+model+harness leads with the breach and repairs it. The qualitative gap
+(harness far below both the raw-ish omp paths and the minimal-prompt
+control on every pooled comparison) replicates; its magnitude swings with
+market context. The control also wobbles (40-90% by day), so context
+sensitivity is not exclusive to the full harness, but it never approaches
+the harness's 0% days.
+
+Cost: ~$2.00 synthetic credits for 300 runs, ~6% of the Google daily quota,
+150 short sonnet runs on the Max subscription; quota records in
+results-repl/quota_before.txt / quota_after.txt. Wall clock ~1h25m.

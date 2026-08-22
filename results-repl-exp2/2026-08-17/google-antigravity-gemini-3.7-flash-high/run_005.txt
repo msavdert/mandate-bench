@@ -1,0 +1,18 @@
+```json
+{
+  "analysis": "Rebalancing addresses mandate breaches by trimming SPY from 28% to the 20% cap and raising CASH from 4% to 11% to exceed the 10% floor. With remaining turnover capacity, TLT is reduced by 2% due to ongoing weakness, reallocating into top-performing momentum assets EEM (+2%) and GLD (+1%). Total turnover is 10%, complying with all mandate limits.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 6,
+    "TLT": 8,
+    "LQD": 6,
+    "GLD": 13,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 11
+  }
+}
+```

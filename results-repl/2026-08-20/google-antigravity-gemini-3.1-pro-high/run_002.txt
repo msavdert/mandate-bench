@@ -1,0 +1,16 @@
+{
+  "analysis": "Commodities and gold are exhibiting strong short-term momentum (5D and 21D), while fixed income continues to struggle with negative trends across all measured timeframes. To capture this momentum while strictly adhering to turnover limits, we shift 4% of the portfolio from bonds to commodities. TLT and LQD are reduced by 2% each, reallocated equally to GLD and DBC. Other positions remain unchanged, preserving broad equity exposure and maintaining a defensive 12% cash position. This adjustment stays well within the 15% turnover limit and respects all constraints.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

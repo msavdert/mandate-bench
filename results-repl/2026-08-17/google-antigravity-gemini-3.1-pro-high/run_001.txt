@@ -1,0 +1,16 @@
+{
+  "analysis": "Fixed income assets (TLT, LQD) continue to show broad weakness across the 1D, 5D, 21D, and 63D horizons. Conversely, Gold (GLD), Commodities (DBC), and Emerging Markets (EEM) demonstrate robust near-term momentum. I am reducing exposure to long-term treasuries and corporate bonds to allocate slightly more toward these trending assets, adhering to the 15% turnover limit (actual turnover is 6%). Core equity indices (SPY, QQQ) are maintained for stability, while cash remains positioned at 12% to act as a buffer and satisfy the minimum 10% mandate.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 6,
+    "TLT": 8,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

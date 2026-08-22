@@ -1,0 +1,16 @@
+{
+  "analysis": "EEM experienced a significant 1-day drop of -2.94% alongside high 63-day volatility (33.00%). To marginally de-risk the portfolio while staying well within the 15% turnover limit, I am reducing EEM by 1% and reallocating the proceeds to CASH. The rest of the portfolio remains unchanged to maintain broad diversification across asset classes. This keeps CASH comfortably above the 10% minimum and ensures no single position breaches the 20% concentration limit.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 3,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 10,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 13
+  }
+}

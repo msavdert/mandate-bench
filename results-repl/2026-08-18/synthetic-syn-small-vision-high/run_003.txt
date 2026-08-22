@@ -1,0 +1,3 @@
+
+
+{"analysis":"Broad equity pullback on 1D (most names negative) but 21D momentum remains constructive for most assets. EEM weakest: -2.94% 1D, only +0.57% 63D, highest vol at 33%. QQQ lags SPY on 63D (1.65 vs 3.90) with elevated vol; trim slightly. IWM stands out with +8.79% 63D and moderate vol; add. EFA shows consistent momentum (+4.58% 21D, +4.49% 63D) at lower vol than QQQ; add. TLT in a downtrend (-2.66% 21D, -2.27% 63D); trim marginally. Slightly increase cash for caution amid the pullback. Overall small, defensive reallocation.", "target_weights":{"SPY":18,"QQQ":14,"IWM":6,"EFA":9,"EEM":2,"TLT":11,"LQD":8,"GLD":10,"DBC":3,"VNQ":5,"CASH":14}}

@@ -1,0 +1,16 @@
+{
+  "analysis": "Equities show mixed momentum with QQQ lagging and experiencing higher volatility. We reduce exposure to QQQ and SPY slightly to manage risk. Conversely, GLD exhibits strong short-term momentum (10.4% over 21 days) alongside a treasury bid (TLT +1.67% 1D). We allocate the proceeds from equities into GLD and TLT to capture trend continuation and defensive yield. Cash remains above mandate requirements at 12%. Total turnover is strictly managed at 3%, well below the 15% limit, while maximum position size constraints are safely observed.",
+  "target_weights": {
+    "SPY": 17,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 13,
+    "LQD": 8,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

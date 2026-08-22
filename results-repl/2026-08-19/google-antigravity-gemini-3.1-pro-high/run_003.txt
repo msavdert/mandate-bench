@@ -1,0 +1,16 @@
+{
+  "analysis": "GLD exhibits strong short-term momentum (+10.41% over 21D), but high volatility warrants slight profit-taking. We reduce GLD by 2% and trim QQQ by 2% due to recent relative weakness compared to the broader market. Proceeds are reallocated to SPY, bringing it to the 20% maximum limit for core equity exposure, and TLT, which is showing positive short-term momentum (+1.67% 1D) after a flat period. This defensive tilt maintains our 12% CASH buffer while strictly adhering to the 15% turnover constraint (actual turnover is 4%).",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 14,
+    "LQD": 8,
+    "GLD": 8,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

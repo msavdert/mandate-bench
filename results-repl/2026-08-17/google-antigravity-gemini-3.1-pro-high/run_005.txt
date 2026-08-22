@@ -1,0 +1,16 @@
+{
+  "analysis": "Bonds (TLT, LQD) show continued negative momentum over the 1-month and 3-month horizons, so we reduce exposure slightly. We allocate these proceeds toward EEM and IWM, which exhibit strong positive short-to-medium term momentum. EEM in particular is showing a robust 1D and 21D trend. The overall portfolio remains defensive with 12% cash, well within mandate limits, while shifting risk marginally from fixed income to outperforming equity segments. Turnover is kept intentionally low at 4% to minimize friction.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 7,
+    "EFA": 8,
+    "EEM": 6,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 10,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

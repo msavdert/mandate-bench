@@ -1,0 +1,3 @@
+
+
+{"analysis":"Risk-off day: broad equity weakness with TLT/LQD positive. EEM weakest (-2.94% 1D, 33% vol, 0.57% 63D) — trim. GLD's +8.42% 21D spike looks mean-reversion risk with -4.75% 63D — reduce. QQQ high vol (26%) with -1.69% 1D — modest trim. Rotate into defensive TLT/LQD (positive 1D, low vol) and raise CASH for dry powder. EFA earns a small add on +4.58% 21D momentum at reasonable 15.5% vol. IWM's +8.79% 63D leadership and DBC's +4.60% 21D support holding those positions. Overall a mild de-risk tilt, turnover well within limits.","target_weights":{"SPY":18,"QQQ":13,"IWM":5,"EFA":9,"EEM":3,"TLT":14,"LQD":9,"GLD":8,"DBC":3,"VNQ":5,"CASH":13}}

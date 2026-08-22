@@ -1,0 +1,16 @@
+{
+  "analysis": "Recent momentum favors commodities and gold (DBC and GLD up over 5D and 21D), while large-cap tech and treasuries show short-term weakness. We reduce QQQ, TLT, and SPY exposure to reallocate to GLD and DBC, capitalizing on the emerging trend while maintaining broad diversification. Total turnover is kept at 5% to strictly adhere to the mandate limit, and CASH remains safely above the 10% minimum threshold.",
+  "target_weights": {
+    "SPY": 17,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 13,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

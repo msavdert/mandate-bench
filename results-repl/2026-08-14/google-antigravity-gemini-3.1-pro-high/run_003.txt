@@ -1,0 +1,16 @@
+{
+  "analysis": "Treasuries (TLT) are exhibiting persistent negative momentum across 21-day and 63-day horizons, warranting a reduction in duration exposure. Conversely, gold (GLD) shows a strong 21-day breakout (+10.01%), and small caps (IWM) demonstrate robust 63-day relative strength (+7.26%). We are reallocating 2% from TLT, adding 1% to IWM and 1% to GLD to capture these momentum trends while staying within turnover constraints. The cash position remains at 12% to preserve optionality, and no single position exceeds the 20% concentration limit.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 6,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 11,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

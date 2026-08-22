@@ -1,0 +1,3 @@
+```json
+{"analysis": "Bonds are underperforming: TLT down 3.75% over 21D, LQD down 1.73%. Reducing TLT from 12 to 9 and LQD from 8 to 7. Rotating into stronger equity momentum: IWM (+9.53% over 63D) up 2pp to 7, EFA (+6.62% over 63D) up 1pp to 9. GLD held at 10 given strong 21D momentum (+10%). Turnover: 3.5pp, well within 15pp limit. CASH stays at 12%, above 10% floor.", "target_weights": {"SPY": 18, "QQQ": 15, "IWM": 7, "EFA": 9, "EEM": 4, "TLT": 9, "LQD": 7, "GLD": 10, "DBC": 3, "VNQ": 5, "CASH": 12}}
+```

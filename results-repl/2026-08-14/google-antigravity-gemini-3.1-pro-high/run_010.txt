@@ -1,0 +1,16 @@
+{
+  "analysis": "Equities exhibit positive momentum over the 21-day period, particularly small caps (IWM) and broad market (SPY). Conversely, long-duration treasuries (TLT) face continuous headwinds, posting negative returns over the 21-day and 63-day horizons. I am executing a minor tactical shift, reducing TLT by 2% and reallocating 1% each to SPY and IWM to capture equity upside. Cash remains comfortably above the 10% minimum at 12%. No single position exceeds the 20% limit. The resulting turnover is 2%, strictly complying with the 15% mandate limit.",
+  "target_weights": {
+    "SPY": 19,
+    "QQQ": 15,
+    "IWM": 6,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 10,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

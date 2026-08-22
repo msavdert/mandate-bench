@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two mandate rules: SPY exceeds the 20% maximum limit (at 28%), and CASH is below the 10% minimum threshold (at 4%). To correct these breaches while staying within the 15% maximum turnover limit, I am selling 8% of SPY to bring it down to the maximum allowed 20%. The entire proceeds are allocated to CASH, raising its weight to 12% and satisfying the minimum liquidity rule. This results in a turnover of exactly 8%, well under the 15% ceiling. All other positions remain unchanged to minimize friction while preserving existing market exposures.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

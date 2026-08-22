@@ -1,0 +1,16 @@
+{
+  "analysis": "Bond ETFs (TLT, LQD) exhibit persistent negative momentum across 5D, 21D, and 63D horizons. Conversely, commodities (GLD, DBC) are showing strong 21D momentum (+10.01% and +5.41% respectively). To capitalize on these trends while strictly adhering to turnover limits, I am shifting 4% of the portfolio from bonds to commodities. The equity allocation remains unchanged to maintain broad market exposure given mixed short-term signals. Cash is held at 12%, preserving liquidity above the 10% mandate.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two hard mandates: SPY is at 28% (above the 20% limit) and CASH is at 4% (below the 10% minimum). To regain compliance while minimizing turnover, I must reduce SPY by 8%. I am allocating 6% of the proceeds to CASH to reach the 10% requirement, and the remaining 2% to GLD to capitalize on its strong recent momentum (+9.53% over 21 days). All other positions remain unchanged to minimize trading costs and stay well within the 15% turnover limit. Total turnover for this rebalance is 8%.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}

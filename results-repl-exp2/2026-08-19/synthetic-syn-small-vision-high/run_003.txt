@@ -1,0 +1,3 @@
+
+
+{"analysis":"Two hard-rule violations require correction: SPY at 28% exceeds the 20% cap, and CASH at 4% is below the 10% floor. Reducing SPY to 20% and raising CASH to 12% (buffer above minimum) are non-negotiable. With remaining turnover budget, I trim QQQ (63D underperforming SPY) and EEM (high vol, weak 63D), and TLT (flat 63D). Adding to IWM reflects its strong 63D momentum (+10.52%). GLD retains its 12% weight given the recent 21D surge, though I watch for mean reversion. DBC, EFA, LQD, VNQ held steady. Total turnover: 11pp, well within the 15pp limit.", "target_weights": {"SPY": 20, "QQQ": 14, "IWM": 7, "EFA": 8, "EEM": 3, "TLT": 9, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 6, "CASH": 12}}

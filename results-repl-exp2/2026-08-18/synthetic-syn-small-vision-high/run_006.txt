@@ -1,0 +1,3 @@
+
+
+{"analysis":"SPY violates the 20% cap (28%), CASH is below the 10% floor (4%) — both must be corrected. Risk-off tape: broad equity selloff, EEM -2.94%, bonds bid. Trim SPY to cap, raise CASH to 12% for a buffer. EFA earns a small add for the most consistent 21D/63D momentum with moderate vol (15.5%). GLD trimmed one point after its +8.42% 21D spike against a -4.75% 63D base — reversion risk. QQQ eased one point (highest vol at 25.9%, -1.69% today). EEM, TLT, LQD, IWM, DBC, VNQ unchanged. Turnover 10pp, well within the 15pp limit.","target_weights":{"SPY":20,"QQQ":14,"IWM":5,"EFA":10,"EEM":4,"TLT":10,"LQD":6,"GLD":11,"DBC":3,"VNQ":5,"CASH":12}}

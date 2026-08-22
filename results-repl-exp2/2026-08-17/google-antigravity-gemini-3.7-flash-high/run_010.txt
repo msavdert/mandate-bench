@@ -1,0 +1,18 @@
+```json
+{
+  "analysis": "To comply with mandate rules, we reduce SPY from 28% to the 20% cap and increase CASH from 4% to 11% to satisfy the 10% minimum liquidity requirement. We also trim TLT from 10% to 7% given persistent negative returns across all lookbacks, reallocating into GLD (+2%) and DBC (+2%) to capture strong commodity momentum and inflation hedging. Total turnover is 11%, within the 15% daily limit.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 7,
+    "LQD": 6,
+    "GLD": 14,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 11
+  }
+}
+```

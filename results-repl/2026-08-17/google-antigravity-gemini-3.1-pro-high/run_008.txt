@@ -1,0 +1,16 @@
+{
+  "analysis": "Bonds (TLT, LQD) exhibit persistent negative momentum across 5D, 21D, and 63D horizons, warranting a slight reduction in exposure. Conversely, Emerging Markets (EEM) and Gold (GLD) show strong short-to-medium-term relative strength. I am reallocating 3% from fixed income into EEM and GLD to capture this momentum. The overall equity beta remains stable, and CASH is held at 12% to preserve optionality and comply with the minimum 10% mandate. This minor adjustment incurs only 3% turnover, adhering strictly to the 15% limit and all concentration rules.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 6,
+    "TLT": 10,
+    "LQD": 7,
+    "GLD": 11,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

@@ -1,0 +1,3 @@
+
+
+{"analysis":"GLD shows strong 21D momentum (+10.41%) and 1D strength (+3.84%), warranting a modest add to 12. IWM's +10.52% 63D return supports a small increase to 6. TLT's positive 5D (+1.11%) and 1D (+1.67%) signals a short-term tailwind; add 1 to 13. QQQ underperforms SPY and carries 25.87% vol; trim to 14. EEM has the highest vol (33.01%) with modest 63D return; reduce to 3. DBC is negative over 63D (-2.69%); trim to 2. CASH drops to 11, still above the 10% floor. Changes are small and turnover is minimal (~4pp).","target_weights":{"SPY":18,"QQQ":14,"IWM":6,"EFA":8,"EEM":3,"TLT":13,"LQD":8,"GLD":12,"DBC":2,"VNQ":5,"CASH":11}}

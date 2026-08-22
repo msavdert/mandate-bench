@@ -1,0 +1,3 @@
+
+
+{"analysis": "Must reduce SPY from 28% to the 20% cap and raise CASH from 4% to the 10% floor. With those corrections, I make minor tactical tilts: trim EEM (highest vol 33%, weakest 63D momentum) and GLD (21D +8.4% spike on negative 63D trend, mean-reversion risk); add to EFA (consistent positive momentum all timeframes), IWM (strong 63D +8.8%), DBC and VNQ (positive short-term momentum). QQQ, TLT, LQD unchanged. Turnover is 10pp, well within the 15pp limit.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 6, "EFA": 9, "EEM": 3, "TLT": 10, "LQD": 6, "GLD": 11, "DBC": 4, "VNQ": 6, "CASH": 10}}

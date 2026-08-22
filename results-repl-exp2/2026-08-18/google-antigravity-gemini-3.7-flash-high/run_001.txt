@@ -1,0 +1,18 @@
+```json
+{
+  "analysis": "The current portfolio breaches mandate constraints: SPY exceeds the 20% instrument limit at 28%, and CASH is below the 10% minimum at 4%. We rebalance by trimming SPY by 8% to the maximum allowed weight of 20% and allocating the full 8% to CASH, bringing it to 12%. This simultaneously cures both mandate violations, improves liquidity amidst broad equity pullbacks, and generates 8% turnover, well within the 15% maximum limit.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}
+```

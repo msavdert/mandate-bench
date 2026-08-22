@@ -1,0 +1,16 @@
+{
+  "analysis": "Commodities and gold are showing strong recent momentum (GLD +10% over 21 days, DBC +5.45%), while long duration treasuries (TLT) are trending down (-3.75% over 21 days). I am reducing TLT exposure by 3% and reallocating 2% to GLD and 1% to DBC to capture this momentum. Cash remains at 12% to preserve optionality and meet the mandate. The overall adjustment is well within the 15% turnover limit.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 9,
+    "LQD": 8,
+    "GLD": 12,
+    "DBC": 4,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

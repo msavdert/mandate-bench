@@ -1,0 +1,3 @@
+
+
+{"analysis":"Trimming underperforming long-duration bonds (TLT -2.6% 21D, LQD -1.3% 21D) and redeploying into consistent momentum winners. IWM leads 63D (+7.3%) with positive 21D; EFA is positive across all lookbacks; GLD shows exceptional 21D (+10%) though 63D is negative, warranting a modest add rather than a chase. SPY/QQQ held steady as core equity exposure. CASH reduced from 12 to 11, still above the 10% floor. Total turnover is low (~4pp), preserving optionality.", "target_weights": {"SPY": 18, "QQQ": 15, "IWM": 7, "EFA": 9, "EEM": 4, "TLT": 10, "LQD": 7, "GLD": 11, "DBC": 3, "VNQ": 5, "CASH": 11}}

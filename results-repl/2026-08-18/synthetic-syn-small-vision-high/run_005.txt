@@ -1,0 +1,3 @@
+
+
+{"analysis": "Broad risk-off day: equities and gold fell while bonds rose, so I keep the core equity base intact given solid 21D momentum (SPY +3.42, EFA +4.58, IWM +8.79 63D) and treat the dip as noise. I trim the weakest exposures: EEM (worst 1D -2.94, flat 63D, highest vol 33%) and TLT (negative at every horizon, -2.66 21D). Proceeds shift into low-vol LQD (5.43% vol, positive 1D) as the defensive anchor and into CASH (14%) to build dry powder for a potential deeper pullback. GLD holds despite today's drop on strong +8.42 21D momentum. Turnover ~4pp, well inside the 15pp limit; all weights within 20% cap, CASH above 10% floor.", "target_weights": {"SPY": 18, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 2, "TLT": 10, "LQD": 10, "GLD": 10, "DBC": 3, "VNQ": 5, "CASH": 14}}

@@ -1,0 +1,3 @@
+
+
+{"analysis":"Two mandate violations required immediate correction: SPY at 28% breached the 20% cap and CASH at 4% fell below the 10% floor. Reduced SPY to 20%, raised CASH to 10%. The residual 2% moved to EFA, showing the strongest 21-day momentum (+4.65%) with moderate volatility. All other weights held to minimize turnover at 8 percentage points, well within the 15% limit. Bonds (TLT, LQD) continue underperforming on both horizons; further trims deferred to avoid compounding churn. GLD 21D rally (+10.01%) is noted but not chased at current 12% weight.","target_weights":{"SPY":20,"QQQ":15,"IWM":5,"EFA":10,"EEM":4,"TLT":10,"LQD":6,"GLD":12,"DBC":3,"VNQ":5,"CASH":10}}

@@ -1,0 +1,16 @@
+{
+  "analysis": "Equities (SPY, QQQ) show short-term weakness and elevated volatility, while fixed income (TLT) remains in a downtrend across multiple timeframes. Conversely, commodities (GLD, DBC) exhibit strong short-term momentum, with GLD up over 9% over 21 days. To adapt, I am reducing exposure to large-cap equities and long-duration treasuries to reduce risk. These proceeds are reallocated into gold and broader commodities to capture their current upward momentum and inflation-hedging properties, while also slightly increasing cash to build a larger buffer against near-term equity volatility. All mandate constraints, including turnover limits and instrument caps, are strictly maintained.",
+  "target_weights": {
+    "SPY": 15,
+    "QQQ": 12,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 14,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 14
+  }
+}

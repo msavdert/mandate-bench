@@ -1,0 +1,16 @@
+{
+  "analysis": "Recent data shows short-term weakness in tech (QQQ) and a strong daily reversal in treasuries (TLT +1.67%). Gold is performing well but already at an appropriate 10% weight given its elevated volatility. To optimize risk-adjusted returns while strictly adhering to turnover limits, I am executing a minor tactical shift of 2% from QQQ to TLT. This reduces exposure to tech volatility while slightly increasing duration. All weights remain within the 20% cap, cash is maintained at 12% to satisfy the 10% minimum, and the 2% turnover is well below the 15% maximum limit.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 14,
+    "LQD": 8,
+    "GLD": 10,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

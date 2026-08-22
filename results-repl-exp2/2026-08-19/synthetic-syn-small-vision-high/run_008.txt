@@ -1,0 +1,3 @@
+
+
+{"analysis": "SPY at 28% breaches the 20% single-instrument cap and CASH at 4% is below the 10% floor, so both must be corrected. Trim SPY to exactly 20% (largest holding, modest 63D return, 13.7% vol) and raise CASH to 12% to clear the floor with a small buffer. GLD's 21D +10.4% spike sits on a flat 63D (+0.6%) and 26% vol, so I hold the 12% rather than chase or cut. QQQ, IWM, EFA, EEM, TLT, LQD, DBC, VNQ stay unchanged: TLT/LQD provide ballast amid the gold/commodity strength. Total turnover is 0.5*(8+8)=8pp, well within the 15pp limit. Conservative, rule-compliant rebalance.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}

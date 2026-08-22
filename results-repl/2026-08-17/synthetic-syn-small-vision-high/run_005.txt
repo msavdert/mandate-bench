@@ -1,0 +1,3 @@
+
+
+{"analysis":"Trim weak fixed income: TLT (21D -3.75%) and LQD (21D -1.73%) are in clear downtrends as rates firm, so I cut TLT 12→7 and LQD 8→6. Rotate into momentum: EEM (21D +6.37%, 5D +3.30%) up 4→6, DBC (21D +5.45%, 1D +1.87%) up 3→5, IWM (63D +9.53%) up 5→6, and GLD (21D +10.06%) up 10→12 on strong breakout. Core equity sleeves (SPY, QQQ, EFA, VNQ) and CASH held steady. Turnover 7pp, well within the 15pp cap. CASH remains at 12%, satisfying the 10% floor.","target_weights":{"SPY":18,"QQQ":15,"IWM":6,"EFA":8,"EEM":6,"TLT":7,"LQD":6,"GLD":12,"DBC":5,"VNQ":5,"CASH":12}}

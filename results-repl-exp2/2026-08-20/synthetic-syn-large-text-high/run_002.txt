@@ -1,0 +1,3 @@
+```json
+{"analysis": "SPY at 28% violates the 20% cap and CASH at 4% violates the 10% floor. Both must be fixed. Trimming SPY to 20 and raising CASH to 12 resolves both. Bonds are weak (TLT -0.82% daily, -1.87% over 63 days) so I cut TLT by 2 and add to DBC, which has strong momentum (+4.47% over 5 days, +4.19% over 21 days). Turnover = 0.5*(8+2+2+8) = 10, within the 15-point limit. All other positions held steady.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 8, "LQD": 6, "GLD": 12, "DBC": 5, "VNQ": 5, "CASH": 12}}
+```

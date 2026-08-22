@@ -25,6 +25,15 @@ settings, and dispersion differs 2.7x across models (bootstrap 95% CI on the
 ratio: 2.3-3.3); (3) roughly one decision in ten, for three of six models,
 directly contradicts its own written rationale.
 
+Update 2026-08-21: a pre-registered replication over five additional market
+days (650 new decisions, N=10 per model per day) passed all five of its
+pre-registered criteria: the violation null and the dispersion spread
+(3.13x pooled) replicate, and the harness gap replicates qualitatively
+(34% pooled in-harness repair vs 98-100% one-shot and 76% minimal-prompt
+control). The replication's own finding: harness repair swings 0-90% by
+market day, so the original 4% sits at the bad end of a wide,
+state-dependent range. Details in RESULTS.md and results-repl/REPLICATION.md.
+
 ## Leaderboard (v0.1, snapshot 2026-08-21, N=50 per cell)
 
 | Model | Access path | Repair rate (exp 2) | Dispersion, pts (exp 1) | Reasoning contradictions |
@@ -69,6 +78,7 @@ METHODOLOGY-EXP2.md); results are reported against them either way
     results/              exp 1 raw model outputs + judge verdicts (300+300)
     results-exp2/         exp 2 raw model outputs (300)
     results-exp2ctl/      harness control raw outputs (10)
+    results-repl*/        5-day replication raw outputs + per-day analysis (650)
     research/             prior-art survey with sources
     docs/                 GitHub Pages site (report + leaderboard)
 
@@ -78,6 +88,8 @@ every number in the report can be recomputed from raw data:
     python3 harness/analyze.py                                # experiment 1
     python3 harness/analyze.py results-exp2 data/snapshot_exp2.json
     python3 harness/judge_analyze.py results                  # judge summary
+    harness/run_replication.sh: see header; per-day analyze.py runs plus
+    python3 harness/replication_report.py                     # replication
 
 Python 3.12+ standard library only; no dependencies.
 
@@ -100,8 +112,9 @@ roughly an hour and about a dollar.
 
 ## Known limitations (v0.1)
 
-- One market snapshot and one starting portfolio per experiment; rates may
-  be state-dependent. Multi-snapshot replication is the top roadmap item.
+- One starting portfolio per experiment. The 5-day replication addressed
+  the single-snapshot concern and confirmed rates ARE state-dependent
+  (harness repair 0-90% by day); per-day rates at N=10 are coarse.
 - Dispersion at default sampling mixes temperature noise with decision
   instability, deliberately: it characterizes deployed behavior, not greedy
   decoding.
@@ -114,7 +127,8 @@ roughly an hour and about a dollar.
 
 ## Roadmap
 
-- [ ] Multi-snapshot replication (5-10 market days) for state-independence
+- [x] Multi-snapshot replication (5 market days, 2026-08-21): all five
+      pre-registered criteria passed, see RESULTS.md
 - [ ] Same-model, many-scaffolds experiment: quantify how much the wrapper
       changes behavior, following the v0.1 harness finding
 - [ ] Distractor-sensitivity experiment (irrelevant alarming headlines)

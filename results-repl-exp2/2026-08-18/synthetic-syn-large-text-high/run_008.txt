@@ -1,0 +1,3 @@
+```json
+{"analysis": "SPY at 28% violates the 20% single-instrument cap and CASH at 4% violates the 10% minimum. I must fix both immediately. Reducing SPY to the 20% cap frees 8 points; redirecting that to CASH brings it to 12%, satisfying the floor. This uses only 8 of 15 allowed turnover points. Market breadth is weak across equities (QQQ -1.69%, EEM -2.94%), so keeping proceeds in cash is prudent rather than rotating into other risk assets today. Remaining allocations are within limits and broadly diversified.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}
+```

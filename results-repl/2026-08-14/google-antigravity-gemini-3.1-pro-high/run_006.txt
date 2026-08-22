@@ -1,0 +1,16 @@
+{
+  "analysis": "Bonds (TLT, LQD) are exhibiting negative momentum over both the 21-day and 63-day periods. Conversely, Gold (GLD) and broader commodities (DBC) show strong 21-day momentum, providing inflation protection and diversification. Equities remain stable with moderate growth, so I am maintaining those allocations. I am reducing TLT and LQD by 2% each to fund a 2% increase in both GLD and DBC. This minor adjustment captures the positive momentum in hard assets while limiting turnover to 4%, well within the 15% mandate. Cash remains unchanged at 12% to preserve liquidity and optionality.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

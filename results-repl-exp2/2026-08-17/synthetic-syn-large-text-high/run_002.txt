@@ -1,0 +1,3 @@
+```json
+{"analysis": "Current portfolio violates two mandate rules: SPY at 28% exceeds the 20% cap, and CASH at 4% is below the 10% floor. Both must be corrected. Reducing SPY to 20 frees 8 points; 6 go to CASH to reach the 10% minimum. The remaining 2 points go to EEM, which shows strong recent momentum (6.37% 21D, 1.07% 1D) with positive inflows. GLD's 10% 21D rally supports holding at 12. All other positions held. Turnover is 8, well within the 15-point limit.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 6, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 10}}
+```

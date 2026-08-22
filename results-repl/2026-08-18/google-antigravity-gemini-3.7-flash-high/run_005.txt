@@ -1,0 +1,18 @@
+```json
+{
+  "analysis": "Equities and precious metals experienced broad single-day weakness, with tech (QQQ) and emerging markets (EEM) exhibiting elevated volatility. Meanwhile, commodities (DBC) continue to show solid short-to-medium-term momentum. We trim QQQ by 2% and EEM by 1% to reduce near-term downside risk, reallocating 2% to DBC to capture commodity strength and moving 1% to CASH for added defensive flexibility.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 3,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 10,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 13
+  }
+}
+```

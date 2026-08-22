@@ -1,0 +1,16 @@
+{
+  "analysis": "Following a broad equity market sell-off, I am deploying a small amount of cash to buy the dip in large-cap US equities. SPY is increased from 18% to its maximum allowed limit of 20%, utilizing 2% from CASH, bringing CASH to its minimum limit of 10%. This conservative adjustment takes advantage of the short-term pullback while remaining well within the 15% turnover limit. No other positions are modified, maintaining a diversified stance amid elevated volatility in emerging markets and tech.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 10,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}

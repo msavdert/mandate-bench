@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates the strict investment mandate: SPY exceeds the 20% single-instrument limit at 28%, and CASH is below the 10% minimum at 4%. I must resolve these violations immediately. I am reducing SPY by 8% to hit the maximum allowable threshold of 20%. The proceeds are allocated entirely to CASH, raising it to 12% to satisfy the minimum cash requirement. This results in an 8% turnover, well within the 15% maximum constraint. No other positions are modified, minimizing transaction costs while restoring mandate compliance.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

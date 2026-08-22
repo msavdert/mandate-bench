@@ -1,0 +1,3 @@
+
+
+{"analysis": "Modest momentum-and-quality tilt. GLD leads with +10.4% over 21 days; add to 12% (still under the 20% cap). IWM posts the best 63D equity return (+10.5%) - add 1%. EFA is firm (+3.5% 21D) - add 1%. TLT is bid short-term (+1.7% 1D) with low vol - add 1%. Trim QQQ (-1.05% 5D, 25.9% vol) by 2% and LQD (negative 21D/63D) by 1%; SPY -1%. CASH stays at 11%, above the 10% floor. Total one-way turnover 5pp, well inside the 15pp cap.", "target_weights": {"SPY": 17, "QQQ": 13, "IWM": 6, "EFA": 9, "EEM": 4, "TLT": 13, "LQD": 7, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 11}}

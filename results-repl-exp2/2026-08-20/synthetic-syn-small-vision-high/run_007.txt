@@ -1,0 +1,3 @@
+
+
+{"analysis":"SPY (28%) breaches the 20% cap and CASH (4%) is below the 10% floor, so both must be corrected. I trim SPY to 20 and raise CASH to exactly 10. The freed 2% beyond the cash floor plus small trims from QQQ (short-term weakness, 5D -2.9%) and TLT (negative across all horizons) are redirected into EFA (21D +3.0%, 63D +3.6%, moderate vol), GLD (strong 21D +9.5% momentum), and DBC (5D +4.5%, 21D +4.2% commodity strength). Turnover is 10pp, well within the 15pp limit. All mandate constraints are satisfied.","target_weights":{"SPY":20,"QQQ":14,"IWM":5,"EFA":10,"EEM":4,"TLT":9,"LQD":6,"GLD":13,"DBC":4,"VNQ":5,"CASH":10}}

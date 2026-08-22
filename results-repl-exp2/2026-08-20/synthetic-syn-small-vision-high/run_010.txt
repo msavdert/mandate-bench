@@ -1,0 +1,3 @@
+
+
+{"analysis": "Two hard violations require correction: SPY at 28% breaches the 20% cap, and CASH at 4% breaches the 10% floor. I bring SPY to exactly 20 and CASH to 12. Freed capital (10pp) splits between CASH (+8) and a small TLT trim (−2, given persistent 63D weakness at −1.87%). The 2pp from TLT goes to EFA, the strongest 21D/63D equity sleeve (+2.97%/+3.60%) and a diversifier away from US concentration. GLD at 12% stays put: strong 21D momentum but I will not chase a +9.5% run. Total turnover is 10pp, well within the 15pp limit. All constraints satisfied.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 10, "EEM": 4, "TLT": 8, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}

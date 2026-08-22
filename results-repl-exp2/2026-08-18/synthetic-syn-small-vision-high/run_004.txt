@@ -1,0 +1,3 @@
+
+
+{"analysis":"SPY at 28% breaches the 20% cap and CASH at 4% breaches the 10% floor; both are hard violations to correct. SPY trimmed to 20, CASH raised to 13. Secondary moves: reduce EEM (33% vol, weakest 63D at +0.57%) from 4 to 2; add EFA (best 21D at +4.58%, moderate vol) from 8 to 10; slight TLT trim (negative 21D/63D) to 9; small LQD add (lowest vol at 5.43%) to 7; minor VNQ trim (negative 21D) to 4. QQQ, IWM, GLD, DBC held steady. Turnover 12pp, within the 15pp limit.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 10, "EEM": 2, "TLT": 9, "LQD": 7, "GLD": 12, "DBC": 3, "VNQ": 4, "CASH": 13}}

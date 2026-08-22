@@ -1,0 +1,16 @@
+{
+  "analysis": "Recent market action shows broad equity weakness, particularly in high-beta and emerging market segments like QQQ and EEM, which are experiencing elevated volatility and negative short-term momentum. To defensively position the portfolio against further short-term downside while adhering strictly to mandate constraints, I am reducing exposure to QQQ and EEM. The proceeds are moved to CASH, increasing our liquidity buffer to 15%. This tactical shift reduces overall portfolio beta and risk while keeping turnover very low at 3% and maintaining our core allocations.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 3,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 10,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 15
+  }
+}

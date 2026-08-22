@@ -1,0 +1,3 @@
+
+
+{"analysis":"SPY at 28% and CASH at 4% both violate hard mandate rules (max 20% per instrument, min 10% CASH). Priority is fixing both: trim SPY to 20% and raise CASH to 12%. Bonds are under broad pressure (TLT -3.4% 63D, LQD -2.2% 63D), so I trim TLT by 1pp into cash as a small tactical move. IWM shows the strongest 63D momentum (+7.3%) among equity sleeves, warranting a 1pp add. Turnover is 9pp, well within the 15pp limit. All other positions held unchanged given the modest budget remaining and the absence of a strong contrarian signal.", "target_weights":{"SPY":20,"QQQ":15,"IWM":6,"EFA":8,"EEM":4,"TLT":9,"LQD":6,"GLD":12,"DBC":3,"VNQ":5,"CASH":12}}

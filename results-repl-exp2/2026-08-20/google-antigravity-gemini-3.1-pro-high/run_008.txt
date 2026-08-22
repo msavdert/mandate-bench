@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two hard mandates: SPY exceeds the 20% single-instrument limit and CASH is below the 10% minimum. To resolve these breaches, I am reducing SPY by 8% to the 20% maximum. I allocate 6% to CASH to satisfy the 10% minimum requirement. The remaining 2% from the SPY sale is allocated to GLD, which shows strong positive momentum across 5-day and 21-day periods, offering downside protection amid slight equity weakness. This rebalancing generates an 8% turnover, safely below the 15% mandate limit while restoring full compliance.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}

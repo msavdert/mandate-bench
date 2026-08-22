@@ -1,0 +1,3 @@
+```json
+{"analysis": "Risk-off session across equities and gold; bonds remain weak on all timeframes. Reducing QQQ (high vol 25.9%, lagging 63D +1.65%) and EEM (vol 33%, weakest momentum) by 2 pts each. Trimming TLT (negative 21D/63D trend) by 2 pts. Proceeds to CASH (12 to 16) for dry powder. SPY, EFA, IWM, GLD held steady—balanced momentum profiles. Turnover 5 pts, well within limit.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 5, "EFA": 8, "EEM": 2, "TLT": 10, "LQD": 8, "GLD": 10, "DBC": 3, "VNQ": 5, "CASH": 16}}
+```

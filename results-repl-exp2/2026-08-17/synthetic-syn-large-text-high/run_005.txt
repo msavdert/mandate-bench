@@ -1,0 +1,3 @@
+```json
+{"analysis": "SPY at 28% violates the 20% max and CASH at 4% violates the 10% minimum. I must reduce SPY by at least 8 and raise CASH by at least 6. I'll cut SPY to 20, raise CASH to 10, and redirect the remaining 2% to EEM (4 to 6), which shows the strongest recent momentum across 1D, 5D, and 21D horizons. Turnover: 0.5*(8+2+6)=8, within the 15 limit. All constraints satisfied.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 6, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 10}}
+```

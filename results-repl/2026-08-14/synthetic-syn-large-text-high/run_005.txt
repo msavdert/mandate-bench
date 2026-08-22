@@ -1,0 +1,3 @@
+```json
+{"analysis": "Equities retain positive momentum across 21D and 63D. IWM stands out with +7.26% 63D return; increasing. EFA shows steady gains; modest increase. Bonds weak: TLT negative across all timeframes, LQD similarly soft; trimming both. DBC has short-term strength (+5.41% 21D); small add. GLD strong 21D but negative 63D and high vol; hold. EEM weak 63D and high vol; hold. Cash stays above 10% floor. Turnover well within limits.", "target_weights": {"SPY": 18, "QQQ": 15, "IWM": 7, "EFA": 9, "EEM": 4, "TLT": 10, "LQD": 7, "GLD": 10, "DBC": 4, "VNQ": 5, "CASH": 11}}
+```
