@@ -1,0 +1,205 @@
+=== opus 2026-08-14 ===
+run 004 done
+run 002 done
+run 003 done
+run 001 done
+run 006 done
+run 005 done
+run 007 done
+run 008 done
+run 009 done
+run 010 done
+run_claude.sh: done (10 requested)
+run 002 done
+run 001 done
+run 004 done
+run 003 done
+run 006 done
+run 005 done
+run 007 done
+run 008 done
+run 009 done
+run 010 done
+run_claude.sh: done (10 requested)
+run 001 done
+run 003 done
+run 002 done
+run 004 done
+run 007 done
+run 008 done
+run 005 done
+run 006 done
+run 010 done
+run 009 done
+run_claude.sh: done (10 requested)
+=== opus 2026-08-17 ===
+run 001 done
+run 004 done
+run 002 done
+run 003 done
+run 005 done
+run 007 done
+run 006 done
+run 008 done
+run 009 done
+run 010 done
+run_claude.sh: done (10 requested)
+run 002 done
+run 003 done
+run 004 done
+run 001 done
+run 006 done
+run 005 done
+run 008 done
+run 007 done
+run 009 done
+run 010 done
+run_claude.sh: done (10 requested)
+run 002 done
+run 004 done
+run 003 done
+run 001 done
+run 005 done
+run 006 done
+run 007 done
+run 008 done
+run 010 done
+run 009 done
+run_claude.sh: done (10 requested)
+=== opus 2026-08-18 ===
+run 004 done
+run 002 done
+run 003 done
+run 001 done
+run 005 done
+run 006 done
+run 007 done
+run 008 done
+run 010 done
+run 009 done
+run_claude.sh: done (10 requested)
+run 004 done
+run 001 done
+run 002 done
+run 003 done
+run 005 done
+run 008 done
+run 006 done
+run 007 done
+run 009 done
+run 010 done
+run_claude.sh: done (10 requested)
+run 001 done
+run 002 done
+run 004 done
+run 003 done
+run 006 done
+run 005 done
+run 007 done
+run 008 done
+run 010 done
+run 009 done
+run_claude.sh: done (10 requested)
+=== opus 2026-08-19 ===
+run 004 done
+run 002 done
+run 003 done
+run 001 done
+run 006 done
+run 008 done
+run 007 done
+run 005 done
+run 009 done
+run 010 done
+run_claude.sh: done (10 requested)
+run 004 done
+run 002 done
+run 003 done
+run 001 done
+run 006 done
+run 007 done
+run 005 done
+run 008 done
+run 009 done
+run 010 done
+run_claude.sh: done (10 requested)
+run 001 done
+run 004 done
+run 003 done
+run 002 done
+run 005 done
+run 006 done
+run 007 done
+run 008 done
+run 009 done
+run 010 done
+run_claude.sh: done (10 requested)
+=== opus 2026-08-20 ===
+run 003 done
+run 001 done
+run 004 done
+run 002 done
+run 005 done
+run 007 done
+run 006 done
+run 008 done
+run 009 done
+run 010 done
+run_claude.sh: done (10 requested)
+run 004 done
+run 003 done
+run 002 done
+run 001 done
+run 007 done
+run 005 done
+run 008 done
+run 006 done
+run 010 done
+run 009 done
+run_claude.sh: done (10 requested)
+run 003 done
+run 001 done
+run 002 done
+run 004 done
+run 006 done
+run 008 done
+run 007 done
+run 005 done
+run 009 done
+run 010 done
+run_claude.sh: done (10 requested)
+=== opus 2026-08-21 (original snapshots) ===
+run 002 done
+run 001 done
+run 003 done
+run 004 done
+run 005 done
+run 006 done
+run 007 done
+run 008 done
+run 009 done
+run 010 done
+run_claude.sh: done (10 requested)
+run 001 done
+run 003 done
+run 004 done
+run 002 done
+run 006 done
+run 008 done
+run 005 done
+run 007 done
+run 009 done
+run 010 done
+run_claude.sh: done (10 requested)
+run 004 done
+run 003 done
+run 002 done
+run 001 done
+run 005 done
+run 006 done
+run 007 done
+run 008 done
+run 009 done
+run 010 done
+run_claude.sh: done (10 requested)
+run_opus.sh: done

@@ -1,4 +1,14 @@
 model,run,SPY,QQQ,IWM,EFA,EEM,TLT,LQD,GLD,DBC,VNQ,CASH,turnover,viol_r1,viol_r2,viol_r3,viol_r4,viol_r5
+claude-opus,run_001,20.0,15.0,6.0,9.0,4.0,10.0,6.0,12.0,3.0,5.0,10.0,8.0,False,False,False,False,False
+claude-opus,run_002,20.0,15.0,6.0,9.0,4.0,10.0,6.0,12.0,3.0,5.0,10.0,8.0,False,False,False,False,False
+claude-opus,run_003,20.0,15.0,7.0,10.0,4.0,8.0,5.0,12.0,3.0,5.0,11.0,11.0,False,False,False,False,False
+claude-opus,run_004,20.0,15.0,7.0,10.0,4.0,8.0,6.0,12.0,3.0,5.0,10.0,10.0,False,False,False,False,False
+claude-opus,run_005,20.0,15.0,7.0,10.0,4.0,8.0,6.0,12.0,3.0,5.0,10.0,10.0,False,False,False,False,False
+claude-opus,run_006,20.0,15.0,5.0,10.0,4.0,10.0,6.0,12.0,3.0,5.0,10.0,8.0,False,False,False,False,False
+claude-opus,run_007,20.0,15.0,5.0,10.0,4.0,10.0,6.0,12.0,3.0,5.0,10.0,8.0,False,False,False,False,False
+claude-opus,run_008,20.0,15.0,7.0,8.0,4.0,8.0,6.0,12.0,3.0,5.0,12.0,10.0,False,False,False,False,False
+claude-opus,run_009,20.0,15.0,6.0,10.0,4.0,9.0,6.0,12.0,3.0,5.0,10.0,9.0,False,False,False,False,False
+claude-opus,run_010,20.0,15.0,7.0,10.0,4.0,8.0,6.0,12.0,3.0,5.0,10.0,10.0,False,False,False,False,False
 claude-sonnet,run_001,20.0,15.0,5.0,8.0,4.0,8.0,5.0,14.0,4.0,5.0,12.0,11.0,False,False,False,False,False
 claude-sonnet,run_002,28.0,15.0,5.0,8.0,4.0,8.0,5.0,14.0,4.0,5.0,4.0,3.0,True,True,False,False,False
 claude-sonnet,run_003,25.0,13.0,5.0,7.0,4.0,9.0,5.0,12.0,3.0,5.0,12.0,8.0,True,False,False,False,False

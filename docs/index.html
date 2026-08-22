@@ -183,16 +183,16 @@
 <header class="hero">
   <span class="eyebrow">Benchmark report · v0.1 + 5-day replication · 2026-08-21</span>
   <h1>Mandate Bench</h1>
-  <p class="standfirst">What LLM trading agents actually do when you give them rules: measured on 1,260 identical portfolio decisions across six models and six market days &mdash; behavior, not returns.</p>
+  <p class="standfirst">What LLM trading agents actually do when you give them rules: measured on 1,440 identical portfolio decisions across seven models and six market days &mdash; behavior, not returns.</p>
   <div class="hero-meta">
-    <span>6 models</span><span>6 market days</span><span>1,260 decisions</span><span>300 audited rationales</span><span>~$3 marginal cost</span><span>pre-registered criteria</span>
+    <span>7 models</span><span>6 market days</span><span>1,440 decisions</span><span>300 audited rationales</span><span>~$3 marginal cost</span><span>pre-registered criteria</span>
   </div>
 </header>
 
 <section class="findings" aria-label="Headline findings">
   <div class="finding crit">
     <span class="big">4% &rarr; 70%</span>
-    <span class="label">Claude Sonnet 5 repaired a rule-breaking portfolio in 4% of runs inside a coding-agent harness &mdash; and 70% with a one-line system prompt. The harness, not the model, caused the blindness. A pre-registered five-day replication confirms the gap and shows it swings 0&ndash;90% with market context.</span>
+    <span class="label">Claude Sonnet 5 repaired a rule-breaking portfolio in 4% of runs inside a coding-agent harness &mdash; and 70% with a one-line system prompt. A five-day replication confirms the gap and shows it swings 0&ndash;90% with market context. Claude Opus 5 in the identical harness: 120/120 &mdash; the blindness is a model-context pair property.</span>
   </div>
   <div class="finding">
     <span class="big">2.7&times;</span>
@@ -213,7 +213,7 @@
     <b>R3</b> no leverage or shorts, weights sum to 100 &nbsp;·&nbsp; <b>R4</b> universe only<br>
     <b>R5</b> at most 15 points of turnover per decision
   </div>
-  <p>Six models ran the task 50 times each, per experiment: Claude Sonnet 5, Gemini 3.1 Pro, Gemini 3.7 Flash, GLM-5.2, Kimi-K3, and Qwen3.6-27B. Success criteria were written down before any run. A replication over five additional market days (N=10 per model per day, 650 further decisions, criteria again pre-registered before running) was added the same week; its results are folded into each section below.</p>
+  <p>Six models ran the task 50 times each, per experiment: Claude Sonnet 5, Gemini 3.1 Pro, Gemini 3.7 Flash, GLM-5.2, Kimi-K3, and Qwen3.6-27B. Success criteria were written down before any run. Two pre-registered extensions followed the same week and are folded into each section below: a replication over five additional market days (N=10 per model per day, 650 further decisions), and Claude Opus 5 in three arms on all six days (180 decisions).</p>
 </section>
 
 <section class="prose">
@@ -255,6 +255,7 @@
     </table></div>
   </figure>
   <p>On a 0% day the harness run asserts &ldquo;No mandate breach currently&rdquo; while holding SPY at 28; on the 90% day the same model-plus-harness opens with the breach and repairs it. The minimal-prompt control wobbles too (40&ndash;90%), so context sensitivity is not exclusive to the full harness &mdash; but the control never approaches the harness&rsquo;s 0% days, and the one-shot models barely move at all.</p>
+  <p>Then the pre-registered Opus arms sharpened the finding: <strong>Claude Opus 5 inside the identical harness repaired 120 of 120</strong> exp-2 runs across all six days &mdash; including the two days Sonnet-in-harness scored 0% &mdash; and its minimal-prompt control was likewise 60/60. So &ldquo;the harness blinds the model&rdquo; is too coarse: the same context that collapses Sonnet from ~96% to 34% does not move Opus at all. Harness-induced compliance blindness is a property of the <em>model-context pair</em>, which cuts both ways in practice: you cannot certify a scaffold independently of the model you put in it, and you cannot assume a model&rsquo;s clean raw-mode behavior survives someone else&rsquo;s wrapper. (Ceiling caveat: at n=60 per arm, a residual Opus failure rate below a few percent would be invisible.)</p>
 </section>
 
 <section class="prose">
@@ -275,7 +276,7 @@
   </figure>
 
   <p>Two things are true at once. First, the reassuring one: with slack constraints, substantive violations were zero across all 300 runs &mdash; only two small open models occasionally produced weights summing to 101&ndash;103. Second: no model is remotely deterministic, and the spread differs robustly between models &mdash; Kimi-K3 is 2.7&times; more scattered than Gemini 3.7 Flash (bootstrap CI on the ratio: 2.3&ndash;3.3). If your agent&rsquo;s output depends this much on the dice, one impressive backtest tells you almost nothing.</p>
-  <p>Both halves replicate across the five additional days: substantive violations stayed at zero in all 300 replication runs, and the pooled dispersion spread was 3.13&times; with the same models at the extremes (Kimi-K3 5.87 pts, Gemini 3.7 Flash 1.87). Per-day dispersion at N=10 runs 0.4&ndash;1.1 pts below the single-day N=50 values, but the ranking holds.</p>
+  <p>Both halves replicate across the five additional days: substantive violations stayed at zero in all 300 replication runs, and the pooled dispersion spread was 3.13&times; with the same models at the extremes (Kimi-K3 5.87 pts, Gemini 3.7 Flash 1.87). Per-day dispersion at N=10 runs 0.4&ndash;1.1 pts below the single-day N=50 values, but the ranking holds. Claude Opus 5 (60 runs over the six days) also kept violations at zero, with pooled dispersion of 2.69 pts &mdash; near the consistent end of the field.</p>
 </section>
 
 <section class="prose">
@@ -300,7 +301,7 @@
   <h2><span class="section-no">05</span>Method, honestly</h2>
   <ul>
     <li><strong>Pre-registered.</strong> Success criteria for both experiments were written and frozen before any run; results are reported against them, including the criteria that were <em>not</em> met (violation rates and dispersion both stayed below their &ldquo;interesting&rdquo; thresholds in Experiment 1; the cross-model ratio criterion is the one that fired). The replication&rsquo;s five criteria were likewise committed before its first output was analyzed; all five passed.</li>
-    <li><strong>Setup.</strong> Six frozen snapshots (closes of 2026-08-14 to 2026-08-21, 10 ETFs, Yahoo chart data), N=50 per model on the original day and N=10 per day in the replication, default sampling. Five models ran as near-raw one-shot completions with a one-line system prompt; Claude ran via <code>claude -p</code> (its subscription path), which is exactly the confound Experiment 2&rsquo;s control isolates. Replication snapshots are rebuilt offline from committed data; the build reproduces the original snapshot byte-for-byte.</li>
+    <li><strong>Setup.</strong> Six frozen snapshots (closes of 2026-08-14 to 2026-08-21, 10 ETFs, Yahoo chart data), N=50 per model on the original day and N=10 per day in the replication, default sampling. Five models ran as near-raw one-shot completions with a one-line system prompt; Claude ran via <code>claude -p</code> (its subscription path), which is exactly the confound Experiment 2&rsquo;s control isolates. Replication snapshots are rebuilt offline from committed data; the build reproduces the original snapshot byte-for-byte. The Opus arms reuse the identical paths with only the model flag changed.</li>
     <li><strong>Marginal cost of everything here: about three dollars</strong> in API credits plus subscription quota &mdash; behavior metrics need repetition, not capital.</li>
   </ul>
   <div class="limits">
@@ -321,7 +322,7 @@
 </section>
 
 <footer>
-  Mandate Bench v0.1 + replication &mdash; 2026-08-21. 1,260 agent decisions + 300 judge audits. Models accessed via their operators&rsquo; own subscriptions; market data via Yahoo Finance chart endpoint (research snapshot use). Methodology, per-run data, and harness available on request.
+  Mandate Bench v0.1 + replication + Opus arms &mdash; 2026-08-21/22. 1,440 agent decisions + 300 judge audits. Models accessed via their operators&rsquo; own subscriptions; market data via Yahoo Finance chart endpoint (research snapshot use). Methodology, per-run data, and harness available on request.
 </footer>
 </div>
 </body>

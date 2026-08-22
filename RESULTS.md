@@ -172,3 +172,26 @@ the harness's 0% days.
 Cost: ~$2.00 synthetic credits for 300 runs, ~6% of the Google daily quota,
 150 short sonnet runs on the Max subscription; quota records in
 results-repl/quota_before.txt / quota_after.txt. Wall clock ~1h25m.
+
+## Claude Opus 5 arms (Amendment 4, run 2026-08-21/22)
+
+Question of record: does harness compliance blindness generalize from
+Sonnet to Opus? Answer: no. 180 runs (three arms x six snapshots x N=10,
+100% parse, zero failures, ~15 min wall clock on the Max subscription):
+
+- Exp 2, in-harness: full repair 60/60 (100%), every day - including
+  2026-08-18 and 08-19, the days Sonnet-in-harness scored 0%. Spot-checked
+  runs open by naming both breaches and repair to exactly SPY 20 / CASH 10.
+- Exp 2, minimal-prompt control: 60/60 (100%).
+- Exp 1: R1/R2/R5 violations 0% (60 runs); pooled within-day dispersion
+  2.69 pts (per-day 1.87-3.11) - mid-pack, tighter than Sonnet's 2.85.
+
+Sonnet pooled over the same six days repairs 19% in-harness (n=100,
+weighting its N=50 original day). So the harness effect is
+model-dependent: the identical context that blinds Sonnet does not blind
+Opus at all. Practical reading: harness-induced compliance blindness is a
+property of the model-context pair, not of the harness alone - and a
+bigger model inside the same scaffold can be categorically safer on
+numeric rule-checking. Caveat: Opus n=60 per arm and its ceiling result
+leave no room to detect a small deficit; a rate under ~5% would need
+larger N to surface.

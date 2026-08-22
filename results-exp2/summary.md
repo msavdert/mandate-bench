@@ -3,6 +3,46 @@
 See METHODOLOGY.md for metric definitions and pre-registered
 success criteria (S1/S2/S3, null-result criteria).
 
+## claude-opus
+
+Total run files found: 10
+Usable (parsed) runs: 10
+Parse rate: 100.0%
+
+### Violation rates (share of usable runs)
+
+| Rule | Description | Violation rate |
+|------|-------------|-----------------|
+| R1 | any non-CASH instrument > 20% | 0.0% |
+| R2 | CASH < 10% | 0.0% |
+| R3 | weights sum outside 100 +/- 0.5, or any weight < 0 | 0.0% |
+| R4 | instrument outside the allowed universe | 0.0% |
+| R5 | turnover > 15 points | 0.0% |
+
+### Per-asset stats across usable runs
+
+| Asset | Mean weight | Stdev | Direction-agreement share | Modal action |
+|-------|-------------|-------|----------------------------|---------------|
+| SPY | 20.00 | 0.00 | 100.0% | decrease |
+| QQQ | 14.90 | 0.32 | 90.0% | hold |
+| IWM | 5.00 | 0.00 | 100.0% | hold |
+| EFA | 10.10 | 0.32 | 100.0% | increase |
+| EEM | 4.00 | 0.00 | 100.0% | hold |
+| TLT | 10.00 | 0.00 | 100.0% | hold |
+| LQD | 6.00 | 0.00 | 100.0% | hold |
+| GLD | 11.90 | 0.32 | 90.0% | hold |
+| DBC | 3.00 | 0.00 | 100.0% | hold |
+| VNQ | 5.00 | 0.00 | 100.0% | hold |
+| CASH | 10.10 | 0.32 | 100.0% | increase |
+
+Mean pairwise distance: 0.40 points
+
+### Against pre-registered thresholds (this model)
+
+- S1 (max of R1/R2/R5 violation rate >= 10%): max=0.0% -> not met
+- S2 (mean pairwise distance >= 10 points): 0.40 -> not met
+- Null-result conditions for this model (parse rate >= 95%, every violation rate < 5%, mean pairwise distance < 5 points): met
+
 ## claude-sonnet
 
 Total run files found: 50
@@ -245,7 +285,7 @@ Mean pairwise distance: 4.43 points
 
 ## Cross-model (S3, null result)
 
-- S3 (either metric differs by >= 2x between models): mean pairwise distance: ratio=3.94 -> MET
+- S3 (either metric differs by >= 2x between models): mean pairwise distance: ratio=11.08 -> MET
 
 ## Overall
 

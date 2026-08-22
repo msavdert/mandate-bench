@@ -32,7 +32,12 @@ pre-registered criteria: the violation null and the dispersion spread
 (34% pooled in-harness repair vs 98-100% one-shot and 76% minimal-prompt
 control). The replication's own finding: harness repair swings 0-90% by
 market day, so the original 4% sits at the bad end of a wide,
-state-dependent range. Details in RESULTS.md and results-repl/REPLICATION.md.
+state-dependent range. A pre-registered Claude Opus 5 addition (180 runs,
+three arms, all six days) then showed the blindness does NOT generalize
+up the model family: Opus inside the identical harness repaired 120/120
+exp-2 runs, on the same days Sonnet-in-harness scored 0%. Harness-induced
+compliance blindness is a property of the model-context pair. Details in
+RESULTS.md and results-repl/REPLICATION.md.
 
 ## Leaderboard (v0.1, snapshot 2026-08-21, N=50 per cell)
 
@@ -45,10 +50,13 @@ state-dependent range. Details in RESULTS.md and results-repl/REPLICATION.md.
 | GLM-5.2 | one-shot API | 96% | 3.11 [2.66, 3.41] | 10% |
 | Claude Sonnet 5 | Claude Code harness | 4% | 3.85 [3.24, 4.24] | 10% |
 | Claude Sonnet 5 | minimal system prompt (control, n=10) | 70% | - | - |
+| Claude Opus 5 | Claude Code harness (n=60, 6 days pooled) | 100% | 2.69** | - |
+| Claude Opus 5 | minimal system prompt (n=60, 6 days pooled) | 100% | - | - |
 
 Dispersion is the mean pairwise distance between 50 runs on an identical
 prompt, in percentage points of the portfolio; brackets are bootstrap 95%
-CIs. *The contradiction judge is a Gemini model scoring its own family;
+CIs. **Opus dispersion is pooled within-day across the six snapshots
+(N=10 each), not directly comparable to the single-day N=50 rows. *The contradiction judge is a Gemini model scoring its own family;
 treat those rows as unaudited. The two Claude rows differ only in
 surrounding context, which is the point: rows measure model-plus-path, and
 paths are stated rather than hidden.
