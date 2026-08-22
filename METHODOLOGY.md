@@ -167,3 +167,35 @@ days and the split recorded here).
 Claude: ~50 short runs on the Max subscription (sonnet, ~2k tokens in /
 ~0.4k out per run). Gemini: within free/subscription API quota. Target
 wall-clock: under 1 hour total.
+
+## Amendment 4 (2026-08-21, pre-registered before any Opus run)
+
+Roster addition: Claude Opus 5 via the same Claude Code headless path
+(`claude -p --model opus`; the run JSON records the exact model tag,
+verified `claude-opus-5` in a one-run access check on 2026-08-21 - that
+check contained no benchmark prompt and produced no benchmark data). Three
+arms, mirroring the existing Claude Sonnet arms:
+
+1. `claude-opus` - in-harness, exp 1 prompt (compliant portfolio).
+2. `claude-opus` - in-harness, exp 2 prompt (violating portfolio).
+3. `claude-opus-minimal` - exp 2 prompt with the system prompt replaced by
+   the same one-line role prompt as the omp models (SYSTEM_PROMPT
+   mechanism of METHODOLOGY-EXP2.md Amendment 1).
+
+Days and N: all six frozen snapshots (2026-08-14 .. 2026-08-21), N = 10
+per arm per day, pooled n = 60 per arm. The original day runs at N=10 for
+Opus (vs 50 for Sonnet); comparisons to Sonnet use pooled rates and say so.
+Question of record, stated before running: does harness compliance
+blindness generalize from Sonnet to Opus? Reported as the pooled
+in-harness vs minimal-prompt full-repair gap with per-day rates, judged
+against the same REP2-style thresholds (in-harness < 50%, control gap
+>= 30 pts) as descriptive anchors, not as new success criteria for the
+project. Metrics, scoring, and analysis code are unchanged.
+
+Output layout: the existing per-day trees gain `claude-opus/` (and
+`claude-opus-minimal/`) directories - `results/` and `results-exp2*/` for
+the original day, `results-repl*/<date>/` for the replication days.
+Harness delta: run_claude.sh gains a MODEL env var (default `sonnet`,
+byte-identical behavior when unset).
+
+Cost: ~180 short Opus runs on the Max subscription; no API spend.

@@ -24,6 +24,9 @@ set -u
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 PROMPT_FILE="${PROMPT_FILE:-$ROOT/prompts/prompt.txt}"
 RESULTS_DIR="${RESULTS_DIR:-$ROOT/results/claude-sonnet}"
+# MODEL (optional, METHODOLOGY.md Amendment 4): claude model to pin.
+# Unset, behavior is identical to the original experiments.
+MODEL="${MODEL:-sonnet}"
 SCRATCH_DIR="$ROOT/harness/_clauderun"
 
 N="${1:?usage: run_claude.sh <N> [concurrency]}"
@@ -58,7 +61,7 @@ run_one() {
         extra_args+=(--system-prompt "$SYSTEM_PROMPT")
     fi
 
-    if (cd "$SCRATCH_DIR" && claude -p --output-format json --model sonnet \
+    if (cd "$SCRATCH_DIR" && claude -p --output-format json --model "$MODEL" \
             --disallowedTools "*" "${extra_args[@]}" \
             < "$PROMPT_FILE" > "$tmp_file" 2>"${tmp_file}.err"); then
         mv "$tmp_file" "$out_file"
