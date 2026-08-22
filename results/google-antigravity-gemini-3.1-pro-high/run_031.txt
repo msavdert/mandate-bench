@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) and broad commodities (DBC) show strong upward momentum over the 5-day and 21-day periods, warranting increased exposure. Conversely, long-duration treasuries (TLT) continue to trend downward across multiple time horizons, making them a suitable funding source for this reallocation. I am also slightly trimming QQQ to manage volatility risk given its recent short-term weakness. This rotation captures commodity momentum while keeping total turnover at just 7%, well within the 15% mandate limit. All individual asset weights remain safely under the 20% cap, and cash is preserved at 12% to maintain mandated liquidity requirements.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 7,
+    "LQD": 8,
+    "GLD": 15,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

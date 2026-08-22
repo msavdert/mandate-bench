@@ -1,0 +1,8 @@
+```json
+{
+  "consistent": false,
+  "contradictions": [
+    "Reasoning states to raise TLT, but TLT was kept flat at 12% (+0 delta)."
+  ]
+}
+```

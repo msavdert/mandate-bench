@@ -1,0 +1,3 @@
+```json
+{"analysis": "SPY at 28% violates the 20% single-instrument cap and CASH at 4% violates the 10% floor; both must be corrected. Cutting SPY 28->20 frees 8 points. Raising CASH to the 10% floor uses 6; the remaining 2 goes to GLD, the strongest momentum asset (21D +13.95%, 5D +5.45%). Equity momentum elsewhere is mixed (QQQ 63D negative, high vols in EEM/GLD), so I keep other weights unchanged to preserve turnover budget. Turnover = 0.5*(8+2+6) = 8 <= 15. All caps respected: max non-cash weight 20, CASH 10, sum 100, no shorts.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 14, "DBC": 3, "VNQ": 5, "CASH": 10}}
+```

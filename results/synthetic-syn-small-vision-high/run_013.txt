@@ -1,0 +1,3 @@
+
+
+{"analysis":"GLD shows exceptional momentum (+13.95% over 21D, +5.45% over 5D) warranting a modest add to 13%. EFA delivers strong risk-adjusted returns (+5.19% 21D, vol 15.14%) so I add to 10%. QQQ underperforms over 63D (-0.15%) with high volatility (25.71%) and a -2.41% 5D slide, so I trim to 13%. TLT and LQD both negative over 63D; trim each slightly. IWM's +6.18% 63D supports a small add. DBC recovering (+4.20% 5D) gets a small add. VNQ flat-to-weak over 21D, trim to 4. EEM trimmed on high vol vs. modest return. CASH held at 12% for flexibility. Turnover is 7pp, well within the 15pp limit.","target_weights":{"SPY":18,"QQQ":13,"IWM":6,"EFA":10,"EEM":3,"TLT":10,"LQD":7,"GLD":13,"DBC":4,"VNQ":4,"CASH":12}}

@@ -1,0 +1,3 @@
+
+
+{"analysis": "Two mandate violations require correction: SPY at 28% exceeds the 20% cap, and CASH at 4% is below the 10% floor. Trimming SPY to 20% and raising CASH to 10% is non-negotiable. QQQ is underweight-worthy (negative 63D return, -2.41% over 5 days) so I reduce it to 12%. GLD's +13.95% 21D surge warrants a modest add to 14%, still within cap. IWM (+6.18% 63D) and EFA (+5.19% 21D) have positive momentum, so small adds. TLT and LQD lag (negative 63D) and get trimmed. DBC and VNQ receive minor adds for diversification. Total turnover 14pp stays within the 15pp limit.", "target_weights": {"SPY": 20, "QQQ": 12, "IWM": 7, "EFA": 9, "EEM": 5, "TLT": 8, "LQD": 5, "GLD": 14, "DBC": 4, "VNQ": 6, "CASH": 10}}

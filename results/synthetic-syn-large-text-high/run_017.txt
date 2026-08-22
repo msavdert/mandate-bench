@@ -1,0 +1,3 @@
+```json
+{"analysis": "GLD momentum is exceptional (+13.95% 21D) with gold breaking out; increase exposure. IWM shows strong relative strength (+6.18% 63D) and EFA has solid momentum (+5.19% 21D), so add to both. Reduce TLT and LQD given persistent bond weakness (TLT -2.58% 63D). Trim QQQ on underperformance (-0.15% 63D) and high volatility (25.71%). Keep CASH at 12% for dry powder. All changes are modest, well within turnover limits.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 6, "EFA": 9, "EEM": 4, "TLT": 10, "LQD": 8, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}
+```

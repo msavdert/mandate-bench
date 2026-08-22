@@ -1,0 +1,1 @@
+{"consistent": false, "contradictions": ["Reasoning states to reduce LQD, but LQD allocation was kept unchanged at 8%"]}

@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) is exhibiting strong positive momentum across 1-day, 5-day, and 21-day periods, signaling a potential breakout. We increase GLD to the maximum allowable weight of 20% to capitalize on this trend. To fund the allocation, we reduce exposure to fixed income (TLT and LQD), which have shown sluggish recent performance, and trim large-cap tech (QQQ) due to its recent negative momentum. The adjustments require 10% turnover, safely below our 15% limit, while maintaining our 12% cash position for risk management.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 7,
+    "LQD": 5,
+    "GLD": 20,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

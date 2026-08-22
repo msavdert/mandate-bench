@@ -1,0 +1,3 @@
+
+
+{"analysis":"Trim TLT (12→9): negative on every timeframe, no recovery signal. Trim QQQ (15→13): flat 63D and down 5D, fading momentum. Trim GLD (10→9): +13.95% in 21D is an extreme short-term spike vs only +1.53% 63D—partial profit-take. Reduce VNQ (5→4): flat across all periods. Add EFA (8→10): strongest broad equity, +5.19% 21D, +3.89% 63D, moderate vol. Add IWM (5→7): best US equity 63D (+6.18%), small-cap rotation intact. Build CASH to 15% for dry powder amid mixed signals. SPY, EEM, LQD, DBC held steady. Turnover ~7pp, well within limit.", "target_weights":{"SPY":18,"QQQ":13,"IWM":7,"EFA":10,"EEM":4,"TLT":9,"LQD":8,"GLD":9,"DBC":3,"VNQ":4,"CASH":15}}

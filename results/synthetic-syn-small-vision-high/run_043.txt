@@ -1,0 +1,3 @@
+
+
+{"analysis": "Gold leads decisively (+13.95% 21D, +5.45% 5D) on low-rate momentum; add to 14%. EFA delivers steady +5.19% 21D with mid-pack vol; add to 11%. Bonds lag (TLT -2.58% 63D, LQD -2.08%); trim both to fund moves. QQQ is the weakest equity (negative 63D, -2.41% 5D); trim to 13%. Small adds to IWM (best 63D equity) and DBC (strong 5D). CASH to 11%, staying above the 10% floor. Turnover 10pp, within the 15pp limit; no instrument exceeds 20%.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 6, "EFA": 11, "EEM": 5, "TLT": 8, "LQD": 6, "GLD": 14, "DBC": 4, "VNQ": 4, "CASH": 11}}

@@ -1,0 +1,16 @@
+{
+  "analysis": "GLD and DBC show strong short- to medium-term momentum. Given the elevated volatility and recent 5D underperformance in QQQ, as well as the continued downward trend in long-duration bonds (TLT), I am reallocating 3% from QQQ and 2% from TLT to fund an increase in gold and broad commodities. This adjustment trims tech-heavy equity and duration risk while capitalizing on the strength in hard assets. Cash is held at 12% for safety and optionality, and the 5% turnover complies with the mandate.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 12,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 13,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

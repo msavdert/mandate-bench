@@ -1,0 +1,3 @@
+```json
+{"analysis": "SPY at 28% violates the 20% cap; must reduce to 20. CASH at 4% violates the 10% floor; must raise to 10. GLD shows strongest momentum (13.95% 21D, 5.45% 5D) so redirect the remaining 2pp from SPY into GLD. Turnover: 0.5*(8+6+2)=8, within 15pp limit. All constraints satisfied.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 14, "DBC": 3, "VNQ": 5, "CASH": 10}}
+```

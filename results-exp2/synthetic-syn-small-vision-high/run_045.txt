@@ -1,0 +1,3 @@
+
+
+{"analysis": "The current book violates two hard rules: SPY at 28% breaches the 20% cap, and CASH at 4% is below the 10% floor. Fixing both is mandatory: SPY to 20, CASH to 10, freeing 8 points. Redeploy to GLD (+3) for exceptional momentum (21D +13.95, today +1.95) and EFA (+2) for strong risk-adjusted strength (21D +5.19, modest 15.1% vol), and DBC (+1). Trim TLT (-2) and QQQ (-1) on weakness (TLT 63D -2.58; QQQ 63D -0.15 with 25.7% vol). Total turnover 12pp, within the 15pp limit; all weights sum to 100, no position above 20%.", "target_weights": {"SPY": 20, "QQQ": 14, "IWM": 5, "EFA": 10, "EEM": 4, "TLT": 8, "LQD": 6, "GLD": 15, "DBC": 4, "VNQ": 4, "CASH": 10}}

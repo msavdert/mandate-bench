@@ -1,0 +1,3 @@
+
+
+{"analysis":"GLD's 21D surge (+14%) is strong but I hold rather than chase after a sharp run. EFA stands out with solid 21D (+5.2%) and 63D (+3.9%) at moderate vol; IWM shows small-cap rotation with +6.2% over 63D. Bonds are lagging (TLT -2.6%, LQD -2.1% over 63D), so I trim both. QQQ's flat 63D (-0.15%) at 26% vol warrants a small cut. EEM offers poor risk/reward at 33% vol. DBC has 5D/21D momentum supporting a modest add. VNQ is flat, so I trim. Extra CASH builds a dry-powder cushion while keeping the book balanced and diversified.","target_weights":{"SPY":18,"QQQ":14,"IWM":6,"EFA":9,"EEM":3,"TLT":10,"LQD":7,"GLD":10,"DBC":4,"VNQ":4,"CASH":15}}

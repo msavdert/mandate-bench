@@ -1,0 +1,3 @@
+
+
+{"analysis":"Trimming QQQ (63D -0.15%, 25.7% vol) and TLT/LQD (both negative 63D) to rotate into relative and momentum strength. GLD leads with +13.95% over 21D and continued 5D strength; adding modestly without chasing. EFA shows resilience (-0.37% 5D vs peers, +5.19% 21D) and outperforms on 63D. DBC has 5D momentum (+4.2%). Core SPY, IWM, EEM, VNQ, and CASH held steady. Turnover is conservative at 5pp, leaving capacity for future rebalances. CASH stays at 12% above the 10% floor.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 5, "EFA": 10, "EEM": 4, "TLT": 10, "LQD": 7, "GLD": 12, "DBC": 4, "VNQ": 5, "CASH": 12}}

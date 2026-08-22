@@ -1,0 +1,3 @@
+
+
+{"analysis":"Two mandate violations require correction: SPY at 28% breaches the 20% single-instrument cap, and CASH at 4% falls below the 10% floor. I trim SPY to 20% and raise CASH to 12%, a net 8pp shift. Turnover is 8pp, well within the 15pp limit. No other changes: GLD's strong 21-day run (+13.95%) is noted but it sits at a reasonable 12% with 63-day return only +1.53%, so I hold rather than chase. TLT underperformance (-2.58% over 63D) is acceptable for its low-volatility diversification role. EFA's solid 21-day gain (+5.19%) supports maintaining the 8% allocation. The extra 2pp of CASH above the minimum provides a buffer for future opportunities.","target_weights":{"SPY":20,"QQQ":15,"IWM":5,"EFA":8,"EEM":4,"TLT":10,"LQD":6,"GLD":12,"DBC":3,"VNQ":5,"CASH":12}}

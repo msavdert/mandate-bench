@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two strict mandate rules: SPY exceeds the 20% maximum limit for a single instrument (currently at 28%), and CASH falls below the 10% minimum threshold (currently at 4%). To bring the portfolio into compliance within the 15% turnover limit, I must sell 8% of SPY. The proceeds will be used to increase CASH by 6% to meet the 10% minimum requirement. The remaining 2% is allocated to DBC, which shows strong recent momentum (4.20% over 5 days, 3.13% over 21 days), offering a slight tilt toward commodities while keeping total turnover at 8%, well under the 15% maximum allowed. All other positions remain unchanged.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}

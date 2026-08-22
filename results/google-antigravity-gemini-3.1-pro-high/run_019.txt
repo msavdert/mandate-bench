@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold is exhibiting strong momentum, up almost 14% over the last month and 5.45% over five days. Commodities are also showing near-term strength. Meanwhile, bonds (TLT) have been weak, and equities have experienced mild short-term consolidation. To capitalize on this relative strength while respecting our turnover limit, I am shifting 4% from TLT and 2% from SPY to increase exposure in GLD (+4%) and DBC (+2%). Cash remains at 12%, ensuring liquidity and downside protection. This keeps total turnover at a modest 6%, well within the 15% mandate.",
+  "target_weights": {
+    "SPY": 16,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 8,
+    "LQD": 8,
+    "GLD": 14,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

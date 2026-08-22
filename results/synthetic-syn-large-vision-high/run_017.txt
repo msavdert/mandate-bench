@@ -1,0 +1,3 @@
+```json
+{"analysis": "Momentum favors gold (GLD +13.95% 21D, +5.45% 5D with rising 1D strength), while long-duration bonds (TLT, LQD) show persistent negative returns across all horizons. Equity momentum is mixed/weak short-term (QQQ -2.41% 5D, high vol). Rotate toward gold up to the 20% single-instrument cap, funded by trimming TLT, LQD, and QQQ. Total turnover is 10pp (within 15 limit), CASH stays at 12% (above the 10% floor), all constraints satisfied. Keep broad equity and commodity/real-estate exposure unchanged pending clearer trends.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 8, "LQD": 4, "GLD": 20, "DBC": 3, "VNQ": 5, "CASH": 12}}
+```

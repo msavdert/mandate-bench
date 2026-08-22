@@ -1,0 +1,3 @@
+```json
+{"analysis": "SPY at 28% violates the 20% cap; reducing to 20%. CASH at 4% violates the 10% floor; raising to 10%. GLD shows strong momentum (5D +5.45%, 21D +13.95%) with positive macro tailwinds, modest increase justified. TLT weak (-2.58% 63D) but holds diversification value. Remaining allocation unchanged. Turnover: 0.5*(8+2+6)=8pp, within 15pp limit. All constraints satisfied.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 14, "DBC": 3, "VNQ": 5, "CASH": 10}}
+```

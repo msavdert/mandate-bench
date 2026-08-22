@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use Mandate Bench, please cite it as below."
+title: "Mandate Bench: behavioral benchmarking of LLM agents on a fixed portfolio-rebalancing task"
+authors:
+  - family-names: Savdert
+    given-names: Melih
+version: "0.1"
+date-released: "2026-08-21"
+url: "https://github.com/msavdert/mandate-bench"
+license: MIT
+keywords:
+  - large language models
+  - agents
+  - benchmark
+  - instruction following
+  - finance
+  - reproducibility

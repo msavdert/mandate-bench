@@ -1,0 +1,8 @@
+```json
+{
+  "consistent": false,
+  "contradictions": [
+    "Reasoning states CASH stays at 11%, but CASH is reduced from 12% to 11%."
+  ]
+}
+```

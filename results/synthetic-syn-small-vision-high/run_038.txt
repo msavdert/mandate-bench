@@ -1,0 +1,3 @@
+
+
+{"analysis": "GLD shows exceptional 21D momentum (+13.95%) with continued 5D strength (+5.45%), warranting a modest add while staying well under the 20% cap. TLT and LQD are both underperforming on 21D and 63D horizons, so I trim duration exposure. EFA delivers consistent positive returns across all lookback periods, supporting a small increase. QQQ's 63D return is negative and volatility is elevated (25.71%), so I hold rather than add. CASH stays at 12% to preserve a buffer above the 10% floor. Overall tilt: into momentum (GLD, EFA), out of lagging bonds (TLT, LQD). Turnover is minimal at 3 percentage points.", "target_weights": {"SPY": 18, "QQQ": 15, "IWM": 5, "EFA": 9, "EEM": 4, "TLT": 10, "LQD": 7, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}

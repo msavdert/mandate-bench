@@ -1,0 +1,3 @@
+```json
+{"analysis": "SPY at 28% violates the 20% cap and CASH at 4% violates the 10% floor. I reduce SPY to the 20% limit and raise CASH above minimum. GLD has rallied 13.95% in 21 days; trimming to 10% locks in some gains and adds to cash buffer. Remaining positions are within limits and reasonably balanced. Turnover: 0.5*(8+2+10)=10, within 15. All mandate constraints satisfied.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 10, "DBC": 3, "VNQ": 5, "CASH": 14}}
+```

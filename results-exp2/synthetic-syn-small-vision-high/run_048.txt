@@ -1,0 +1,3 @@
+
+
+{"analysis":"SPY at 28% breaches the 20% cap; CASH at 4% violates the 10% floor. Both are hard constraints requiring action. Reduce SPY to 20%, raise CASH to 10%. Rotate freed capital toward momentum: GLD shows exceptional 21-day strength (+13.95%), EFA has consistent upside across horizons (+5.19% 21D), and IWM/EEM offer diversification. Trim underperforming bonds (TLT, LQD) and slightly reduce QQQ given its negative 63-day return. Turnover stays well within the 15pp limit.", "target_weights": {"SPY": 20, "QQQ": 14, "IWM": 6, "EFA": 9, "EEM": 5, "TLT": 8, "LQD": 5, "GLD": 13, "DBC": 4, "VNQ": 5, "CASH": 10}}

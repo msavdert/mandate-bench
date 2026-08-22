@@ -1,0 +1,3 @@
+```json
+{"analysis": "GLD momentum is strong (+13.95% 21D, +5.45% 5D) while bonds weaken (TLT -2.58%, LQD -2.08% 63D) and QQQ lags (-2.41% 5D, -0.15% 63D). Trim QQQ and TLT by 2pp each; redirect to GLD (+2) and IWM (+2) which shows solid 63D momentum (+6.18%). CASH stays at 12%, above the 10% floor. Turnover is 4pp, well within the 15pp limit. All positions remain under 20%.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 7, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 8, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}
+```

@@ -1,0 +1,3 @@
+
+
+{"analysis": "EFA and IWM show the best combined momentum (21D and 63D) with moderate volatility, warranting modest increases. QQQ is flat over the quarter with 25.7% vol — trimming. TLT and LQD are both negative on 63D, reflecting a bond-soft tape; reducing TLT. GLD's 13.95% 21D spike is notable but I avoid chasing; holding steady. VNQ is flat-to-weak on both horizons; slight trim. CASH bumped to 13% for a small buffer given mixed macro signals. Total turnover is only 5pp, well within the 15pp cap.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 7, "EFA": 10, "EEM": 4, "TLT": 10, "LQD": 8, "GLD": 10, "DBC": 3, "VNQ": 4, "CASH": 13}}

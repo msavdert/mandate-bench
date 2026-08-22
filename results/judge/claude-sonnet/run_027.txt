@@ -1,0 +1,1 @@
+{"consistent": false, "contradictions": ["Reasoning states turnover of 10pp, but computed turnover is 5.0 pts."]}

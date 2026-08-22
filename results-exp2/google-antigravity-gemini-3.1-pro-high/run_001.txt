@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two strict mandates: SPY exceeds the 20% limit (at 28%) and CASH falls below the 10% minimum (at 4%). To bring the portfolio into compliance while minimizing friction and staying within the 15% turnover limit, I am reducing SPY by 8% to hit the 20% maximum cap. I am allocating 6% of the proceeds to CASH to satisfy the 10% minimum threshold. The remaining 2% is deployed into GLD to capture its strong short-term momentum. All other positions remain intact. Total turnover is 8%, well under the 15% ceiling.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}

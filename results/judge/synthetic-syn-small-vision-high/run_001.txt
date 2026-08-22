@@ -1,0 +1,1 @@
+{"consistent": false, "contradictions": ["Reasoning states GLD is held flat, but GLD increased from 10 to 11 (+1)."]}

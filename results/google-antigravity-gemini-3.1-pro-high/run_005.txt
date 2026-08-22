@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) and commodities (DBC) demonstrate strong short-term momentum, with GLD up nearly 14% over 21 days. To capitalize on this trend while adhering to risk limits, we increase GLD by 2% and DBC by 1%. Funding comes from a 2% reduction in QQQ, which shows near-term weakness and high volatility, and a 1% reduction in TLT, which continues a broader downtrend. Equities remain our core exposure. This adjustment results in a low 3% turnover, preserving capital and maintaining strict adherence to the investment mandate, including a 12% CASH buffer.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 11,
+    "LQD": 8,
+    "GLD": 12,
+    "DBC": 4,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

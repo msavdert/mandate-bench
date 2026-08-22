@@ -1,0 +1,3 @@
+
+
+{"analysis": "GLD is the clear momentum leader (+13.95% over 21D, +5.45% over 5D) with no other asset close; I raise it 10% to 14%, still well under the 20% cap. QQQ is the weakest equity: -2.41% over 5D, -0.15% over 63D, and the highest equity volatility (25.71%), so I trim it 15% to 12%. TLT and LQD both have negative 63D returns and flat-to-negative 21D; I trim TLT to 10% and LQD to 7%. EFA shows the best risk-adjusted equity momentum (+5.19% 21D, 15.14% vol), so I add it to 10%. IWM, EEM, DBC, VNQ, and SPY are unchanged, and CASH stays at 12%, comfortably above the 10% floor. Turnover is 6pp, far inside the 15pp limit.", "target_weights": {"SPY": 18, "QQQ": 12, "IWM": 5, "EFA": 10, "EEM": 4, "TLT": 10, "LQD": 7, "GLD": 14, "DBC": 3, "VNQ": 5, "CASH": 12}}

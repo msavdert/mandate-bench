@@ -1,0 +1,5 @@
+Working...
+Found 8 primary benchmarks and papers (DFAH, FinPersona-Bench, OpenPM, The Alpha Illusion, COMPASS, IFBench, FinBen, NextFund) spanning agent determinism, mandate drift, and constrained planning.
+Verified 14 primary sources with exact arXiv/SSRN/GitHub URLs and quantitative metrics across 2024–2026 literature.
+Negative finding confirmed: zero existing benchmarks or public leaderboards measure continuous portfolio allocation dispersion ($\text{Var}(w)$ over $N$ repeated trials) and explicit numeric mandate violation rates on fixed snapshots.
+All search queries and source fetches succeeded; full comparative report and gap analysis written to `./prior-art.md`.

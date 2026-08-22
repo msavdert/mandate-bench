@@ -1,0 +1,18 @@
+```json
+{
+  "analysis": "Rebalancing to resolve mandate breaches: trimmed SPY from 28% to the 20% instrument limit and raised CASH from 4% to the 10% minimum. Further trimmed underperforming TLT by 2% due to negative multi-horizon returns and reallocated 4% to GLD to capitalize on strong upward momentum. Total one-way turnover is 10%, complying with the 15% limit.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 8,
+    "LQD": 6,
+    "GLD": 16,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}
+```

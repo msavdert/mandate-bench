@@ -1,0 +1,18 @@
+```json
+{
+  "analysis": "To restore compliance with mandate constraints, SPY is reduced from 28% to the 20% maximum position limit, and CASH is raised from 4% to meet the 10% minimum requirement. The remaining 2% freed from SPY is allocated to GLD (increasing from 12% to 14%) to capitalize on its strong recent momentum (up 13.95% over 21 days). Total one-day turnover is 8.0 percentage points, well within the 15.0 percentage point limit.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}
+```

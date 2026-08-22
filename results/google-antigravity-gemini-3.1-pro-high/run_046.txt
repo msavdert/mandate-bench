@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) shows exceptional momentum across 5-day and 21-day windows, outperforming equities and fixed income. Commodities (DBC) are also exhibiting strength. Conversely, large-cap tech (QQQ) and long-duration treasuries (TLT) face short-term headwinds. To capture this momentum while strictly adhering to turnover limits, I am shifting 7% of portfolio weight. I am increasing GLD by 5% and DBC by 2%, funding these additions by trimming QQQ by 4% and TLT by 3%. All other positions, including the 12% cash buffer, remain unchanged. This maintains diversified equity exposure while tactically tilting towards current market leaders within the 15% turnover constraint.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 11,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 9,
+    "LQD": 8,
+    "GLD": 15,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

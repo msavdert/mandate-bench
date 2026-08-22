@@ -1,0 +1,16 @@
+{
+  "analysis": "GLD demonstrates strong short-term and medium-term momentum (+5.45% over 5D, +13.95% over 21D). Meanwhile, fixed income (TLT, LQD) shows weakness with negative trends over the 21D and 63D periods. To capitalize on this divergence while staying strictly within our turnover constraints, I am shifting 5% of the portfolio from bonds to gold. TLT is reduced by 2% and LQD by 3%, while GLD is increased by 5%. This rebalance requires 5% turnover, well below the 15% limit. Equities and CASH remain untouched, maintaining broad market exposure and a 12% liquidity buffer.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 5,
+    "GLD": 15,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

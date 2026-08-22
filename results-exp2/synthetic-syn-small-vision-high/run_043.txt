@@ -1,0 +1,3 @@
+
+
+{"analysis": "Two mandate violations must be fixed first: CASH is at 4% (min 10%) and SPY at 28% (max 20%). I raise CASH to 12% and trim SPY to exactly 20%, adding a buffer. Within the freed capital I favor momentum: GLD is the standout (21D +13.95%, 5D +5.45%), so I add to it, and lift DBC on strong 5D/21D commodity momentum. EFA is well-trended (21D +5.19%) so a small add. I underweight the weakest links: TLT and LQD both lag over 63D (-2.58% / -2.08%) and 21D, and VNQ is flat, so I trim each. QQQ, IWM, EEM held. Total absolute turnover is 24 (half = 12pp), comfortably under the 15pp cap, so all rules hold.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 9, "EEM": 4, "TLT": 8, "LQD": 5, "GLD": 14, "DBC": 4, "VNQ": 4, "CASH": 12}}

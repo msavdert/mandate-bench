@@ -1,0 +1,3 @@
+
+
+{"analysis":"GLD shows strong momentum (21D +13.95%, 5D +5.45%) — adding 3%. IWM leads equities over 63D (+6.18%) — adding 1%. EFA solid 21D (+5.19%) — adding 1%. DBC momentum (5D +4.20%) — adding 1%. Tilt away from bonds (TLT 21D -1.35%, 63D -2.58%) — trimming 2%. QQQ 63D flat (-0.15%) and 5D soft (-2.41%) — trimming 2%. VNQ flat — trimming 1%. CASH reduced from 12 to 11, still above 10% floor. Overall a modest momentum tilt within strict turnover limits (6pp).", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 6, "EFA": 9, "EEM": 4, "TLT": 10, "LQD": 8, "GLD": 13, "DBC": 4, "VNQ": 4, "CASH": 11}}

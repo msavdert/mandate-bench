@@ -1,0 +1,16 @@
+{
+  "analysis": "Momentum is strongly favoring precious metals, with GLD up nearly 14% over the last 21 days. Conversely, long-duration treasuries (TLT) continue to show weakness across medium-term horizons. To capitalize on this divergence while strictly adhering to turnover limits, we increase our GLD position by 5% and reduce TLT by 5%. Additionally, given QQQ's recent 5-day drawdown and high volatility, we reduce QQQ exposure by 2% and increase CASH to 14%. This defensive tilt preserves capital while riding the strongest trend in the portfolio. Turnover for this rebalance is 7%, well under the 15% maximum, and all constraints remain satisfied.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 7,
+    "LQD": 8,
+    "GLD": 15,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 14
+  }
+}

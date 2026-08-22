@@ -1,0 +1,3 @@
+
+
+{"analysis":"Trim QQQ (underperforming, -2.4% 5D, highest equity vol) and GLD (extended +14% in 21D, elevated mean-reversion risk). Reduce VNQ (flat 21D). Add EFA (strongest 21D +5.2% and 63D +3.9%, moderate vol). Build CASH buffer to 16% for a more defensive stance amid mixed equity signals and bond weakness. Core satellite positions (IWM, EEM, TLT, LQD, DBC) held steady. Turnover is 6pp, well within the 15pp limit. No position exceeds 20%.", "target_weights":{"SPY":18,"QQQ":13,"IWM":5,"EFA":10,"EEM":4,"TLT":12,"LQD":8,"GLD":8,"DBC":3,"VNQ":3,"CASH":16}}

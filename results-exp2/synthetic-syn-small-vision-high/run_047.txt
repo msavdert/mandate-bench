@@ -1,0 +1,3 @@
+
+
+{"analysis": "The current portfolio violates two hard rules: SPY at 28% exceeds the 20% cap, and CASH at 4% is below the 10% floor, so this rebalance first repairs compliance. SPY is cut to the 20% cap and proceeds largely raise CASH to 13%, giving a buffer. Discretionary tilt toward better relative value: reduce QQQ (weakest equity: 5D -2.41%, 63D -0.15%, vol 25.7) and TLT (negative over both 21D and 63D). Add to EFA (best equity risk-adjusted: 21D +5.19%, vol 15.1) and IWM. GLD momentum (21D +13.95%) is strong but not chased further - held at 12%. All weights within the cap; turnover is 12pp, inside the 15pp limit.", "target_weights": {"SPY": 20, "QQQ": 13, "IWM": 6, "EFA": 10, "EEM": 4, "TLT": 8, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 13}}

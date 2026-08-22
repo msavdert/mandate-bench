@@ -1,0 +1,3 @@
+
+
+{"analysis": "Mandate breaches require correction: SPY at 28% exceeds the 20% single-instrument cap and CASH at 4% is below the 10% floor. Fix both with minimum turnover: trim SPY to 20% and raise CASH to 12%. Total trade is 16 percentage points, so 0.5*sum|delta| = 8, well under the 15 limit. No other changes: GLD's strong 21D run (+13.95%) at 12% is compliant; TLT/LQD remain weak but are modest ballast; QQQ's negative 63D return is already at a modest 15%. Rest of the book stays within limits and preserves existing diversification across equity, credit, commodities, and gold.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}

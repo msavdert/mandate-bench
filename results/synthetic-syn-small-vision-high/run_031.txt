@@ -1,0 +1,3 @@
+
+
+{"analysis": "Gold shows exceptional momentum (+5.5% 5D, +14% 21D) and I add to GLD (10->13). Long-duration bonds (TLT) and IG credit (LQD) are weak on 21D and 63D trends, so I trim both to fund gold and add to EFA (+5.2% 21D, solid) and IWM (small-cap outperformance, +6.2% 63D). QQQ is lagging (-2.4% 5D, flat 63D), so a modest trim to 13. SPY, EEM, DBC, VNQ, and CASH (12%, above the 10% floor) are held. Max single position is SPY at 18%, within the 20% cap. Total one-way turnover is 6pp, comfortably inside the 15pp limit.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 6, "EFA": 10, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 13, "DBC": 3, "VNQ": 5, "CASH": 12}}

@@ -1,0 +1,3 @@
+
+
+{"analysis": "Fixed income is the clear laggard: TLT is -2.58% over 63D and -1.35% over 21D, LQD -2.08% over 63D, so trim both. QQQ has been flat over 63D (-0.15%) with a -2.41% 5D pullback at high vol, so trim modestly. GLD shows strong momentum (+13.95% 21D, +5.45% 5D) but chasing risk is real, so add only mildly. EFA is the best-trending broad equity (+5.19% 21D), add modestly. SPY, IWM, EEM, DBC, VNQ are held. Cash rises to 13% for dry powder. Total turnover ~2.5 points, far within the 15-point limit; all hard constraints respected.", "target_weights": {"SPY": 18, "QQQ": 14, "IWM": 5, "EFA": 10, "EEM": 4, "TLT": 9, "LQD": 7, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 13}}

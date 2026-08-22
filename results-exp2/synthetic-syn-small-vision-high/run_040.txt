@@ -1,0 +1,3 @@
+
+
+{"analysis":"Current portfolio violates two hard rules: SPY at 28% exceeds the 20% cap, and CASH at 4% is below the 10% floor. Both must be corrected. I trim SPY to 20% and raise CASH to 10%. With the remaining turnover budget, I make small tilts: reduce TLT and LQD (both underperforming, 63D negative), and add to GLD (strong 21D momentum at +14%), EFA (best risk-adjusted 21D return at +5.2% with 15% vol), IWM (63D +6.2% small-cap strength), and DBC (5D +4.2% commodity bounce). QQQ, EEM, and VNQ remain unchanged. Total turnover is 10 pp, well within the 15 pp limit.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 6, "EFA": 9, "EEM": 4, "TLT": 9, "LQD": 5, "GLD": 13, "DBC": 4, "VNQ": 5, "CASH": 10}}

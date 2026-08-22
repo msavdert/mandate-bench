@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two mandates: SPY exceeds the 20% maximum limit (currently 28%) and CASH is below the 10% minimum (currently 4%). To correct this and comply with the strict constraints, I reduce SPY by 8% to the 20% limit. The proceeds are directed toward correcting the CASH deficit, adding 6% to meet the 10% minimum threshold. The remaining 2% is allocated to GLD to capitalize on its strong recent momentum (13.95% over 21 days). This adjustment results in an 8% turnover, well within the 15% limit, bringing the portfolio into full compliance.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}

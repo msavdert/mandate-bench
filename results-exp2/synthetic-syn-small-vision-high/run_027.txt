@@ -1,0 +1,3 @@
+
+
+{"analysis":"SPY at 28% breaches the 20% cap and CASH at 4% breaches the 10% floor, so correction is mandatory, not optional. I trim SPY to exactly 20% (-8pp), raise CASH to exactly 10% (+6pp), and route the residual 2pp into EFA, which has the strongest 21D momentum among equity sleeves (+5.19%) with moderate volatility (15.14%). All other weights are unchanged to minimize turnover. Total turnover is 0.5*(8+6+2)=8pp, well under the 15pp cap. GLD's strong 21D run (+13.95%) is noted but left intact; trimming it would add unnecessary churn without a mandate trigger. The portfolio is now fully compliant on every hard rule.", "target_weights":{"SPY":20,"QQQ":15,"IWM":5,"EFA":10,"EEM":4,"TLT":10,"LQD":6,"GLD":12,"DBC":3,"VNQ":5,"CASH":10}}

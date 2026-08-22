@@ -1,0 +1,3 @@
+
+
+{"analysis":"GLD momentum is exceptional (21D +14%, 5D +5.5%) but extended; adding modestly. EFA and DBC show sustained strength (EFA 21D +5.2%, DBC 5D +4.2%). Bonds (TLT 63D -2.6%, LQD 63D -2.1%) and QQQ (63D -0.2%, 5D -2.4%) underperform. Trimming bonds and QQQ, reducing cash to the 10% floor, and rotating into EFA, DBC, GLD, and IWM. IWM's 63D +6.2% supports a small add. Turnover is 8pp, well within the 15pp limit. All hard constraints satisfied: max weight 18% (SPY), cash at 10% minimum, no shorts, sum = 100.","target_weights":{"SPY":18,"QQQ":13,"IWM":6,"EFA":11,"EEM":4,"TLT":10,"LQD":6,"GLD":12,"DBC":5,"VNQ":5,"CASH":10}}

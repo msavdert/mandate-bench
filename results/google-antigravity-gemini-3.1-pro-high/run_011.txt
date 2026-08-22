@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) and commodities (DBC) show robust short-term momentum, gaining 5.45% and 4.20% over the last 5 days. Conversely, tech (QQQ) and long-duration treasuries (TLT) face short-term headwinds and drifting prices. To capitalize on this trend, I am reallocating 2% each from QQQ and TLT into GLD (+3%) and DBC (+1%). This conservative adjustment results in a 4% turnover, well within the 15% limit, while keeping maximum individual exposure comfortably below the 20% cap and maintaining a safe 12% cash buffer.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 13,
+    "DBC": 4,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

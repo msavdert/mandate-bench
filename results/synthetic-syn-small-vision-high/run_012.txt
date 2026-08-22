@@ -1,0 +1,3 @@
+
+
+{"analysis":"Modest tilt toward momentum and away from underperformance. QQQ shows negative 63D return with 25.7% vol - trimming 1pt. VNQ is weak across short timeframes - trimming 1pt. TLT underperforms at -2.58% 63D - trimming 1pt. Adding to EFA (+5.19% 21D, 15.1% vol) and IWM (+6.18% 63D, 16.9% vol), the best risk-adjusted momentum. GLD's +13.95% 21D run is strong but chasing is unattractive; holding steady. CASH raised to 13% for a buffer. Overall a low-turnover adjustment (3pp) preserving core structure while favoring relative strength in international and small-cap over expensive mega-cap tech.", "target_weights":{"SPY":18,"QQQ":14,"IWM":6,"EFA":9,"EEM":4,"TLT":11,"LQD":8,"GLD":10,"DBC":3,"VNQ":4,"CASH":13}}

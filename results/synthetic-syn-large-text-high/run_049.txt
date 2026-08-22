@@ -1,0 +1,3 @@
+```json
+{"analysis": "Gold momentum is strong (+13.95% 21D) while bonds weaken (TLT -2.58%, LQD -2.08% over 63D). I'll trim TLT and LQD by 2 points each, redeploying into GLD and SPY. SPY shows solid equity momentum (+3.73% 21D). This modest tilt keeps CASH at 12%, respects the 20% single-instrument cap (SPY at 20%), and turnover is just 4pp, well under the 15pp limit. QQQ held despite high volatility given positive 21D trend.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}
+```

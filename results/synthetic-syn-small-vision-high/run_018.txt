@@ -1,0 +1,3 @@
+
+
+{"analysis": "Gold's +14% over 21 days signals hedging demand, so I keep the GLD hedge intact at 10%. US tech is underperforming (QQQ -0.15% over 63D, -2.4% over 5D), so I trim QQQ to 13. International shows the strongest momentum (EFA +5.2%, EEM +3.9% over 21D on lower relative vol), so I add to EFA and EEM. Bonds are weak (TLT -1.35% over 21D, LQD -2.1% over 63D), so I trim TLT. Small caps outperform (IWM +6.2% over 63D), so a small add. VNQ is flat-to-weak, so a small trim. CASH held at 12 for optionality. Turnover is ~5pp, well inside the 15pp limit; all mandate rules respected.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 6, "EFA": 11, "EEM": 5, "TLT": 10, "LQD": 8, "GLD": 10, "DBC": 3, "VNQ": 4, "CASH": 12}}

@@ -1,0 +1,18 @@
+```json
+{
+  "analysis": "Rebalancing resolves two active mandate breaches: SPY currently exceeds the 20% maximum single-instrument limit (at 28%), while CASH is below the mandatory 10% minimum threshold (at 4%). SPY is reduced by 8% to meet the 20% cap. 6% of the proceeds is allocated to CASH to restore compliance at exactly 10%. The remaining 2% is allocated to GLD (bringing it to 14%) to capture its strong 1-day, 5-day, and 21-day momentum while providing diversification. Total turnover is 8.0 percentage points, well within the 15% constraint.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}
+```

@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) is exhibiting strong positive momentum across multiple timeframes, up 13.95% over the last 21 days and outperforming equities and bonds. To capitalize on this trend, I am increasing the GLD allocation by 3%. I am funding this increase by reducing exposure to long-term treasuries (TLT) by 3%, as TLT shows persistent weakness and negative returns over the 21-day and 63-day periods. The rest of the portfolio remains unchanged to minimize turnover and maintain broad diversification. All mandate constraints are satisfied, with maximum position size at 18% (SPY), cash remaining at 12%, and total turnover at a low 3%, well below the 15% limit.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 9,
+    "LQD": 8,
+    "GLD": 13,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

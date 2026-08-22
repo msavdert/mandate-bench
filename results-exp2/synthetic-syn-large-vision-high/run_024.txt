@@ -1,0 +1,3 @@
+```json
+{"analysis": "Current portfolio violates two hard rules: SPY at 28% exceeds the 20% cap, and CASH at 4% is below the 10% floor. I move SPY to 20% and bring CASH to 12% (8 pp turnover). Gold shows the strongest momentum (21D +13.95, 5D +5.45) while investment-grade credit (LQD) is weak (63D -2.08); I shift 2 pp from LQD to GLD (2 pp turnover). Total turnover is 10 pp, within the 15 limit. Bonds stay defensive given TLT/LQD downtrends; equities and diversifiers otherwise unchanged.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 4, "GLD": 14, "DBC": 3, "VNQ": 5, "CASH": 12}}
+```

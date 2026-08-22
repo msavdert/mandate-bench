@@ -1,0 +1,3 @@
+
+
+{"analysis": "Current book breaches two hard rules: SPY at 28% exceeds the 20% cap and CASH at 4% is below the 10% floor, so both must be corrected. I cap SPY at 20 and lift CASH to 12 for a defensive buffer. Freed equity tilts to EFA (best 21-day return +5.19%, only -0.37% over 5 days, low 15% vol) plus a small IWM add. I trim QQQ (flat 63-day, -2.41% over 5 days, 25.7% vol), GLD (locks part of the +13.95% 21-day surge) and TLT (-2.58% 63-day) modestly. Turnover is 13 percentage points, under the 15 limit; all weights are non-negative, sum to 100, no instrument exceeds 20%, and CASH clears 10%.", "target_weights": {"SPY": 20, "QQQ": 13, "IWM": 6, "EFA": 12, "EEM": 4, "TLT": 9, "LQD": 6, "GLD": 10, "DBC": 3, "VNQ": 5, "CASH": 12}}

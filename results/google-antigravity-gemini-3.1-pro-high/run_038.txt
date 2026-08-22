@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) is demonstrating strong short- and medium-term momentum, rising 13.95% over the past 21 days. To capitalize on this trend, I am increasing the GLD allocation by 4%. Funding this shift comes from reducing exposure to QQQ, which has shown recent weakness and high volatility, and TLT, which continues a negative trend over the 63-day horizon. All other positions remain unchanged to maintain broad diversification. This adjustment results in a 4% turnover, well within the 15% mandate, while holding CASH steady at 12% to preserve liquidity and optionality in current market conditions.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

@@ -1,0 +1,3 @@
+
+
+{"analysis": "Current portfolio breaches two hard rules: SPY at 28% exceeds the 20% cap and CASH at 4% is below the 10% floor. Priority is trimming SPY to 20% and lifting CASH to 14%, funded partly by reducing underperformers: QQQ (63D -0.15%, 5D -2.41%) to 13 and TLT (63D -2.58%) to 8. Add to EFA (21D +5.19%, steady international strength) to 9 and GLD to 13, preserving the gold hedge given its strong 21D +13.95% trend. Other sleeves held unchanged to limit churn. All weights non-negative, sum 100, CASH >= 10, max non-cash weight 20. Turnover is 12pp, within the 15pp limit.", "target_weights": {"SPY": 20, "QQQ": 13, "IWM": 5, "EFA": 9, "EEM": 4, "TLT": 8, "LQD": 6, "GLD": 13, "DBC": 3, "VNQ": 5, "CASH": 14}}

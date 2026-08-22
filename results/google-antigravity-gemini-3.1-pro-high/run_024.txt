@@ -1,0 +1,16 @@
+{
+  "analysis": "With GLD exhibiting strong short-term and medium-term momentum, up 13.95% over 21 days, I am slightly increasing its allocation to capture ongoing trends. Conversely, QQQ has shown recent weakness and negative 5-day performance alongside high volatility, prompting a minor reduction. SPY is also trimmed slightly to fund the GLD purchase. The portfolio remains well-diversified across equities, fixed income, and commodities, with a conservative 2% turnover. Cash levels are maintained at 12%, comfortably above the 10% minimum mandate to preserve optionality and stability.",
+  "target_weights": {
+    "SPY": 17,
+    "QQQ": 14,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

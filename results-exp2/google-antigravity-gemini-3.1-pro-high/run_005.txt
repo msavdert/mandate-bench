@@ -1,0 +1,16 @@
+{
+  "analysis": "Current allocation violates the mandate: SPY exceeds the 20% maximum limit and CASH is below the 10% minimum threshold. To restore compliance while minimizing turnover, I reduce SPY by 8% to the maximum allowable weight of 20%, and increase CASH by 6% to the minimum required level of 10%. The remaining 2% from the SPY sale is allocated to GLD to capitalize on its strong recent momentum. This rebalancing results in a total turnover of 8%, which is well within the 15% maximum limit, and brings the portfolio into full adherence with all mandate rules without requiring additional disruptive adjustments.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}

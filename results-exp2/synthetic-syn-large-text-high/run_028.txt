@@ -1,0 +1,3 @@
+```json
+{"analysis": "SPY at 28% violates the 20% single-instrument cap and CASH at 4% violates the 10% floor. I reduce SPY to 20% and raise CASH to 10%, freeing 2 points which I add to DBC for its positive commodity momentum (3.13% 21D, 4.20% 5D) and diversification. Turnover is 8pp, well within the 15pp limit. All constraints satisfied.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 5, "VNQ": 5, "CASH": 10}}
+```

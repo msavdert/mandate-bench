@@ -1,0 +1,3 @@
+
+
+{"analysis": "Momentum is diverging: GLD's +13.95% 21D surge is extended (26% vol) so I trim 2 pts; TLT (-1.35% 21D, -2.58% 63D) and LQD are weak long-end bets, cutting TLT by 3. QQQ has lagged 63D (-0.15%) with the steepest drawdowns, trim 2. EFA is the cleanest risk (best 21D among developed ex-US, 15% vol), add 2; IWM has decent 63D momentum (+6.18%), add 1. Reallocated proceeds go to CASH (12->14), raising the buffer above the 10% floor in a market showing bond weakness and equity chop. Total turnover 7 pp, well inside the 15 pp limit. All constraints: max single holding 18%, cash 14%.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 6, "EFA": 10, "EEM": 4, "TLT": 9, "LQD": 10, "GLD": 8, "DBC": 3, "VNQ": 5, "CASH": 14}}

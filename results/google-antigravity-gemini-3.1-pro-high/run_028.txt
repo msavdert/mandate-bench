@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) demonstrates exceptional momentum, up 13.95% over 21 days. To capitalize on this strength, I am increasing the GLD allocation by 5%. This is funded by reducing exposure to large-cap US equities (SPY -2%, QQQ -3%), which show short-term weakness, particularly QQQ's -2.41% 5-day return. Other positions and cash remain unchanged to maintain diversification and strictly respect the 15% turnover limit (actual turnover is 5%). Cash stays compliant at 12%.",
+  "target_weights": {
+    "SPY": 16,
+    "QQQ": 12,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 15,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) and commodities (DBC) exhibit strong momentum over the 5D and 21D periods, standing out against a backdrop of flat to negative performance in tech (QQQ) and long-duration treasuries (TLT). I am shifting 6% of the portfolio into GLD and DBC by reducing exposure to QQQ and TLT to capture this trend, while keeping well within the 15% turnover limits. Cash remains at 12% for optionality and downside protection.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 11,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 14,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

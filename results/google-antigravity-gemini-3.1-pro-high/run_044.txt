@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) shows strong upward momentum (+13.95% over 21 days) with solid 5-day performance. Meanwhile, long-duration treasuries (TLT) and corporate bonds (LQD) are exhibiting slight negative momentum and drag. To capitalize on the commodity strength while managing risk, I am increasing the GLD allocation by 5% and funding this by trimming TLT (-3%) and LQD (-2%). This reallocation keeps turnover low (5%) and maintains all mandate limits, leaving equities untouched as they show mixed short-term signals and healthy mid-term trends. Cash remains at 12% to preserve optionality.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 9,
+    "LQD": 6,
+    "GLD": 15,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

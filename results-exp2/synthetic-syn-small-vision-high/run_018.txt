@@ -1,0 +1,3 @@
+
+
+{"analysis": "Forced moves: SPY breaches the 20% cap (28%) so it drops to 20; CASH is below the 10% floor (4%) so it rises to 10. With the 8-point SPY reduction and 6-point CASH increase, I still have room to rotate. TLT and LQD are negative over 63D, so I trim each modestly. GLD shows exceptional 21D momentum (+13.95%) supporting a small add; EFA has solid 21D (+5.19%) with moderate vol, earning a bump. VNQ is flat-to-weak short-term, trimmed slightly. Small adds to EEM and DBC for diversification. Total turnover is 12pp, well within the 15pp limit. All hard constraints are satisfied.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 10, "EEM": 5, "TLT": 8, "LQD": 5, "GLD": 14, "DBC": 4, "VNQ": 4, "CASH": 10}}

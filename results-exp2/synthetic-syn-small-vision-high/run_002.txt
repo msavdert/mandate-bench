@@ -1,0 +1,18 @@
+
+
+{
+  "analysis": "Current allocation violates the 20% single-instrument limit via SPY at 28%, so compliance takes priority. I reduce SPY to 20% and raise CASH from 4% to 12%, restoring both the 20% cap and the 10% cash floor with minimal disruption. Turnover is 0.5 * (|20-28| + |12-4|) = 8, within the 15-point limit. Other positions are retained; GLD has strong momentum but is not chased aggressively, and bonds remain as diversifiers.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

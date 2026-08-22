@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) exhibits strong positive momentum across 1D, 5D, and 21D timeframes, prompting an increase in its allocation to capture upside. Commodities (DBC) also show strength and provide inflation protection. To fund these additions within the 15% turnover limit, we reduce exposure to fixed income (TLT and LQD) which has demonstrated negative short-term and medium-term performance. Cash remains above the 10% minimum to preserve optionality.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 8,
+    "LQD": 4,
+    "GLD": 15,
+    "DBC": 6,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

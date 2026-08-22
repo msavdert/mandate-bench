@@ -1,0 +1,3 @@
+
+
+{"analysis": "SPY (28%) and CASH (4%) breach mandate limits; both must be corrected. Trimming SPY to 20% and raising CASH to 10% is mandatory. GLD's 21D +13.95% run warrants a modest trim for risk management. TLT and LQD underperform (63D -2.58%, -2.08%), so I reduce both. QQQ shows 63D -0.15% with 25.71% vol and a 5D -2.41% dip—trim slightly. EFA (21D +5.19%) and IWM (63D +6.18%) show relative momentum, so I add. VNQ and DBC get small boosts for diversification. Total turnover: 13pp, within the 15pp cap. All constraints satisfied.", "target_weights": {"SPY": 20, "QQQ": 14, "IWM": 6, "EFA": 10, "EEM": 5, "TLT": 8, "LQD": 5, "GLD": 11, "DBC": 4, "VNQ": 7, "CASH": 10}}

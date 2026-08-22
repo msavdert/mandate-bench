@@ -1,0 +1,6 @@
+```json
+{
+  "consistent": true,
+  "contradictions": []
+}
+```

@@ -1,0 +1,18 @@
+```json
+{
+  "analysis": "Gold continues to display strong multi-timeframe momentum (+13.95% over 21 days and +1.95% on the day), while international equities (EFA) show solid relative strength. Conversely, long-duration Treasuries (TLT) face ongoing downward pressure, and Nasdaq-100 (QQQ) exhibits short-term weakness and elevated volatility. We increase exposure to GLD and EFA while trimming TLT and QQQ to capture commodity and international equity momentum while reducing duration risk. Cash is maintained at 12% to preserve liquidity and meet the mandate buffer.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 12,
+    "IWM": 5,
+    "EFA": 10,
+    "EEM": 4,
+    "TLT": 9,
+    "LQD": 8,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}
+```

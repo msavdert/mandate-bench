@@ -1,0 +1,3 @@
+
+
+{"analysis":"Trim underperforming bonds (TLT -1.35% 21D, LQD -0.32% 21D) and weak-momentum QQQ (-0.15% 63D, 25.7% vol) to fund the best risk-adjusted name in the set: EFA (+5.19% 21D, +3.89% 63D, 15.1% vol). Small adds to IWM (strong 63D, 6.18%) and DBC (commodity co-movement with GLD's 21D spike). Hold GLD at 10%: the 21D surge is compelling but 63D is only +1.5%, so I won't chase. Extra freed capital parks in CASH (14%) preserving dry powder if the gold/commodity move rolls over.", "target_weights":{"SPY":18,"QQQ":13,"IWM":6,"EFA":10,"EEM":4,"TLT":10,"LQD":6,"GLD":10,"DBC":4,"VNQ":5,"CASH":14}}

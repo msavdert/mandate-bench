@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) shows exceptional near-term momentum (+13.95% over 21D) while equities like QQQ and long-duration bonds (TLT) are experiencing short-term weakness or downtrends. To capitalize on the strong precious metal trend without violating turnover constraints, I am shifting 5% of capital into GLD (target 15%). This is funded by trimming underperforming allocations: reducing QQQ by 2%, TLT by 2%, and highly volatile EEM by 1%. The remaining portfolio is maintained to preserve broad diversification. Cash remains at 12%, ensuring ample liquidity and strict adherence to the mandate's 10% minimum.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 3,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 15,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

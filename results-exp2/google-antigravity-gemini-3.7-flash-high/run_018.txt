@@ -1,0 +1,18 @@
+```json
+{
+  "analysis": "Rebalancing to satisfy mandate compliance and capitalize on strong momentum. SPY is reduced from 28% to the 20% limit, while CASH is increased from 4% to 11% to meet the 10% minimum buffer. Trimming lagging fixed income positions in TLT (-3%) and LQD (-2%) to fund additions to GLD (+4%) and EFA (+2%), which exhibit strong relative momentum and trend performance. Total portfolio turnover is 13%, well within the 15% limit.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 10,
+    "EEM": 4,
+    "TLT": 7,
+    "LQD": 4,
+    "GLD": 16,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 11
+  }
+}
+```

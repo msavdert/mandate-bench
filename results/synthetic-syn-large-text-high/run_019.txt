@@ -1,0 +1,3 @@
+```json
+{"analysis": "GLD shows strongest momentum (+13.95% 21D, +1.95% 1D) and warrants an increase. TLT is declining (-2.58% 63D) with no reversal signal; trim. QQQ has weak 63D performance (-0.15%) and highest equity volatility (25.71%); modest reduction. EFA has solid 21D momentum (+5.19%); small add. SPY, IWM, EEM, LQD, DBC, VNQ held steady. CASH stays at 12%, above the 10% floor, providing dry powder. Turnover is well under the 15pp limit.", "target_weights": {"SPY": 18, "QQQ": 14, "IWM": 5, "EFA": 9, "EEM": 4, "TLT": 10, "LQD": 8, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}
+```

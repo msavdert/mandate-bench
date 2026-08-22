@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) shows significant momentum across 1D, 5D, and 21D timeframes. Commodities (DBC) also show near-term strength. I am reallocating 7% of the portfolio to overweight these real assets. To fund this, I am reducing exposure to long-duration bonds (TLT) and investment-grade corporate bonds (LQD), which are experiencing slight downward pressure across multiple timeframes. I am also trimming QQQ to manage overall portfolio risk given its recent 5D underperformance and higher volatility. CASH remains above 10% to preserve optionality. Turnover is 7%, well within the 15% limit. No single position exceeds the 20% limit.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 12,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 15,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

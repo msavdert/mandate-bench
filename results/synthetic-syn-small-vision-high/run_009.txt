@@ -1,0 +1,3 @@
+
+
+{"analysis":"GLD momentum is strong (+13.95% 21D) but I hold at 10% to respect vol. EFA offers the best risk/return (5.19% 21D, 15.14% vol) so I add to 11%. Bonds (TLT -2.58% 63D, LQD -2.08% 63D) underperform; I trim each modestly. QQQ lags (-0.15% 63D, -2.41% 5D), slight trim. SPY gets a small add as core anchor. DBC adds on 5D strength. CASH drops to the 10% floor to deploy capital. Turnover is only 5pp, well within limit.","target_weights":{"SPY":19,"QQQ":14,"IWM":5,"EFA":11,"EEM":4,"TLT":11,"LQD":7,"GLD":10,"DBC":4,"VNQ":5,"CASH":10}}

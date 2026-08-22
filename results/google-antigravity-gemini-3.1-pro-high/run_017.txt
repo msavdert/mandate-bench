@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) shows exceptional momentum across multiple timeframes, particularly over the last 21 days (13.95%). Conversely, long-duration treasuries (TLT) continue to struggle with negative returns over the 21-day and 63-day periods. To capitalize on these trends, I am reallocating 5% of the portfolio from TLT to GLD. All other positions, including the 12% cash buffer, remain unchanged to minimize transaction friction while remaining well within the 20% single-instrument limit and the 15% turnover maximum.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 7,
+    "LQD": 8,
+    "GLD": 15,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

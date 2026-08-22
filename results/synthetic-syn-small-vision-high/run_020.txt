@@ -1,0 +1,3 @@
+
+
+{"analysis": "Momentum favors precious metals and commodities: GLD shows +5.45% 5-day and +13.95% 21-day, DBC +4.20% 5-day. Bonds underperform (TLT 21D -1.35%, 63D -2.58%; LQD 63D -2.08%) under rate pressure, so both are trimmed. QQQ is the weakest equity (5D -2.41%, 63D -0.15%, 25.7% vol) and is reduced. EFA offers a low-vol positive trend (21D +5.19%) and IWM is solid (63D +6.18%); both are added modestly. Retain ample CASH (12%) as ballast given elevated vol across risky sleeves. Turnover ~7pp, well inside the 15pp limit; all single-name caps and the 10% cash floor are respected.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 6, "EFA": 10, "EEM": 4, "TLT": 9, "LQD": 7, "GLD": 13, "DBC": 4, "VNQ": 4, "CASH": 12}}

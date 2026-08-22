@@ -1,0 +1,3 @@
+
+
+{"analysis": "Momentum is concentrated in the commodity complex: GLD is +13.95% over 21D with +5.45% over 5D, and DBC is +4.20% over 5D. I add to GLD (10->15, still under the 20% cap) and DBC (3->5). EFA has solid 21D momentum (+5.19%), so I add there (8->10). Fixed income is weak (TLT -1.35% over 21D, -2.58% over 63D; LQD negative on all horizons), so I trim TLT 12->8 and LQD 8->6. QQQ lagged over 5D (-2.41%); trim 15->13. CASH stays at 11% for flexibility. SPY, IWM, EEM, VNQ unchanged. Total absolute turnover 18pp, i.e. 9pp one-way, well within the 15pp limit. CASH >= 10% and no instrument above 20%.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 5, "EFA": 10, "EEM": 4, "TLT": 8, "LQD": 6, "GLD": 15, "DBC": 5, "VNQ": 5, "CASH": 11}}

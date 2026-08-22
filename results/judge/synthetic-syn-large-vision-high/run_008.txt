@@ -1,0 +1,8 @@
+```json
+{
+  "consistent": false,
+  "contradictions": [
+    "Reasoning states LQD is trimmed along with negative trend assets, but LQD is held flat at 8% (+0 delta)."
+  ]
+}
+```

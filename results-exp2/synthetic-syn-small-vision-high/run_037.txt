@@ -1,0 +1,3 @@
+
+
+{"analysis":"Mandate violations require action: SPY at 28% breaches the 20% cap and CASH at 4% breaches the 10% floor. I bring SPY to 20% and CASH to 12%. Within remaining turnover budget I trim TLT and LQD (negative across all horizons), add to EFA (best 21D risk-adjusted: +5.2% at 15% vol) and IWM (solid 63D momentum), and make a small DBC add on 5D strength. QQQ gets a slight trim (flat 63D, 25.7% vol). GLD held at 12%—strong 21D tape but I will not chase after +14% in a month. Turnover is 12pp, within the 15pp limit.","target_weights":{"SPY":20,"QQQ":14,"IWM":6,"EFA":10,"EEM":4,"TLT":8,"LQD":5,"GLD":12,"DBC":4,"VNQ":5,"CASH":12}}

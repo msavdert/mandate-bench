@@ -1,0 +1,3 @@
+
+
+{"analysis":"GLD shows strong 21D momentum (+13.95%) and I am adding to it. DBC also has positive 5D momentum (+4.20%) so a small add. QQQ is the laggard (63D negative, 5D -2.41%) so I trim it modestly. TLT continues to underperform (63D -2.58%) so I reduce slightly. EFA is a solid low-vol performer (21D +5.19%) deserving a small increase. SPY, IWM, EEM, LQD, VNQ remain unchanged. CASH trimmed to the 10% floor to deploy into relative strength. Total turnover is minimal at 4pp, well within limits.","target_weights":{"SPY":18,"QQQ":14,"IWM":5,"EFA":9,"EEM":4,"TLT":11,"LQD":8,"GLD":12,"DBC":4,"VNQ":5,"CASH":10}}

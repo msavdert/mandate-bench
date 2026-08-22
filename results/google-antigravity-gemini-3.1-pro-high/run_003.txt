@@ -1,0 +1,16 @@
+{
+  "analysis": "Strong momentum in precious metals and commodities (GLD +13.95% 21D, DBC +3.13% 21D) warrants an increased allocation to capture the trend. Conversely, technology (QQQ) shows relative weakness (-2.41% 5D) and elevated volatility, while long-duration bonds (TLT) continue to face headwinds with negative returns across multiple timeframes. To adapt, I am rotating 9% of the portfolio: reducing exposure to QQQ, SPY, and TLT, while reallocating capital to GLD and DBC. This defensive, inflation-aware tilt respects the 15% turnover limit, maintains adequate liquidity (12% CASH), and ensures no single position exceeds the 20% concentration ceiling.",
+  "target_weights": {
+    "SPY": 16,
+    "QQQ": 10,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 16,
+    "DBC": 6,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

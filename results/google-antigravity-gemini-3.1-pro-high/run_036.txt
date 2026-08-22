@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) is exhibiting strong momentum across 1D, 5D, and 21D timeframes. To capitalize on this trend while adhering strictly to mandate limits, I am shifting 4% of the portfolio into GLD. Funding this position comes from reducing exposure to fixed income (TLT and LQD), which have shown weakness across short and medium-term horizons. Equities and CASH remain unchanged to maintain core market exposure and liquidity. Total turnover is 4%, well below the 15% limit.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

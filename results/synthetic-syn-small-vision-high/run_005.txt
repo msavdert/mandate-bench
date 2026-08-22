@@ -1,0 +1,3 @@
+
+
+{"analysis":"GLD's +13.95% 21D spike versus +1.53% 63D suggests near-term froth; trimming 1pt to take profit. QQQ is flat over 63D with 25.7% vol—underperforming on a risk basis—so I trim 1pt. TLT and LQD both lag over 63D; I ease TLT by 1pt while keeping LQD for its 5.3% vol ballast. EFA leads the 21D tape at +5.19% with moderate 15% vol, the best risk-adjusted signal, so I add 2pts. DBC adds modestly at +3.13% 21D from a light 3% base. SPY stays at 18%—solid 63D trend and near the 20% cap. CASH holds at 12% for a buffer above the 10% floor. Net turnover is ~3pp, well inside the 15pp limit.","target_weights":{"SPY":18,"QQQ":14,"IWM":5,"EFA":10,"EEM":4,"TLT":11,"LQD":8,"GLD":9,"DBC":4,"VNQ":5,"CASH":12}}

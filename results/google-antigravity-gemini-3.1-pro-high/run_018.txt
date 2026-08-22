@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) exhibits strong positive momentum across 5-day and 21-day horizons, warranting a greater allocation. I am increasing GLD by 5% to capture this trend. To fund this without exceeding turnover limits, I am trimming QQQ, which shows short-term weakness, by 3%, and reducing TLT by 2% given its persistent negative drift. The remaining portfolio is well-balanced. Cash remains at 12%, preserving liquidity and downside protection, while single instrument weights remain strictly under the 20% concentration limit.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 12,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 15,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

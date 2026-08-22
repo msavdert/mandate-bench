@@ -1,0 +1,3 @@
+
+
+{"analysis":"Current portfolio violates two hard rules: SPY at 28% exceeds the 20% cap, and CASH at 4% is below the 10% floor. Rebalancing is mandatory. I trim SPY to the 20% ceiling and raise CASH to 12% for a safety buffer. With remaining budget, I tilt toward positive-momentum names: EFA (+5.19% 21D), GLD (+13.95% 21D), DBC (+4.20% 5D), and EEM (+3.90% 21D) each get modest adds. I trim underperforming bonds TLT (-2.58% 63D) and LQD (-2.08% 63D), and shave QQQ (-2.41% 5D, -0.15% 63D). IWM and VNQ hold steady. Turnover is 12pp, within the 15pp limit.","target_weights":{"SPY":20,"QQQ":14,"IWM":5,"EFA":9,"EEM":5,"TLT":8,"LQD":5,"GLD":13,"DBC":4,"VNQ":5,"CASH":12}}

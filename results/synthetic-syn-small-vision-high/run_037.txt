@@ -1,0 +1,3 @@
+
+
+{"analysis": "Trim laggards, rotate into momentum. QQQ is the weakest equity (63D -0.15%, 5D -2.41%, 25.7% vol), so cut 15 to 12. TLT shows a persistent downtrend (63D -2.58%, 21D -1.35%), so reduce 12 to 10. Add to leaders: GLD has exceptional 21D (+13.95%) and 5D (+5.45%) momentum, raise 10 to 12 (modestly, given the surge and 26% vol). EFA is steady and low-vol (21D +5.19%), raise 8 to 9. IWM has the best 63D (+6.18%), raise 5 to 6. DBC has fresh 5D momentum (+4.20%), raise 3 to 4. SPY, EEM, LQD, VNQ, CASH (12%, above the 10% floor) unchanged. Total turnover 5pp, well within 15; no position exceeds 20%.", "target_weights": {"SPY": 18, "QQQ": 12, "IWM": 6, "EFA": 9, "EEM": 4, "TLT": 10, "LQD": 8, "GLD": 12, "DBC": 4, "VNQ": 5, "CASH": 12}}

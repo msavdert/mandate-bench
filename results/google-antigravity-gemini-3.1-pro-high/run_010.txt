@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) and broad commodities (DBC) exhibit strong short-term momentum, with GLD up nearly 14% over the last 21 days. Conversely, long-duration treasuries (TLT) and the Nasdaq-100 (QQQ) are showing relative weakness and negative momentum over recent periods. We rebalance slightly to capitalize on these trends by reducing exposure to QQQ and TLT, while increasing allocations to GLD and DBC. The adjustments are kept conservative to minimize turnover (5% total) while adhering strictly to all portfolio mandates, maintaining a 12% cash buffer and ensuring no single asset exceeds the 20% concentration limit.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 9,
+    "LQD": 8,
+    "GLD": 13,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

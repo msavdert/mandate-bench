@@ -1,0 +1,16 @@
+{
+  "analysis": "GLD and DBC show strong momentum over the 5D and 21D periods, suggesting a near-term commodity and safe-haven rotation. We reduce our Nasdaq-100 (QQQ) exposure by 3% given its recent 5D underperformance and elevated volatility, reallocating 2% to GLD and 1% to DBC. This capitalizes on the breakout while maintaining broad equity exposure. Cash remains at 12%, satisfying the mandate, and total turnover is minimal at 3%, well below the 15% ceiling.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 12,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 12,
+    "DBC": 4,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

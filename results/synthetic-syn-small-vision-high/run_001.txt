@@ -1,0 +1,3 @@
+
+
+{"analysis": "Trim weak long-duration exposure: TLT has lagged (-1.35% 21D, -2.58% 63D) and LQD is flat-to-negative, so reduce both. Rotate into relative strength: EFA shows the cleanest 21D momentum among equities (+5.19%), IWM leads large/mid/small on 63D (+6.18%), and GLD remains in uptrend (+13.95% 21D) but is held flat given its 26% vol and stretched run. Small adds to DBC (commodity firming) and EEM. Raise CASH 12 to 13 to keep dry powder against a mixed tape; QQQ trimmed modestly given chop. All hard constraints respected: CASH 13 >= 10, max single 18 <= 20, all non-negative, sum 100, turnover 9 pp <= 15.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 7, "EFA": 11, "EEM": 5, "TLT": 8, "LQD": 6, "GLD": 11, "DBC": 4, "VNQ": 4, "CASH": 13}}

@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) and broader commodities (DBC) show robust near-term momentum, with GLD up 13.95% over 21 days and DBC up 4.2% over 5 days. Conversely, long-duration treasuries (TLT) continue to trend downward with low volatility, and tech (QQQ) faces short-term weakness (-2.41% over 5 days). I am executing a minor shift (5% turnover) out of QQQ and TLT to increase exposure to GLD and DBC, capitalizing on the momentum in hard assets while reducing drag from underperforming bonds and volatile tech. The S&P 500 (SPY) position remains the core equity holding at 18%. Cash is maintained at 12% for defensive optionality, adhering strictly to mandate constraints.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 12,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 14,
+    "DBC": 4,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

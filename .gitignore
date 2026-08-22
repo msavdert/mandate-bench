@@ -1,0 +1,3 @@
+harness/_clauderun/
+*.tmp
+__pycache__/

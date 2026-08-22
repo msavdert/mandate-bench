@@ -1,0 +1,3 @@
+
+
+{"analysis":"Two hard violations must be fixed: SPY at 28% breaches the 20% cap and CASH at 4% is below the 10% floor. Trimming SPY to 20% and raising CASH to 10% resolves both. The 2% freed from SPY beyond the CASH top-up goes to IWM (strong 63D at +6.18%, low vol) and EFA (consistent 21D/63D outperformance, moderate vol). QQQ, GLD, TLT, LQD, EEM, DBC, and VNQ are held steady; GLD's 21D spike (+13.95%) is notable but 63D remains modest (+1.53%) and the 1D trend is still positive, so no trimming yet. Total turnover is 8pp, well within the 15pp limit.","target_weights":{"SPY":20,"QQQ":15,"IWM":6,"EFA":9,"EEM":4,"TLT":10,"LQD":6,"GLD":12,"DBC":3,"VNQ":5,"CASH":10}}

@@ -1,0 +1,3 @@
+
+
+{"analysis":"Gold shows exceptional 21D momentum (+13.95%) and 5D strength (+5.45%), warranting an add. EFA delivers consistent returns (+5.19% 21D) with low vol. QQQ lags on 5D (-2.41%) and 63D (-0.15%), so trim. Bonds (TLT, LQD) underperform on all horizons; reduce modestly. IWM benefits from 63D outperformance. DBC shows 5D commodity strength. VNQ is stagnant. Trim CASH to the 10% floor to deploy capital into relative winners. Total turnover is 8pp, well within the 15pp limit.","target_weights":{"SPY":18,"QQQ":13,"IWM":6,"EFA":10,"EEM":4,"TLT":10,"LQD":7,"GLD":14,"DBC":4,"VNQ":4,"CASH":10}}

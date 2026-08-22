@@ -1,0 +1,6 @@
+{
+  "consistent": false,
+  "contradictions": [
+    "Reasoning states estimated turnover is about 9 points, but computed turnover is 7.0 points."
+  ]
+}

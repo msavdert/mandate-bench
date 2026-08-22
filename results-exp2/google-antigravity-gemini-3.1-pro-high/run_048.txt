@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates the investment mandate: SPY allocation (28%) exceeds the 20% maximum limit, and CASH (4%) is below the 10% minimum threshold. To ensure compliance while respecting the 15% turnover limit, I am reducing SPY by 8% to exactly 20%. I allocate 6% of these proceeds to CASH to satisfy its 10% minimum requirement. The remaining 2% is deployed into GLD to capitalize on its strong short-term momentum (+13.95% over 21 days). This adjustment results in an 8% turnover, well within the 15% mandate limit, while maintaining the rest of the strategic portfolio allocation intact.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}

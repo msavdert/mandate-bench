@@ -1,0 +1,3 @@
+
+
+{"analysis":"Mandate violations require immediate correction: SPY at 28% breaches the 20% cap and CASH at 4% is below the 10% floor. I trim SPY to 20% and raise CASH to 10%. The remaining 2 points go to EFA, which shows the strongest 21-day momentum (+5.19%) among broad-equity ETFs with moderate volatility (15.14%), making it a reasonable incremental add. TLT and LQD remain underweight candidates given negative 63-day returns, but trimming them is deferred to limit turnover. GLD's extraordinary 21-day run (+13.95%) is noted but the position is held at 12% to avoid chasing. Total turnover is 8pp, well within the 15pp limit.", "target_weights":{"SPY":20,"QQQ":15,"IWM":5,"EFA":10,"EEM":4,"TLT":10,"LQD":6,"GLD":12,"DBC":3,"VNQ":5,"CASH":10}}

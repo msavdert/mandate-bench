@@ -1,0 +1,3 @@
+
+
+{"analysis":"Two hard-rule violations force action: SPY at 28% breaches the 20% cap, and CASH at 4% is below the 10% floor. I trim SPY to 20% and raise CASH to 14%, satisfying both constraints. With bonds underperforming (TLT -2.6% 63D, LQD -2.1%), I shave both modestly. QQQ's flat 63D return and -2.4% 5D dip justify a small trim. I add to IWM and EFA on their positive 21D momentum. GLD's 21D surge is strong but I hold at 12% rather than chase. Net effect: compliance-driven de-risking with a 14% cash buffer for future opportunities, well within the 15pp turnover limit.", "target_weights": {"SPY": 20, "QQQ": 13, "IWM": 6, "EFA": 9, "EEM": 4, "TLT": 9, "LQD": 5, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 14}}

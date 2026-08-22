@@ -1,0 +1,1 @@
+{"consistent": false, "contradictions": ["Reasoning states to trim LQD, but LQD weight was held flat at 8%."]}

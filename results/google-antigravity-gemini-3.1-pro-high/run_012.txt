@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) demonstrates exceptional short- and medium-term momentum (+13.95% over 21 days), warranting increased exposure. We increase GLD by 5% to capture this breakout. To fund this, we trim QQQ by 3% due to recent short-term weakness (-2.41% over 5 days) and reduce TLT by 2% given its persistent negative momentum across all timeframes. All other positions remain unchanged to minimize turnover. This reallocation results in a 5% turnover, remaining well within our 15% mandate limit. We maintain CASH at 12% to preserve optionality and ensure compliance with the minimum liquidity constraint.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 12,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 15,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

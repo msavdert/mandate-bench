@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) is exhibiting strong near-term momentum, up nearly 14% over the last 21 days. To capitalize on this trend while respecting our turnover limits, we increase GLD allocation by 5%. We fund this purchase by trimming Nasdaq-100 (QQQ) by 5%, which has shown recent weakness (-2.41% over 5 days) and elevated volatility. All other positions remain unchanged, preserving diversification across equities, fixed income, and real assets. Cash remains at 12%, ensuring liquidity and compliance with the minimum mandate. Total turnover for this rebalance is exactly 5%, well below our 15% limit.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 10,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 15,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

@@ -1,0 +1,1 @@
+{"consistent": false, "contradictions": ["Reasoning states CASH stays at 11%, but CASH decreased from 12% to 11%."]}

@@ -1,0 +1,3 @@
+
+
+{"analysis": "Momentum is broad in equities but concentrated; bonds are soft (TLT -1.35% over 21D, LQD -2.08% over 63D), so I trim duration. QQQ has flat 63D returns with high vol, so I take a small cut. GLD is strong (+13.95% over 21D); I add modestly rather than chase after that run. EFA combines positive 21D and 63D momentum with moderate vol, and IWM shows the best 63D return among core sleeves, so both get small adds. I raise CASH to 14% for a thicker buffer and add one point to SPY as the core anchor. Total gross trade is 6 percentage points, well inside the 15pp limit; largest position (SPY 19%) stays under the 20% cap.", "target_weights": {"SPY": 19, "QQQ": 14, "IWM": 6, "EFA": 10, "EEM": 4, "TLT": 9, "LQD": 7, "GLD": 11, "DBC": 3, "VNQ": 4, "CASH": 14}}

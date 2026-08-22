@@ -1,0 +1,3 @@
+
+
+{"analysis": "Current allocation breaches two hard rules: SPY at 28% (>20% cap) and CASH at 4% (<10% floor), so I cannot hold it. I trim SPY to the 20% cap and raise CASH to the 10% floor, funding that entirely from SPY (8pp out, 6pp to cash). I deploy the remaining 2pp into EFA, which shows solid risk-adjusted momentum (+5.2% 21D, +3.9% 63D, 15% vol) and adds international diversification without chasing the stretched GLD tape (+13.95% 21D). Bonds (TLT, LQD) remain weak on a 63D basis, so I leave them untouched. Turnover is 8.0pp, well inside the 15pp limit.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 10, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 10}}

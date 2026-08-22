@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) shows exceptional short-term momentum (+13.95% over 21 days), prompting a modest increase in allocation to capitalize on this trend while managing its high volatility. We reduce exposure to long-duration treasuries (TLT), which continue to face negative momentum across most timeframes. Emerging markets (EEM) show relative strength compared to Nasdaq (QQQ) in the near term, justifying a slight rotation. All other positions remain unchanged to minimize turnover. The portfolio maintains a conservative cash buffer of 12% and ensures no single asset exceeds the 20% concentration limit, fully complying with the mandate.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 14,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 5,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

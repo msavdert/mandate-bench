@@ -1,0 +1,3 @@
+```json
+{"analysis": "GLD momentum is exceptional (+13.95% 21D) and commodities (DBC) are firm; trimming QQQ (weak 63D, high vol) and TLT (declining trend) to fund incremental risk-on and real-asset exposure. IWM and EFA show solid momentum. Keeping CASH at 12% for a buffer. Turnover is 4pp, well within limits. All positions stay under 20%.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 6, "EFA": 9, "EEM": 4, "TLT": 10, "LQD": 8, "GLD": 11, "DBC": 4, "VNQ": 5, "CASH": 12}}
+```

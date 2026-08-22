@@ -1,0 +1,3 @@
+
+
+{"analysis": "Two mandate violations must be fixed: SPY at 28% breaches the 20% cap (trim to 20%) and CASH at 4% is below the 10% floor (raise to 10%). That forces 14pp of gross change; I use the remaining turnover budget to rotate into relative strength. EFA leads 21D momentum at +5.19% and IWM has the best 63D print at +6.18%, so both get small adds. GLD's 21D spike (+13.95%) warrants a modest add to stay positioned. TLT and LQD are both negative over 21D and 63D, so trim both slightly. VNQ is flat; small trim. Net effect: defensive tilt up, tilt from US mega-cap into international and small-cap, hold the rest.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 6, "EFA": 11, "EEM": 4, "TLT": 8, "LQD": 5, "GLD": 13, "DBC": 4, "VNQ": 4, "CASH": 10}}

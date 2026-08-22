@@ -1,0 +1,3 @@
+```json
+{"analysis": "SPY at 28% violates the 20% single-instrument cap and CASH at 4% violates the 10% minimum. I reduce SPY to 20% (the max allowed) and raise CASH to 10%, which addresses both breaches. This frees 8 points from SPY; 6 go to CASH and 2 are redeployed to IWM (+1) and GLD (+1), both showing positive momentum. GLD's 21D return of +13.95% and IWM's 63D +6.18% justify small additions. Turnover is 8pp, well under the 15pp limit. All other positions held steady given mixed signals.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 6, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 13, "DBC": 3, "VNQ": 5, "CASH": 10}}
+```

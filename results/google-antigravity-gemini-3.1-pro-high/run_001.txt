@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) is exhibiting strong near-term momentum (+13.95% over 21 days) with solid recent breakouts. We are increasing our GLD allocation by 3% to capitalize on this trend. To fund this and manage volatility, we are trimming our QQQ exposure by 3%, as it has shown recent weakness (-2.41% over 5 days) and high volatility (25.71%). The rest of the portfolio remains unchanged to maintain diversified core exposure while keeping turnover low. All mandate constraints are strictly respected, including a 12% allocation to cash and max position limits.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 12,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 13,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

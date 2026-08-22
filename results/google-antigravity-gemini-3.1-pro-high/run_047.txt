@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) and commodities (DBC) show strong recent momentum, with GLD up nearly 14% over the last 21 days. Conversely, tech (QQQ) has seen a short-term pullback and long-duration bonds (TLT) remain in a persistent downtrend. To capitalize on this relative strength while remaining well within our 15% turnover constraint, I am reallocating 3% from TLT and 2% from QQQ into GLD (+3%) and DBC (+2%). The portfolio maintains its defensive posture with 12% in CASH, satisfying the 10% minimum mandate. All position sizing limits are respected, with SPY remaining our largest equity allocation at 18%, safely below the 20% cap.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 9,
+    "LQD": 8,
+    "GLD": 13,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

@@ -1,0 +1,2 @@
+{"analysis": "GLD up 13.95% over 21 days is overextended; trimming 2pts to lock gains. TLT down 2.58% over 63 days with rising rate pressure; cutting 2pts. Redirecting into SPY (steady 3.73% 21D momentum) and EFA (5.19% 21D, diversified). Adding 2pts to CASH for dry powder, bringing it to 14%. Turnover is 4pts, well within limits. All positions under 20%, CASH above 10%.",
+"target_weights": {"SPY": 19, "QQQ": 15, "IWM": 5, "EFA": 9, "EEM": 4, "TLT": 10, "LQD": 8, "GLD": 8, "DBC": 3, "VNQ": 5, "CASH": 14}}

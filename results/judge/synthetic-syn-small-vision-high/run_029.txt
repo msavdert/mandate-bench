@@ -1,0 +1,8 @@
+```json
+{
+  "consistent": false,
+  "contradictions": [
+    "Stated turnover of ~2.5 points contradicts computed turnover of 5.0 points."
+  ]
+}
+```

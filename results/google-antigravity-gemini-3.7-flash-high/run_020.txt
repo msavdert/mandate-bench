@@ -1,0 +1,18 @@
+```json
+{
+  "analysis": "Gold (GLD) and broad commodities (DBC) exhibit strong momentum across medium- and short-term horizons, while developed international equities (EFA) outperform domestic tech on a relative basis. Long-term Treasuries (TLT) continue to trend downward with negative returns across multiple horizons, and Nasdaq (QQQ) faces near-term consolidation and elevated volatility. We increase allocations to GLD, DBC, and EFA to capture positive trend signals, trimming TLT, QQQ, and deploying surplus cash down to the mandatory 10% minimum buffer. All positions satisfy individual concentration limits and the portfolio turnover remains well within the 15% threshold.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 12,
+    "IWM": 5,
+    "EFA": 10,
+    "EEM": 4,
+    "TLT": 9,
+    "LQD": 8,
+    "GLD": 14,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}
+```

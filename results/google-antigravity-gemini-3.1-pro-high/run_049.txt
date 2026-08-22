@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) is exhibiting strong, sustained momentum across all timeframes (13.95% over 21 days), warranting a higher allocation. Broad commodities (DBC) are also showing constructive short-term trends. Conversely, long-duration treasuries (TLT) and corporate bonds (LQD) are lagging in the near term. I am reallocating 5% into GLD and 2% into DBC, funded by trims in QQQ, TLT, and LQD. This captures the prevailing momentum in real assets while strictly adhering to the 15% turnover limit, the 20% single-position cap, and maintaining a 12% cash buffer.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 5,
+    "GLD": 15,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

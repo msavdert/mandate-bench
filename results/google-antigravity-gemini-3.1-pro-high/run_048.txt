@@ -1,0 +1,16 @@
+{
+  "analysis": "Momentum is shifting towards precious metals and broad commodities. Gold (GLD) shows exceptional strength with a 13.95% return over 21 days, while DBC is also gaining traction. Conversely, tech (QQQ), emerging markets (EEM), and long-duration bonds (TLT) are displaying weakness and high volatility. I am executing a 6% turnover reallocation to capitalize on these trends, trimming QQQ, EEM, and TLT by 2% each to fund a 4% increase in GLD and a 2% increase in DBC. The portfolio remains well within risk mandates, maintaining cash at 12% and ensuring no single position exceeds the 20% concentration threshold. This defensively positions the portfolio against equity volatility while riding the current commodity uptrend.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 2,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 14,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

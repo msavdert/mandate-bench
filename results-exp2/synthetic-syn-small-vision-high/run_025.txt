@@ -1,0 +1,3 @@
+
+
+{"analysis": "SPY at 28% breaches the 20% cap; trimming to 19%. CASH at 4% is below the 10% floor; raising to 13% for dry powder. Adding to EFA (best 21D/63D risk-adjusted return) and GLD (exceptional 21D momentum) modestly. Trimming QQQ (high vol, negative 63D) and TLT (persistent underperformance). Keeping LQD as low-vol ballast, IWM for small-cap 63D strength. Turnover 14pp, within the 15pp limit.","target_weights":{"SPY":19,"QQQ":13,"IWM":6,"EFA":10,"EEM":4,"TLT":8,"LQD":6,"GLD":14,"DBC":3,"VNQ":4,"CASH":13}}

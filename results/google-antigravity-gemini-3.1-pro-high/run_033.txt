@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) is exhibiting strong short-to-medium term momentum, outperforming equities with a 13.95% gain over the last 21 days. Meanwhile, tech (QQQ) shows short-term weakness, dropping 2.41% over the last 5 days. To capitalize on this trend without violating our turnover constraints, I am shifting 2% of the portfolio from QQQ to GLD. All other positions remain unchanged, maintaining adequate diversification, a 12% cash buffer, and adherence to the 20% maximum single instrument rule.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

@@ -1,0 +1,3 @@
+
+
+{"analysis":"GLD shows exceptional momentum (+14% 21D, +5.5% 5D) warranting a meaningful add toward its 20% cap. QQQ underperforms (-0.15% 63D, -2.4% 5D) so I trim it. TLT and LQD are both negative over 63D with weak 21D trends, so I reduce duration exposure. EFA and DBC show solid building momentum; I add modestly to both. VNQ is flat-to-weak and I trim slightly. CASH drops from 12 to the 10% floor to fund the rotation into relative strength. SPY, IWM, EEM hold steady. Turnover is ~9pp, well within the 15pp limit.","target_weights":{"SPY":18,"QQQ":12,"IWM":5,"EFA":10,"EEM":4,"TLT":10,"LQD":7,"GLD":15,"DBC":5,"VNQ":4,"CASH":10}}

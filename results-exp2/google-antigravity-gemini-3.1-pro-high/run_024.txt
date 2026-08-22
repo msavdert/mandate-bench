@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two hard constraints: SPY weight is 28% (limit 20%) and CASH is 4% (minimum 10%). I must reduce SPY by 8% to comply with the maximum single-instrument limit and increase CASH by 6% to meet the minimum liquidity requirement. The remaining 2% from the SPY reduction is allocated to GLD, capitalizing on its strong short-term momentum (13.95% over 21 days). This results in a total turnover of 8%, well within the 15% maximum limit, and brings the portfolio into full compliance with the investment mandate.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}

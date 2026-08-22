@@ -1,0 +1,3 @@
+
+
+{"analysis": "Mostly a hold with modest de-risking. GLD is extended after +14% over three weeks and +5% over five days; chasing that run is poor risk/reward, so I trim 2pts to 8 and park the proceeds in CASH (12 to 14), keeping dry powder and a higher cash buffer. Equity momentum remains broad (IWM +6% 63D, EFA +5% 21D), so I leave equity sleeves untouched. Bonds have lagged (TLT -2.6% 63D) but remain low-vol ballast, so I hold. No single name exceeds 20%, CASH stays above 10%, and turnover is only ~2pts—well inside the 15pt limit.", "target_weights": {"SPY": 18, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 12, "LQD": 8, "GLD": 8, "DBC": 3, "VNQ": 5, "CASH": 14}}

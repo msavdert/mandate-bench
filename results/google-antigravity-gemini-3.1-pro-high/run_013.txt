@@ -1,0 +1,16 @@
+{
+  "analysis": "GLD demonstrates strong momentum across short and medium-term horizons, supported by robust relative performance. I am increasing GLD from 10% to 15% to capture this trend. To fund this within the 15% turnover limit, I am trimming exposure to TLT (from 12% to 9%), given its negative momentum over the 21D and 63D periods, and slightly reducing QQQ (15% to 13%) due to its recent short-term weakness and high volatility. The portfolio remains well-diversified, respects the 20% single-instrument cap, and maintains a 12% cash buffer, satisfying all mandate constraints with a low 5% turnover.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 9,
+    "LQD": 8,
+    "GLD": 15,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

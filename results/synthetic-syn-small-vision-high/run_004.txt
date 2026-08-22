@@ -1,0 +1,3 @@
+
+
+{"analysis": "GLD shows strong momentum (21D +13.95%, 5D +5.45%), signaling defensive/safe-haven demand; DBC echoes with 5D +4.20%. TLT underperforms (21D -1.35%, 63D -2.58%) and QQQ is flat over 63D, so trim both. Add to IWM (63D +6.18%) and EFA (21D +5.19%, solid relative strength with moderate vol). Raise CASH modestly to 13 as a buffer given mixed signals and elevated GLD volatility. Total trade ~12 points of gross weight change, well within the 15pp limit; all single-instrument caps and the 10% cash floor respected.", "target_weights": {"SPY": 17, "QQQ": 13, "IWM": 6, "EFA": 9, "EEM": 4, "TLT": 9, "LQD": 8, "GLD": 12, "DBC": 4, "VNQ": 5, "CASH": 13}}

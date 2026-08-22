@@ -1,0 +1,3 @@
+
+
+{"analysis": "Two hard-rule violations in the current book: SPY at 28% breaches the 20% cap and CASH at 4% is below the 10% floor. Both must be corrected. GLD is the standout (+14% over 21d, +5.5% over 5d) so I add modestly. QQQ shows fading momentum (-2.4% 5d, flat 63d); I trim. Bonds (TLT, LQD) remain weak (-2.6%, -2.1% 63d); I reduce both. EFA has solid 21d strength (+5.2%) and DBC is ticking up (+4.2% 5d), so I add to each. VNQ is flat; I trim slightly. The freed capital funds the CASH floor and the GLD/EFA/DBC adds. Turnover lands exactly at the 15 pp limit.", "target_weights": {"SPY": 20, "QQQ": 12, "IWM": 5, "EFA": 10, "EEM": 4, "TLT": 8, "LQD": 5, "GLD": 15, "DBC": 5, "VNQ": 4, "CASH": 12}}

@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) demonstrates strong short- and medium-term momentum (+13.95% 21D), making it an attractive position. To capitalize on this trend, I am reallocating 2% from TLT, which has exhibited sluggish, negative performance across multiple recent timeframes. The remainder of the portfolio is kept static to minimize turnover (2%), maintaining broad market diversification. All mandate requirements, including the 10% cash minimum and 20% instrument maximum, are fully met.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

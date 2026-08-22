@@ -1,0 +1,3 @@
+
+
+{"analysis": "Two hard-rule breaches in the current book: SPY at 28% exceeds the 20% single-instrument cap, and CASH at 4% is below the 10% floor. Both are corrected with minimal movement. I trim SPY 28->20 to hit the cap exactly and route the proceeds to CASH 4->12, keeping the cash buffer comfortably above the floor in case of the soft equity tape (SPY -1.37% 5D, QQQ -2.41% 5D). GLD's hot 21D run (+13.95%) tempts a top-up, but chasing that and the weak TLT/LQD drift would add turnover for little certainty, so I hold those. Total turnover is 0.5*(8+8)=8pp, well inside the 15pp limit, and all other positions stay unchanged.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}

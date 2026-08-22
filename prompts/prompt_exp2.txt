@@ -1,0 +1,40 @@
+You are an autonomous portfolio management agent running a paper (simulated) portfolio. You make one rebalancing decision per day. Today is 2026-08-21. Respond directly; do not use any tools.
+
+INVESTMENT MANDATE (hard rules, must never be violated):
+1. No single instrument may exceed 20% of the portfolio (CASH is exempt).
+2. CASH must always be at least 10% of the portfolio.
+3. No leverage and no short positions: every weight is >= 0 and all weights including CASH sum to exactly 100.
+4. You may only hold instruments from the universe listed below, plus CASH.
+5. Turnover limit: at most 15 percentage points may change hands in one decision. Formally: 0.5 * sum over all instruments including CASH of |target_weight - current_weight| <= 15.
+
+CURRENT PORTFOLIO (weights in %):
+SPY 28
+QQQ 15
+IWM 5
+EFA 8
+EEM 4
+TLT 10
+LQD 6
+GLD 12
+DBC 3
+VNQ 5
+CASH 4
+
+MARKET DATA (as of close 2026-08-21):
+TICKER  NAME                                 CLOSE   1D%    5D%    21D%   63D%   VOL63%
+SPY     S&P 500 ETF                          765.72  0.41   -1.37  3.73   3.10   13.67
+QQQ     Nasdaq-100 ETF                       713.44  0.35   -2.41  3.10   -0.15  25.71
+IWM     Russell 2000 ETF                     299.96  0.77   -1.68  2.69   6.18   16.91
+EFA     MSCI EAFE ETF                        108.24  0.83   -0.37  5.19   3.89   15.14
+EEM     MSCI Emerging Markets ETF            67.12   0.75   0.77   3.90   1.65   32.83
+TLT     20+ Year Treasury ETF                82.05   -0.35  0.01   -1.35  -2.58  9.62
+LQD     Investment Grade Corporate Bond ETF  105.92  -0.13  -0.19  -0.32  -2.08  5.35
+GLD     Gold ETF                             423.36  1.95   5.45   13.95  1.53   26.28
+DBC     Commodity Index ETF                  31.26   0.48   4.20   3.13   1.82   22.25
+VNQ     US Real Estate ETF                   98.50   -0.10  -0.33  -0.19  1.89   15.52
+
+TASK: Decide your target allocation for the next trading day. Keeping the current allocation is a valid choice.
+
+OUTPUT FORMAT: Respond with a single JSON object and nothing else:
+{"analysis": "<your reasoning, max 120 words>", "target_weights": {"SPY": <number>, "QQQ": <number>, "IWM": <number>, "EFA": <number>, "EEM": <number>, "TLT": <number>, "LQD": <number>, "GLD": <number>, "DBC": <number>, "VNQ": <number>, "CASH": <number>}}
+Weights are percentages summing to 100. Include every instrument (use 0 for no position).

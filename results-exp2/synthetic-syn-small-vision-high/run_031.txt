@@ -1,0 +1,3 @@
+
+
+{"analysis":"SPY (28%) and CASH (4%) breach mandate limits (max 20% single instrument, min 10% cash), forcing a mandatory rebalance. I trim SPY to 20% and raise CASH to 10%. GLD shows exceptional 21D momentum (+13.95%) and 5D strength (+5.45%), warranting a build to 15%. EFA's +5.19% 21D performance supports a modest add to 10%. QQQ is flat over 63D with elevated vol (25.71%), so I trim to 13%. Weak bond trends (TLT -2.58%, LQD -2.08% over 63D) justify trimming both. IWM's +6.18% 63D return earns a small add. Net turnover is 13 pp, within the 15 pp cap.","target_weights":{"SPY":20,"QQQ":13,"IWM":6,"EFA":10,"EEM":4,"TLT":8,"LQD":5,"GLD":15,"DBC":4,"VNQ":5,"CASH":10}}

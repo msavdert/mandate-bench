@@ -1,0 +1,3 @@
+
+
+{"analysis": "Core equity sleeve is within limits and roughly balanced, so I leave it untouched. The only adjustment is a small momentum rotation: gold is the standout (21D +13.95%, 5D +5.45%, 1D +1.95%) while long-duration Treasuries remain the weakest holding (63D -2.58%, 21D -1.35%). I trim TLT 12 to 10 and add the freed 2 points to GLD 10 to 12, keeping a defensive tilt without chasing. CASH holds at 12 (above the 10% floor), no instrument exceeds 20% (SPY max at 18), all weights non-negative and sum to 100. Turnover is minimal: 0.5*(2+2) = 2pp, well under the 15pp cap.", "target_weights": {"SPY": 18, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 8, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}

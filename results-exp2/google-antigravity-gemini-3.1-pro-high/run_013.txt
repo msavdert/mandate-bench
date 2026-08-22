@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two strict mandate rules: SPY exceeds the 20% maximum single-instrument limit at 28%, and CASH is below the 10% minimum at 4%. To restore compliance while minimizing turnover, I am reducing SPY by 8% to hit the 20% ceiling. The proceeds are directed to meet the CASH minimum (increasing it by 6% to 10%) and adding the remaining 2% to GLD to capitalize on its strong recent momentum and diversification benefits. Total turnover is 8%, well within the 15% limit. All other positions are maintained as they are within limits.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 10
+  }
+}

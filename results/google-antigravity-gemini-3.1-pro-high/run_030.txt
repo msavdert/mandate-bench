@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) and commodities (DBC) are displaying strong near-term momentum, with GLD up nearly 14% over the last month. Concurrently, long-duration treasuries (TLT) continue to show weakness and negative trends across 21-day and 63-day periods. To capitalize on this divergence while managing portfolio risk, I am executing a minor rebalance. I am reducing exposure to TLT and the highly volatile QQQ, reallocating those funds to increase positions in GLD and DBC. This captures the prevailing commodity momentum while maintaining a defensive cash buffer of 12% and adhering to the 15% turnover constraint. Equities remain diversified across large-cap and international exposures.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 13,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 8,
+    "LQD": 8,
+    "GLD": 14,
+    "DBC": 5,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

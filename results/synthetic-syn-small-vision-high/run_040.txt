@@ -1,0 +1,3 @@
+
+
+{"analysis":"GLD shows exceptional momentum (+13.95% 21D, +5.45% 5D) warranting a modest add. EFA also strong (+5.19% 21D). QQQ is underperforming (negative 63D, high vol 25.71%) and bonds (TLT, LQD) have been weak over both 21D and 63D horizons. Trimming laggards to fund momentum winners and maintaining a healthy cash buffer. Changes are small and measured, preserving the diversified structure while tilting toward recent relative strength. Turnover is minimal at 4pp.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 5, "EFA": 9, "EEM": 4, "TLT": 11, "LQD": 7, "GLD": 12, "DBC": 4, "VNQ": 5, "CASH": 12}}

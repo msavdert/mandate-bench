@@ -1,0 +1,3 @@
+
+
+{"analysis": "Gold shows the strongest momentum in the universe: +13.95% over 21 days and +5.45% over 5 days, so I add to GLD. QQQ has negative 63-day return (-0.15%) and the worst 5-day slide (-2.41%) at high volatility, so I trim it. TLT has negative 21- and 63-day trends, warranting a modest cut. IWM shows the best equity momentum at moderate volatility (+6.18% 63-day), so I add slightly. EFA's positive trend justifies holding. Core SPY, LQD, EEM, DBC and VNQ are unchanged, and CASH stays at 12% to preserve the buffer. Total turnover is ~4 points, well within limits; all weights respect the 20% cap and 10% cash floor.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 6, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 8, "GLD": 13, "DBC": 3, "VNQ": 5, "CASH": 12}}

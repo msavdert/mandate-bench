@@ -1,0 +1,16 @@
+{
+  "analysis": "The current portfolio violates two hard mandates: SPY exceeds the 20% maximum limit at 28%, and CASH is below the 10% minimum at 4%. To immediately correct these violations while respecting the 15% turnover constraint, I am selling 8% of SPY to bring it down to the 20% maximum. The proceeds are allocated entirely to CASH, raising it to 12%, which satisfies the 10% minimum. Total turnover for this rebalance is exactly 8%, well within the 15% limit. All other positions remain unchanged.",
+  "target_weights": {
+    "SPY": 20,
+    "QQQ": 15,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 12,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

@@ -1,0 +1,3 @@
+
+
+{"analysis":"Two hard-rule violations require immediate correction: SPY at 28% exceeds the 20% single-instrument cap, and CASH at 4% is below the 10% floor. I reduce SPY to 20% (freeing 8pp) and raise CASH to 10% (absorbing 6pp). The remaining 2pp goes to GLD, which shows the strongest 21-day momentum in the portfolio (+13.95%) and a reasonable 63-day return. All other positions are left unchanged to keep turnover minimal (8pp, well within the 15pp limit). TLT and LQD underperform over 63D but I avoid trimming them today to stay focused on fixing the structural breaches without compounding changes.","target_weights":{"SPY":20,"QQQ":15,"IWM":5,"EFA":8,"EEM":4,"TLT":10,"LQD":6,"GLD":14,"DBC":3,"VNQ":5,"CASH":10}}

@@ -1,0 +1,3 @@
+```json
+{"analysis": "GLD shows strong momentum (+13.95% 21D) while QQQ (-2.41% 5D, -0.15% 63D) and TLT (-2.58% 63D) lag. Trimming QQQ and TLT to fund GLD and DBC additions aligns with trend signals. CASH at 12% satisfies the 10% floor. Turnover is 3pp, well within limits. Equities remain diversified across large-cap, small-cap, and international; bond duration is reduced but not abandoned. Defensive posture maintained with elevated cash.", "target_weights": {"SPY": 18, "QQQ": 13, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 11, "LQD": 8, "GLD": 12, "DBC": 4, "VNQ": 5, "CASH": 12}}
+```

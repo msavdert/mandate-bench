@@ -1,0 +1,16 @@
+{
+  "analysis": "GLD demonstrates exceptional momentum, returning 13.95% over the past 21 days and outperforming all other asset classes. I am reallocating capital to capture this trend by increasing GLD from 10% to 15%. I am also rotating slightly out of underperforming assets, specifically reducing exposure to QQQ (weak short-term momentum), TLT, and LQD (negative medium-term fixed income trends). EFA is bumped up to capture relative international equity strength. Cash remains at 12% to preserve a buffer and meet mandate requirements. The total turnover is 7%, well within the 15% limit, and no single asset exceeds the 20% concentration ceiling.",
+  "target_weights": {
+    "SPY": 18,
+    "QQQ": 12,
+    "IWM": 5,
+    "EFA": 10,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 6,
+    "GLD": 15,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

@@ -1,0 +1,3 @@
+
+
+{"analysis":"Two hard-rule violations must be corrected: SPY at 28% exceeds the 20% cap, and CASH at 4% is below the 10% floor. I trim SPY to 20% and raise CASH to 10%. The freed 2% goes to EFA, the strongest 21-day momentum in the diversified sleeve (+5.19%). TLT and LQD show persistent weakness (63D: -2.58%, -2.08%) but I hold them steady to keep turnover minimal. GLD's +13.95% 21-day surge is notable but the 12% weight is comfortable under the cap and 63-day return (+1.53%) suggests no blow-off. Turnover: 0.5*(8+6+2)=8, well under 15.","target_weights":{"SPY":20,"QQQ":15,"IWM":5,"EFA":10,"EEM":4,"TLT":10,"LQD":6,"GLD":12,"DBC":3,"VNQ":5,"CASH":10}}

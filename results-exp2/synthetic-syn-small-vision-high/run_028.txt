@@ -1,0 +1,3 @@
+
+
+{"analysis":"Two hard-rule violations must be corrected: SPY at 28% exceeds the 20% cap, and CASH at 4% is below the 10% floor. Trimming SPY to 20 and CASH to 14 fixes both. Tilts reflect 21-day momentum: GLD (+13.95%) and DBC (+3.13%) show strength, so small adds. QQQ (-2.41% 5D, -0.15% 63D) and bond proxies TLT/LQD (negative 21D and 63D) are trimmed. IWM and EFA earn small adds on solid 63D returns. Total one-way turnover is exactly 30pp (half-turnover 15), at the limit.", "target_weights": {"SPY": 20, "QQQ": 12, "IWM": 6, "EFA": 9, "EEM": 4, "TLT": 8, "LQD": 5, "GLD": 14, "DBC": 4, "VNQ": 4, "CASH": 14}}

@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) is exhibiting strong near-term momentum (+13.95% 1M, +5.45% 1W), warranting an increased allocation to capture the trend. I am reallocating 8% of the portfolio into GLD, funded by trimming positions in QQQ (-4%), SPY (-2%), and TLT (-2%), which have shown recent short-term weakness or stagnation. This tactical shift respects all mandate constraints: maximum single instrument weight stays under 20% (highest is GLD at 18%), CASH remains compliant at 12%, and total turnover for this rebalance is 8%, well below the strict 15% limit.",
+  "target_weights": {
+    "SPY": 16,
+    "QQQ": 11,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 10,
+    "LQD": 8,
+    "GLD": 18,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

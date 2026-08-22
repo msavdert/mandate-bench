@@ -1,0 +1,1 @@
+{"consistent": false, "contradictions": ["Stated turnover of 3.5pp conflicts with computed turnover of 4.0 pts"]}

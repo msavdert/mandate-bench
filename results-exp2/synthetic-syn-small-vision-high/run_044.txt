@@ -1,0 +1,3 @@
+
+
+{"analysis": "The current allocation breaches two hard rules: SPY at 28% exceeds the 20% single-instrument cap, and CASH at 4% is below the 10% floor. This decision corrects both: SPY down to 20, CASH up to 14. GLD, up roughly 14% over three weeks and 5.5% in five days, is stretched, so I trim 2 points to take profit into CASH alongside the 8-point SPY de-risk. Equities have pulled back over five days (QQQ -2.41%) while TLT and LQD remain negative over three months, so holding 14% dry powder is the balanced stance. All other weights are unchanged. Total turnover is 10pp, within the 15pp limit.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 10, "DBC": 3, "VNQ": 5, "CASH": 14}}

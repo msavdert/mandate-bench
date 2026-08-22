@@ -1,0 +1,3 @@
+
+
+{"analysis":"Two hard violations must be fixed: SPY at 28% exceeds the 20% cap, and CASH at 4% is below the 10% floor. I trim SPY to 20% (releasing 8 pp) and raise CASH to 12% (absorbing all 8 pp, giving a 2 pp buffer over the minimum). No other changes: GLD's 21-day surge (+13.95%) is strong but I avoid chasing at 26% vol; TLT/LQD are soft but low-vol diversifiers; EFA and IWM show decent momentum and are already sized. Turnover is 0.5*(8+8)=8 pp, well under the 15 pp limit. Minimal intervention preserves the existing risk budget.", "target_weights":{"SPY":20,"QQQ":15,"IWM":5,"EFA":8,"EEM":4,"TLT":10,"LQD":6,"GLD":12,"DBC":3,"VNQ":5,"CASH":12}}

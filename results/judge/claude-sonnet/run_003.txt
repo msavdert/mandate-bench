@@ -1,0 +1,8 @@
+```json
+{
+  "consistent": false,
+  "contradictions": [
+    "Reasoning states CASH is being raised slightly, but CASH remains unchanged at 12 (delta +0)."
+  ]
+}
+```

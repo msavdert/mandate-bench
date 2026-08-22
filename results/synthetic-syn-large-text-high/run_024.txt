@@ -1,0 +1,3 @@
+```json
+{"analysis": "GLD shows exceptional momentum (+13.95% 21D, +5.45% 5D) — modestly increasing. TLT continues declining (-2.58% 63D) — trimming. IWM has strong 63D (+6.18%) with reasonable vol — small add. QQQ is weak (-0.15% 63D) and volatile (25.71%) — slight trim. Keeps CASH at 12%, all positions under 20%, turnover minimal at ~4pp.", "target_weights": {"SPY": 18, "QQQ": 14, "IWM": 6, "EFA": 8, "EEM": 4, "TLT": 11, "LQD": 8, "GLD": 11, "DBC": 3, "VNQ": 5, "CASH": 12}}
+```

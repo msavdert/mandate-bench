@@ -1,0 +1,3 @@
+
+
+{"analysis":"Trim bonds (TLT 12→10) and underperforming QQQ (15→13) given negative 21D/63D returns. Deploy proceeds into EFA (8→10), the best 21D equity performer at moderate vol, and DBC (3→5) on 5D commodity momentum. Hold GLD at 10% despite strong 21D rally to avoid chasing. CASH steady at 12%, above the 10% floor. Turnover: 0.5*(2+2+2+2)=4pp, well under the 15pp limit. No weight exceeds 20%.", "target_weights":{"SPY":18,"QQQ":13,"IWM":5,"EFA":10,"EEM":4,"TLT":10,"LQD":8,"GLD":10,"DBC":5,"VNQ":5,"CASH":12}}

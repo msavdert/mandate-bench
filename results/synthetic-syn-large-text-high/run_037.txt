@@ -1,0 +1,3 @@
+```json
+{"analysis": "GLD shows exceptional momentum (+13.95% 21D, +1.95% 1D) and DBC is strengthening (+4.20% 5D). I trim TLT (-2.58% 63D, declining) and QQQ (-2.41% 5D, momentum stalling) to fund increases in GLD and DBC. SPY remains core at 18%. CASH stays at 12%, above the 10% floor. Turnover is 5pp, well within the 15pp limit.", "target_weights": {"SPY": 18, "QQQ": 12, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 8, "GLD": 13, "DBC": 5, "VNQ": 5, "CASH": 12}}
+```

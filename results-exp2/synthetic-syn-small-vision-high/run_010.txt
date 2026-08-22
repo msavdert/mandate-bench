@@ -1,0 +1,3 @@
+
+
+{"analysis": "Current holdings breach two mandate rules: SPY at 28% exceeds the 20% cap and CASH at 4% is below the 10% floor, so corrective action is mandatory. I trim SPY to 20% and fund the CASH floor from there. TLT is underperforming (21D -1.35%, 63D -2.58%), so I trim it modestly to 7%, keeping LQD for credit exposure. Momentum is strongest in commodities and gold (GLD 21D +13.95%, DBC 5D +4.20%); I add 2pp to DBC. Equity and EM sleeves stay intact given positive 21D trends. Total turnover is 0.5*(8+3+2+9)=11pp, within the 15pp limit, leaving CASH at a comfortable 13% buffer.", "target_weights": {"SPY": 20, "QQQ": 15, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 7, "LQD": 6, "GLD": 12, "DBC": 5, "VNQ": 5, "CASH": 13}}

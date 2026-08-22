@@ -1,0 +1,16 @@
+{
+  "analysis": "Gold (GLD) exhibits strong medium-term momentum, up 13.95% over the past 21 days, offering diversification against equity volatility. Tech equities (QQQ) display recent weakness (-2.41% over 5 days) and elevated volatility (25.71%), prompting a slight reduction in exposure. The broad market (SPY) is trimmed marginally to fund the GLD increase. The rest of the portfolio remains unchanged to preserve a balanced allocation across asset classes while strictly adhering to the 15% turnover limit and keeping CASH safely above the 10% minimum mandate.",
+  "target_weights": {
+    "SPY": 17,
+    "QQQ": 12,
+    "IWM": 5,
+    "EFA": 8,
+    "EEM": 4,
+    "TLT": 12,
+    "LQD": 8,
+    "GLD": 14,
+    "DBC": 3,
+    "VNQ": 5,
+    "CASH": 12
+  }
+}

@@ -1,0 +1,3 @@
+
+
+{"analysis":"Trimming weak-momentum bonds (TLT -2%, LQD -1%) and underperforming QQQ (-2%, 63D flat) to fund strong-momentum GLD (+2%, 21D +13.95%, 5D +5.45%) and EFA (+1%, 21D +5.19%, 63D +3.89%). Adding slight DBC exposure (+1%, 5D +4.20%) on commodity strength. CASH raised to 13% for flexibility. SPY, IWM, EEM, VNQ held on mixed signals. All positions under 20% cap. Total turnover 5pp, well within 15pp limit. Tilts toward sustained multi-week momentum while preserving bond ballast and cash buffer.","target_weights":{"SPY":18,"QQQ":13,"IWM":5,"EFA":9,"EEM":4,"TLT":10,"LQD":7,"GLD":12,"DBC":4,"VNQ":5,"CASH":13}}

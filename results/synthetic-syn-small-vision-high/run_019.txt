@@ -1,0 +1,3 @@
+
+
+{"analysis":"Bonds (TLT -1.35% 21D, -2.58% 63D) remain under pressure; trimming 2pp to CASH as a buffer. EFA is a consistent outperformer (+5.19% 21D, +3.89% 63D, low 15.1% vol) — add 1pp. DBC shows fresh momentum (+4.20% 5D); add 1pp. QQQ softening (5D -2.41%, 63D -0.15%); trim 1pp. GLD's 21D surge (+13.95%) is noted but held flat at 10% as the portfolio's hedge; no chase. Overall: modest rotation from lagging long-duration bonds and soft tech into international equities, commodities, and cash.", "target_weights":{"SPY":18,"QQQ":14,"IWM":5,"EFA":9,"EEM":4,"TLT":10,"LQD":8,"GLD":10,"DBC":4,"VNQ":5,"CASH":13}}

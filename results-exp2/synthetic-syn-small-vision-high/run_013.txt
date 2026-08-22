@@ -1,0 +1,3 @@
+
+
+{"analysis":"SPY at 28% violates the 20% cap; CASH at 4% violates the 10% floor. Both must be corrected, using 14 of the 30-point turnover budget. I reduce SPY to 20 and raise CASH to 11 for a safety buffer. TLT and LQD show consistent 63-day decline, so I trim them. EFA has the strongest 21-day momentum among equities (+5.19%) with moderate volatility, warranting an increase. GLD's 21-day surge (+13.95%) is notable but high volatility argues for a modest trim. IWM and DBC get small adds on relative strength. QQQ's flat 63-day return and high volatility justify holding rather than adding. Net turnover is 12 points, within the 15 limit.","target_weights":{"SPY":20,"QQQ":15,"IWM":6,"EFA":11,"EEM":4,"TLT":8,"LQD":5,"GLD":11,"DBC":4,"VNQ":5,"CASH":11}}

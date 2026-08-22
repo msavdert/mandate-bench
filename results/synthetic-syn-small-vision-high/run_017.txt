@@ -1,0 +1,3 @@
+
+
+{"analysis": "Momentum favors EFA (best 21D risk-adjusted trend) and GLD (strong +13.95% 21D), so small adds there. QQQ is stagnant over 63D (-0.15%) with the highest volatility (25.7%), and TLT is the weakest fixed income on 63D (-2.58%); trim both. SPY gets a small add for its consistent positive trends. Keep LQD as a stable low-vol anchor, hold IWM/EEM/DBC/VNQ, and retain CASH at 12% for optionality. Total turnover ~3pp, well within limits; all weights respect the 20% cap and 10% cash floor.", "target_weights": {"SPY": 19, "QQQ": 13, "IWM": 5, "EFA": 9, "EEM": 4, "TLT": 11, "LQD": 8, "GLD": 11, "DBC": 3, "VNQ": 5, "CASH": 12}}

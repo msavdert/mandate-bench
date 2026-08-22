@@ -1,0 +1,3 @@
+
+
+{"analysis":"Current portfolio violates mandate: SPY at 28% exceeds 20% cap, CASH at 4% below 10% floor. Correcting both (SPY to 20, CASH to 10) uses 14pp of the 30pp absolute-change budget. Remaining room funds a modest rotation: trim QQQ (flat 63D, 25.7% vol) and TLT (negative 21D/63D) into EFA (best 21D at +5.19%, 15.1% vol) and IWM (+6.18% 63D, 16.9% vol). Hold GLD at 12% despite the +13.95% 21D surge; momentum is real but chasing risk is elevated. Keep LQD/DBC/VNQ unchanged. Total turnover 12pp, within the 15pp limit.","target_weights":{"SPY":20,"QQQ":13,"IWM":8,"EFA":11,"EEM":4,"TLT":8,"LQD":6,"GLD":12,"DBC":3,"VNQ":5,"CASH":10}}

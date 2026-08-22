@@ -1,0 +1,3 @@
+```json
+{"analysis": "Momentum favors hard assets: GLD +13.95% 21D and DBC +4.20% 5D, while duration (TLT -2.58% 63D, LQD -2.08% 63D) lags and QQQ shows weak 63D momentum with high 25.7% vol. Overweighting gold/commodities improves risk-adjusted trend capture. Trimming QQQ, TLT, and LQD funds GLD to 15% and DBC to 5% — all under the 20% cap, CASH stays 12% (>=10%), turnover is 7 pts (<=15). Equities remain core via SPY/EFA/IWM with positive 21D trends.", "target_weights": {"SPY": 18, "QQQ": 12, "IWM": 5, "EFA": 8, "EEM": 4, "TLT": 10, "LQD": 6, "GLD": 15, "DBC": 5, "VNQ": 5, "CASH": 12}}
+```

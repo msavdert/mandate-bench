@@ -1,0 +1,3 @@
+
+
+{"analysis":"Mandate compliance forces two corrections: SPY at 28% exceeds the 20% cap, and CASH at 4% is below the 10% floor. I trim SPY to 20% and raise CASH to 13%, keeping dry powder. 63-day data favors IWM (+6.2%) and EFA (+3.9%) over TLT (-2.6%) and LQD (-2.1%), so I add modestly to the former and trim the bonds. DBC gets a small add on 5-day momentum (+4.2%). GLD's 21-day surge (+14%) is noted but I hold rather than chase at 12% given 26% volatility. QQQ trimmed slightly on flat 63-day return. VNQ trimmed on persistent weakness. Turnover lands at 13 pp, within the 15 pp limit.","target_weights":{"SPY":20,"QQQ":14,"IWM":6,"EFA":10,"EEM":4,"TLT":8,"LQD":5,"GLD":12,"DBC":4,"VNQ":4,"CASH":13}}

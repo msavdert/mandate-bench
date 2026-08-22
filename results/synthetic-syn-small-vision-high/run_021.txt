@@ -1,0 +1,3 @@
+
+
+{"analysis": "Gold momentum is exceptional (21D +13.95%, 5D +5.45%, 1D +1.95%) so I add GLD from 10 to 12. Funding comes from TLT, the weakest link (21D -1.35, 63D -2.58), trimmed 12 to 10, and QQQ, soft over 63D (-0.15) and 5D (-2.41), trimmed 15 to 14. The freed QQQ point goes to EFA, the best risk-adjusted equity (21D +5.19, 63D +3.89, lowest equity vol at 15.14). LQD, DBC, IWM, EEM, VNQ held. Turnover is 3.0 percentage points (0.5*sum|delta| = 3), far under the 15 cap. CASH stays at 12%, above the 10% floor; SPY at 18% is under the 20% cap. All constraints satisfied.", "target_weights": {"SPY": 18, "QQQ": 14, "IWM": 5, "EFA": 9, "EEM": 4, "TLT": 10, "LQD": 8, "GLD": 12, "DBC": 3, "VNQ": 5, "CASH": 12}}
