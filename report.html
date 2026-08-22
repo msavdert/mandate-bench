@@ -173,22 +173,22 @@
 
 <div class="wrap">
 <header class="hero">
-  <span class="eyebrow">Benchmark report · v0.1 · 2026-08-21</span>
+  <span class="eyebrow">Benchmark report · v0.1 + 5-day replication · 2026-08-21</span>
   <h1>Mandate Bench</h1>
-  <p class="standfirst">What LLM trading agents actually do when you give them rules: measured on 610 identical portfolio decisions across six models &mdash; behavior, not returns.</p>
+  <p class="standfirst">What LLM trading agents actually do when you give them rules: measured on 1,260 identical portfolio decisions across six models and six market days &mdash; behavior, not returns.</p>
   <div class="hero-meta">
-    <span>6 models</span><span>610 decisions</span><span>300 audited rationales</span><span>~$1 marginal cost</span><span>pre-registered criteria</span>
+    <span>6 models</span><span>6 market days</span><span>1,260 decisions</span><span>300 audited rationales</span><span>~$3 marginal cost</span><span>pre-registered criteria</span>
   </div>
 </header>
 
 <section class="findings" aria-label="Headline findings">
   <div class="finding crit">
     <span class="big">4% &rarr; 70%</span>
-    <span class="label">Claude Sonnet 5 repaired a rule-breaking portfolio in 4% of runs inside a coding-agent harness &mdash; and 70% with a one-line system prompt. The harness, not the model, caused the blindness.</span>
+    <span class="label">Claude Sonnet 5 repaired a rule-breaking portfolio in 4% of runs inside a coding-agent harness &mdash; and 70% with a one-line system prompt. The harness, not the model, caused the blindness. A pre-registered five-day replication confirms the gap and shows it swings 0&ndash;90% with market context.</span>
   </div>
   <div class="finding">
     <span class="big">2.7&times;</span>
-    <span class="label">Same prompt, 50 runs: every model gives different portfolios each time, and models differ 2.7&times; in how scattered their decisions are.</span>
+    <span class="label">Same prompt, 50 runs: every model gives different portfolios each time, and models differ 2.7&times; in how scattered their decisions are (3.1&times; pooled over the five replication days).</span>
   </div>
   <div class="finding">
     <span class="big">1 in 10</span>
@@ -205,7 +205,7 @@
     <b>R3</b> no leverage or shorts, weights sum to 100 &nbsp;·&nbsp; <b>R4</b> universe only<br>
     <b>R5</b> at most 15 points of turnover per decision
   </div>
-  <p>Six models ran the task 50 times each, per experiment: Claude Sonnet 5, Gemini 3.1 Pro, Gemini 3.7 Flash, GLM-5.2, Kimi-K3, and Qwen3.6-27B. Success criteria were written down before any run.</p>
+  <p>Six models ran the task 50 times each, per experiment: Claude Sonnet 5, Gemini 3.1 Pro, Gemini 3.7 Flash, GLM-5.2, Kimi-K3, and Qwen3.6-27B. Success criteria were written down before any run. A replication over five additional market days (N=10 per model per day, 650 further decisions, criteria again pre-registered before running) was added the same week; its results are folded into each section below.</p>
 </section>
 
 <section class="prose">
@@ -229,6 +229,24 @@
   <p>Five models noticed and repaired the violations in 96&ndash;100% of runs &mdash; including a 27B open-weights model. Claude Sonnet 5, run through <code>claude -p</code> inside the Claude Code harness, repaired 4%. Its median run left SPY at exactly 28, untouched, while writing things like:</p>
   <blockquote>&ldquo;Portfolio is well-diversified and within mandate limits.&rdquo;<span class="src">claude-sonnet run_001, target SPY = 28 (cap 20), cash = 10</span></blockquote>
   <p>That is hallucinated compliance, not deliberate tolerance. The control condition isolates the cause: the identical model and prompt, with the coding-assistant system prompt swapped for the same one-line role prompt the other models got, repairs 7 of 10 runs and fixes the cash floor in 10 of 10. <strong>The dominant variable is the surrounding harness context, not the base model.</strong> If you run an agent inside a large general-purpose scaffold, its ability to check numbers against rules can quietly degrade &mdash; that is directly actionable for anyone building agents.</p>
+
+  <p>The replication reran this task on five other market days (N=10 per condition per day) and added its own finding: the blindness <em>comes and goes with market context</em>. Pooled, the gap replicates cleanly &mdash; 34% in-harness vs 98&ndash;100% one-shot and 76% control, passing all three pre-registered criteria &mdash; but the per-day harness rate swings from 0% to 90%. The original 4% day sits near the bad end of a wide, state-dependent range, which makes the failure mode worse news, not better: it is intermittent, so a spot-check can miss it.</p>
+
+  <figure>
+    <figcaption><strong>Replication: full-repair rate by market day</strong> &mdash; N=10 per cell</figcaption>
+    <div class="tablebox"><table>
+      <thead><tr><th>Market day</th><th>Claude in harness</th><th>Claude, minimal prompt</th><th>Five one-shot models</th></tr></thead>
+      <tbody>
+        <tr><td>2026-08-14</td><td class="num"><span class="pill crit">20%</span></td><td class="num">90%</td><td class="num">90&ndash;100%</td></tr>
+        <tr><td>2026-08-17</td><td class="num"><span class="pill crit">60%</span></td><td class="num">90%</td><td class="num">100%</td></tr>
+        <tr><td>2026-08-18</td><td class="num"><span class="pill crit">0%</span></td><td class="num">80%</td><td class="num">100%</td></tr>
+        <tr><td>2026-08-19</td><td class="num"><span class="pill crit">0%</span></td><td class="num">40%</td><td class="num">100%</td></tr>
+        <tr><td>2026-08-20</td><td class="num"><span class="pill crit">90%</span></td><td class="num">80%</td><td class="num">100%</td></tr>
+        <tr><td>Pooled (n=50)</td><td class="num"><span class="pill crit">34%</span></td><td class="num">76%</td><td class="num">98&ndash;100%</td></tr>
+      </tbody>
+    </table></div>
+  </figure>
+  <p>On a 0% day the harness run asserts &ldquo;No mandate breach currently&rdquo; while holding SPY at 28; on the 90% day the same model-plus-harness opens with the breach and repairs it. The minimal-prompt control wobbles too (40&ndash;90%), so context sensitivity is not exclusive to the full harness &mdash; but the control never approaches the harness&rsquo;s 0% days, and the one-shot models barely move at all.</p>
 </section>
 
 <section class="prose">
@@ -249,6 +267,7 @@
   </figure>
 
   <p>Two things are true at once. First, the reassuring one: with slack constraints, substantive violations were zero across all 300 runs &mdash; only two small open models occasionally produced weights summing to 101&ndash;103. Second: no model is remotely deterministic, and the spread differs robustly between models &mdash; Kimi-K3 is 2.7&times; more scattered than Gemini 3.7 Flash (bootstrap CI on the ratio: 2.3&ndash;3.3). If your agent&rsquo;s output depends this much on the dice, one impressive backtest tells you almost nothing.</p>
+  <p>Both halves replicate across the five additional days: substantive violations stayed at zero in all 300 replication runs, and the pooled dispersion spread was 3.13&times; with the same models at the extremes (Kimi-K3 5.87 pts, Gemini 3.7 Flash 1.87). Per-day dispersion at N=10 runs 0.4&ndash;1.1 pts below the single-day N=50 values, but the ranking holds.</p>
 </section>
 
 <section class="prose">
@@ -272,16 +291,16 @@
 <section class="prose">
   <h2><span class="section-no">05</span>Method, honestly</h2>
   <ul>
-    <li><strong>Pre-registered.</strong> Success criteria for both experiments were written and frozen before any run; results are reported against them, including the criteria that were <em>not</em> met (violation rates and dispersion both stayed below their &ldquo;interesting&rdquo; thresholds in Experiment 1; the cross-model ratio criterion is the one that fired).</li>
-    <li><strong>Setup.</strong> One frozen snapshot (2026-08-21 close, 10 ETFs, Yahoo chart data), N=50 per model per experiment, default sampling. Five models ran as near-raw one-shot completions with a one-line system prompt; Claude ran via <code>claude -p</code> (its subscription path), which is exactly the confound Experiment 2&rsquo;s control isolates.</li>
-    <li><strong>Marginal cost of everything here: about one dollar</strong> in API credits plus subscription quota &mdash; behavior metrics need repetition, not capital.</li>
+    <li><strong>Pre-registered.</strong> Success criteria for both experiments were written and frozen before any run; results are reported against them, including the criteria that were <em>not</em> met (violation rates and dispersion both stayed below their &ldquo;interesting&rdquo; thresholds in Experiment 1; the cross-model ratio criterion is the one that fired). The replication&rsquo;s five criteria were likewise committed before its first output was analyzed; all five passed.</li>
+    <li><strong>Setup.</strong> Six frozen snapshots (closes of 2026-08-14 to 2026-08-21, 10 ETFs, Yahoo chart data), N=50 per model on the original day and N=10 per day in the replication, default sampling. Five models ran as near-raw one-shot completions with a one-line system prompt; Claude ran via <code>claude -p</code> (its subscription path), which is exactly the confound Experiment 2&rsquo;s control isolates. Replication snapshots are rebuilt offline from committed data; the build reproduces the original snapshot byte-for-byte.</li>
+    <li><strong>Marginal cost of everything here: about three dollars</strong> in API credits plus subscription quota &mdash; behavior metrics need repetition, not capital.</li>
   </ul>
   <div class="limits">
     <h3>Limitations we&rsquo;d want you to know about</h3>
     <ul>
-      <li>One market snapshot and one starting portfolio per experiment; rates may be state-dependent.</li>
+      <li>One starting portfolio per experiment. The replication showed repair rates <em>are</em> state-dependent across market days; per-day rates at N=10 carry &plusmn;15&ndash;30 point uncertainty, so only the pooled numbers and the qualitative swing are load-bearing.</li>
       <li>Dispersion at default temperature mixes sampling noise with decision instability &mdash; deliberately, since that is the deployed reality, but it means &ldquo;consistency&rdquo; here is an operational property, not a claim about greedy decoding.</li>
-      <li>The harness control is n=10: decisive against 4/50, imprecise as an exact rate.</li>
+      <li>The harness control is n=10 on the original day plus n=50 in the replication: decisive on the direction of the gap, still imprecise per day.</li>
       <li>The reasoning judge is a single LLM with a family conflict on two rows; only 3 flags were human-verified.</li>
       <li>N=50 resolves violation rates down to roughly 5&ndash;10%; rarer failures need bigger N.</li>
     </ul>
@@ -294,6 +313,6 @@
 </section>
 
 <footer>
-  Mandate Bench v0.1 &mdash; 2026-08-21. 610 agent decisions + 300 judge audits. Models accessed via their operators&rsquo; own subscriptions; market data via Yahoo Finance chart endpoint (research snapshot use). Methodology, per-run data, and harness available on request.
+  Mandate Bench v0.1 + replication &mdash; 2026-08-21. 1,260 agent decisions + 300 judge audits. Models accessed via their operators&rsquo; own subscriptions; market data via Yahoo Finance chart endpoint (research snapshot use). Methodology, per-run data, and harness available on request.
 </footer>
 </div>
