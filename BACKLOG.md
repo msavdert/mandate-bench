@@ -15,7 +15,11 @@ data already committed. And the actual trivial explanation for the headline
 result was named by neither item: the harness arm largely did not use
 extended thinking, and repair is almost perfectly predicted by that. That
 finding is now in the report; the experiment that would make it causal is
-item A1 below and is the only remaining publication blocker.
+item A1 below. Auditing the harness invocation for that item then surfaced a
+second blocker, A2: the in-harness arm runs from a scratch directory inside
+this repository, so the workspace context Claude Code injects - git status
+and recent commit subjects - differed between arms and across days, in a
+direction that tracks the results.
 
 ---
 
@@ -46,7 +50,59 @@ whichever way it falls. A second, cheaper diagnostic is worth running at the
 same time: whether the harness system prompt itself suppresses thinking, by
 varying only that while holding the task prompt fixed.
 
-## A2. Unify the repair-metric definition
+## A2. Rule out workspace-context contamination of the in-harness arms
+
+**Status:** open, blocking publication. Needs two diagnostic model calls,
+then possibly a re-run of the Opus arm.
+
+`harness/run_claude.sh:30` sets `SCRATCH_DIR="$ROOT/harness/_clauderun"`,
+inside this repository's working tree. Claude Code injects a workspace
+context block for a session started in a git repository, including git
+status and recent commit subjects. The script's header comment claims an
+empty scratch directory prevents context pickup; an empty directory prevents
+a project `CLAUDE.md` from loading, not the repository state around it.
+
+Two consequences, both aligned with the results rather than orthogonal to
+them.
+
+**The Opus arm may have been told what it was being tested for.** Run
+timestamps against the commit log:
+
+| Arm | ran | most recent commit subjects then visible |
+|---|---|---|
+| Sonnet exp2, 2026-08-21, N=50 | 08-21 21:03 | none; first commit landed 21:48 |
+| Sonnet exp2, five replication days | 08-21 22:15-23:27 | "Pre-register multi-snapshot replication (5 market days, exp1 + exp2 + control)" |
+| Opus exp2, both arms, six days | 08-21 23:54 - 08-22 00:05 | "Replication results: all five pre-registered criteria pass; harness gap is state-dependent", "Pre-register Claude Opus arms (Amendment 4): harness, exp2, minimal control" |
+
+If the workspace block reaches the model, the Opus in-harness runs carried,
+in context, a statement that a harness compliance gap exists and that this
+model was about to be measured against it. That is a live alternative
+explanation for 60/60, and it points the same way as the finding, which is
+the direction that should worry us most.
+
+**The headline 4% day had a different workspace context from the other
+five.** The original N=50 arm ran before the repository had any commits, and
+it carries the lowest in-harness input-token count of the six days (11812
+against 12035-12118). Per-run input tokens also grow monotonically within
+each batch, which is what an accumulating set of untracked result files in
+`git status` looks like. So "the same harness" was not the same across days,
+and the day that differs most is the day the headline number comes from.
+
+Neither point is established: raw request payloads are not persisted, so
+whether `claude -p` includes the workspace block in this CLI version
+(2.1.241) is inferred from token accounting, not observed.
+
+**Done when:** it has been confirmed or refuted, by two `claude -p` calls -
+one from inside the repository, one from a scratch directory outside it -
+whether the workspace block and recent commit subjects reach the model. If
+they do: `SCRATCH_DIR` moves outside the repository, the Opus arm is re-run
+under the clean context, and the family-non-generalization claim is
+withdrawn from the README and the Pages site until that re-run reports. If
+they do not, record the negative result and the evidence for it, and the
+per-day token variation is explained some other way before A1 proceeds,
+since A1 inherits whatever context A1's arm runs in.
+
+## A3. Unify the repair-metric definition
 
 **Status:** open. No new runs needed.
 
@@ -65,7 +121,7 @@ primary metric is still a benchmark whose primary metric is undefined.
 under it, and any figure that changes is restated rather than quietly
 carried over.
 
-## A3. Pin sampling settings before ranking dispersion across models
+## A4. Pin sampling settings before ranking dispersion across models
 
 **Status:** open. Needs new runs.
 
@@ -82,7 +138,7 @@ top-p pinned to the same values everywhere and one access path, or the
 cross-model ratio is withdrawn as a ranking and reported per model as a
 deployed-defaults observation.
 
-## A4. Measure judge recall before the contradiction rate is used for anything
+## A5. Measure judge recall before the contradiction rate is used for anything
 
 **Status:** open.
 
@@ -103,7 +159,7 @@ recall reported for the judge, the rate is normalised per checkable claim,
 and a cross-family judge is used so no model scores its own outputs. Until
 all three hold, the measurement stays out of any ranking.
 
-## A5. Make day-level clustering the pre-registered unit for future arms
+## A6. Make day-level clustering the pre-registered unit for future arms
 
 **Status:** open for the next pre-registration. The existing analysis is
 already corrected in the tree.
@@ -123,9 +179,9 @@ sampling unit, states the paired test as the primary analysis, and sets the
 number of days from a power calculation rather than from convenience. Five
 days cannot support a 30-point criterion at conventional power.
 
-## A6. Finish the repositioning as a technical report
+## A7. Finish the repositioning as a technical report
 
-**Status:** open, do after A1.
+**Status:** open, do after A1 and A2.
 
 The README now leads with the harness-times-thinking finding and the
 leaderboard is split into two tables that no longer invite row-for-row
@@ -141,13 +197,13 @@ That case is stronger on internal evidence than on the external critique
 that prompted it. Of the three findings in the original abstract, only the
 harness effect has both a large effect size and a pre-registered
 replication: experiment 1's half of finding (1) is a null, finding (2) is
-confounded by A3, and finding (3) is underpowered per A4.
+confounded by A4, and finding (3) is underpowered per A5.
 
 **Done when:** the material is restructured as a short technical report
 about the harness result, with the benchmark harness presented as its
 reproducibility appendix rather than as a candidate leaderboard standard.
 
-## A7. Citation housekeeping
+## A8. Citation housekeeping
 
 **Status:** open, low priority. Not a publication blocker.
 
