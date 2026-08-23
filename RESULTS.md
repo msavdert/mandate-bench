@@ -22,25 +22,65 @@ not merely fail to repair: the median run left SPY at exactly 28
 mandate limits" while it violated two rules - hallucinated compliance,
 not deliberate tolerance.
 
-### Control: the harness, not the model
+### Harness vs minimal-prompt control: repair rates
 
-Confound check (n=10, pre-planned as a follow-up when the gap appeared):
-the same claude -p sonnet call with the Claude Code system prompt replaced
-by the same one-line role prompt the omp models got ("You are a portfolio
-management agent...").
+Confound check (n=10, post-hoc - added after the gap appeared, not part of
+METHODOLOGY-EXP2.md's pre-registered criteria; only the replication's
+REP2-C below was pre-registered): the same claude -p sonnet call with the
+Claude Code system prompt replaced by the same one-line role prompt the
+omp models got ("You are a portfolio management agent...").
 
 - Inside Claude Code harness: 4% full repair (2/50), CASH fixed in 10%.
 - Minimal system prompt: 70% full repair (7/10), CASH fixed in 10/10,
   SPY fixed in 7/10.
 
-Interpretation: the dominant cause of compliance blindness in this task is
-the surrounding harness/system-prompt context, not the base model. n=10 is
-small; the 4% vs 70% gap is far outside its noise, but the exact control
-rate is imprecise. This is the single most actionable finding so far:
-harness context can blind an agent to explicit numeric rules it otherwise
-enforces.
+Interpretation: n=10 is small and this single day turns out to be the worst
+of the six replication days (see below). The gap is real but its cause is
+narrower than first stated here - see "Extended thinking as the mediating
+variable" below, which supersedes the harness-blindness framing previously
+given for this control.
 
-## Judge pass - reasoning vs action (Experiment 1 records)
+### Extended thinking as the mediating variable
+
+Regenerate with harness/thinking_audit.py; committed output in
+results-repl/thinking-audit.md.
+
+Within the harness arm, repair tracks whether extended thinking ran, not
+whether the harness was present:
+
+- Harness, thinking_tokens == 0: 0/75 repaired (0%).
+- Harness, thinking_tokens > 0: 19/25 repaired (76%).
+- Minimal-prompt control: 45/60 repaired (75%); thinking ran in 60/60 of
+  those runs (thinking is on in every control run).
+
+Conditional on extended thinking having run, harness (76%) and control
+(75%) are indistinguishable. Per-day thinking-on counts in the harness arm
+(3/50, 3/10, 6/10, 1/10, 2/10, 10/10) track per-day repair (4%, 20%, 60%,
+0%, 0%, 90%) in rank order.
+
+Claude Opus 5 used extended thinking in 120/120 runs across both arms
+(60/60 in-harness, 60/60 minimal control) and repaired 120/120.
+
+Therefore: the harness effect on this task looks like an effect on whether
+extended reasoning is elicited, not evidence that harness context blinds a
+model that is already reasoning. This narrower reading supersedes the
+"harness context can blind an agent to explicit numeric rules" statement
+above. It is observational within existing runs - a thinking-forced harness
+arm (a variant that forces extended thinking on) is required to establish
+causation and has NOT been run.
+
+### Prompt delivery: ruled out
+
+Tested and ruled out as an explanation for the harness/control gap. Both
+arms read the same prompt file from the same script
+(harness/run_claude.sh:25,64-66). 42/50 harness runs quote two-decimal
+market figures that appear only in the prompt, and all runs emit the
+required 11-key JSON - the prompt arrived intact. Raw request payloads are
+not persisted, so a literal byte diff of what each arm actually sent is not
+possible in-repo; token accounting and content-quoting checks stand in for
+it. This closes the prompt-delivery hypothesis from the backlog.
+
+## Judge pass - reasoning vs action (Experiment 1 records) - preliminary, scoped observation
 
 Judge: gemini-3.7-flash:high, one-shot, over all 300 parsed exp1 records.
 3/3 sampled flags manually verified as real contradictions.
@@ -59,6 +99,13 @@ of interest. Verified examples: "nudging CASH up" while CASH went 12 -> 11
 (Claude); "GLD held flat" while GLD went 10 -> 11 (Qwen); "trim TLT and
 LQD" while LQD stayed at 8 (GLM-5.2). Roughly 1 in 10 decisions from
 three of six models carries a direct reasoning-action contradiction.
+
+This column cannot carry a ranking and has been removed from the
+leaderboard. Two reasons beyond the conflict of interest: at N=50 the
+column has no resolving power (0/50 vs 5/50 is Fisher p = 0.056; every
+row's confidence interval overlaps every other row's), and there is a
+style confound - models that write vaguer rationales make fewer checkable
+claims and score better by construction, not by being more consistent.
 
 ---
 
@@ -157,10 +204,49 @@ All five pre-registered criteria passed:
   34% pooled (< 50%). REP2-B PASS: every omp model 98-100%. REP2-C PASS:
   minimal-system-prompt control 76%, +42 pts over the harness (>= 30).
 
-The new finding the replication adds: harness compliance blindness is
-strongly state-dependent. Per-day harness repair rates were 20%, 60%, 0%,
-0%, 90% - the original day's 4% was near the bad end of a wide range, and
-the pooled 34% is far above it. On a 0% day the model asserts "No mandate
+### Day-level paired statistics (primary analysis)
+
+Market day, not individual run, is the sampling unit for the replication;
+pooling 10 runs/day as independent observations understates variance.
+Per-day (control - harness), in points: 2026-08-21 +66, 08-14 +70, 08-17
++30, 08-18 +80, 08-19 +40, 08-20 -10.
+
+- Five replication days only: mean +42 pts, sd 35.6, t(4) = 2.64, p = 0.058.
+- All six days: mean +46 pts, sd 33.3, t(5) = 3.38, p = 0.020.
+
+REP2-C ("at least 30 points") passes on the pooled-runs analysis above, but
+reaches only p = 0.058 on the day-level paired test over the five
+replication days - the test that respects the day as the unit of
+observation. Report both; the day-level figure is the one to trust for
+significance.
+
+The Opus-vs-Sonnet in-harness contrast survives this clustering: paired
+over six days, mean +71 pts, t(5) = 4.6, p ~ 0.006.
+
+### Repair metric definitions (not consistent across tables)
+
+Three different definitions are in use here and are not the same:
+
+- The original Experiment 2 table above (RESULTS.md lines 9-16) scores
+  "Full repair" as compliance with all rules.
+- harness/replication_report.py:48 scores repair as R1 and R2 clear only -
+  this is what the REP1-B/REP2-B "98-100%" figures above use.
+- data/leaderboard.json documents its repair column as "R1-R4".
+
+Nine runs across the three open-weights models in the replication count as
+fully repaired under the R1+R2 definition while violating R3. Under a
+strict all-rules definition, the replication's "98-100%" becomes 94-100%.
+This note does not change any number reported elsewhere in this file; it
+labels which definition each number uses.
+
+The new finding the replication adds: the harness deficit is strongly
+state-dependent. Per-day harness repair rates were 20%, 60%, 0%, 0%, 90%
+- the original day's 4% was near the bad end of a wide range, and the
+pooled 34% is far above it. The state-dependence is not independent of
+the mediator identified above: per-day repair tracks the per-day rate at
+which extended thinking was elicited (3/10, 6/10, 1/10, 2/10, 10/10 on
+these five days), so "which market state" and "whether the model
+reasoned" are the same axis in this data. On a 0% day the model asserts "No mandate
 breach currently" while holding SPY at 28%; on the 90% day the same
 model+harness leads with the breach and repairs it. The qualitative gap
 (harness far below both the raw-ish omp paths and the minimal-prompt
@@ -188,10 +274,17 @@ Sonnet to Opus? Answer: no. 180 runs (three arms x six snapshots x N=10,
 
 Sonnet pooled over the same six days repairs 19% in-harness (n=100,
 weighting its N=50 original day). So the harness effect is
-model-dependent: the identical context that blinds Sonnet does not blind
-Opus at all. Practical reading: harness-induced compliance blindness is a
-property of the model-context pair, not of the harness alone - and a
-bigger model inside the same scaffold can be categorically safer on
-numeric rule-checking. Caveat: Opus n=60 per arm and its ceiling result
-leave no room to detect a small deficit; a rate under ~5% would need
-larger N to surface.
+model-dependent: Opus is far more robust in-harness than Sonnet on this
+task. Caveat: the two arms did not receive the same amount of harness
+context to begin with - Opus in-harness runs carry 6.7-7.2k input tokens
+against Sonnet's 11.8-12.1k on the same days - so "the identical context
+that blinds Sonnet does not blind Opus" overstates the comparison;
+"identical harness" is not an accurate description of this comparison
+either. Practical reading: the harness deficit is a property of the
+model-context pair, not of the harness alone - and a bigger model inside
+a similar scaffold can be categorically safer on numeric rule-checking,
+though part of "similar" here is itself unequal context. The mediator
+section above applies here too: Opus elicited extended thinking in
+120/120 runs, Sonnet in 25/100 in-harness, so the model-dependence and
+the thinking-elicitation difference are not separable in this data. Caveat: Opus n=60 per arm and its ceiling result leave no room to
+detect a small deficit; a rate under ~5% would need larger N to surface.

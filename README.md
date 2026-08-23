@@ -15,51 +15,109 @@ an explicit numeric mandate (position cap, cash floor, turnover limit), does
 the agent obey the rules, does it make the same decision twice, and does its
 stated rationale match its executed trades? In v0.1 (2026-08-21) six models
 made 610 decisions across two pre-registered experiments plus one control,
-and 300 stored rationales were audited by a judge model. Three findings:
-(1) with a rule-violating starting portfolio, five of six models repaired the
-violations in 96-100% of runs, while the same task run inside a large
-coding-agent harness collapsed to 4% - and recovered to 70% when only the
-system prompt was minimized, implicating harness context rather than model
-capability; (2) no model is close to run-to-run deterministic at deployed
-settings, and dispersion differs 2.7x across models (bootstrap 95% CI on the
-ratio: 2.3-3.3); (3) roughly one decision in ten, for three of six models,
-directly contradicts its own written rationale.
+and 300 stored rationales were audited by a judge model.
 
-Update 2026-08-21: a pre-registered replication over five additional market
-days (650 new decisions, N=10 per model per day) passed all five of its
-pre-registered criteria: the violation null and the dispersion spread
-(3.13x pooled) replicate, and the harness gap replicates qualitatively
-(34% pooled in-harness repair vs 98-100% one-shot and 76% minimal-prompt
-control). The replication's own finding: harness repair swings 0-90% by
-market day, so the original 4% sits at the bad end of a wide,
-state-dependent range. A pre-registered Claude Opus 5 addition (180 runs,
-three arms, all six days) then showed the blindness does NOT generalize
-up the model family: Opus inside the identical harness repaired 120/120
-exp-2 runs, on the same days Sonnet-in-harness scored 0%. Harness-induced
-compliance blindness is a property of the model-context pair. Details in
-RESULTS.md and results-repl/REPLICATION.md.
+The project's central finding is a harness-times-thinking effect, and it is
+the contribution the rest of this repository supports. Claude Sonnet 5,
+inside the Claude Code harness, repaired a rule-violating starting portfolio
+in 19% of 100 runs pooled across six market days (per day: 4, 20, 60, 0, 0,
+90%), against 75% of 60 runs (45/60) under a minimal system prompt on the
+same six days. The gap is mediated by whether extended thinking ran: within
+the harness arm, runs with zero thinking tokens repaired 0/75, and runs with
+thinking tokens repaired 19/25 (76%) - statistically indistinguishable from
+the 75% minimal-prompt rate. This mediator relationship is observational,
+read off existing runs; the causal arm - a thinking-forced harness
+condition - has not been run. The day-to-day variance (0-90%) and the
+family non-generalization are findings, not caveats: Claude Opus 5 used
+extended thinking in 120/120 runs across both arms (60/60 in-harness, 60/60
+minimal control) and repaired all 120, and its in-harness runs also carried
+notably less input context (6.7-7.2k tokens) than Sonnet's in-harness runs
+on the same days (11.8-12.1k), so even "the identical harness" understates
+how differently the two models were run.
 
-## Leaderboard (v0.1, snapshot 2026-08-21, N=50 per cell)
+Alongside that result, a one-shot cross-model comparison (N=50, snapshot
+2026-08-21) found: (1) five of six models repaired the same violation in
+96-100% of one-shot runs, a baseline against which the harness collapse
+stands out; (2) no model is close to run-to-run deterministic at deployed
+settings, and dispersion differs 2.7x across models (bootstrap 95% CI on
+the ratio: 2.3-3.3); (3) a preliminary judge-scored measurement flagged
+roughly one decision in ten, for three of six models, as directly
+contradicting its own written rationale - reported in RESULTS.md as an
+observation, not a ranking, since at N=50 the measurement has no resolving
+power and the judge scored its own model family.
 
-| Model | Access path | Repair rate (exp 2) | Dispersion, pts (exp 1) | Reasoning contradictions |
+Update 2026-08-21/22: a pre-registered replication over five additional
+market days (650 new decisions, N=10 per model per day) passed all five of
+its pre-registered criteria: the violation null and the dispersion spread
+(3.13x pooled) replicate, and the harness gap replicates with the same
+direction and a wider range than the original day showed (0-90% per-day
+in-harness repair; 34% pooled over the five replication days alone,
+98-100% one-shot, 76% minimal-prompt control on those same days). A
+pre-registered Claude Opus 5 addition (180 runs, three arms, all six days)
+then showed the effect does NOT generalize up the model family: Opus used
+extended thinking in every run and repaired 120/120 across its two arms
+(60/60 in-harness, 60/60 minimal control), on the same six days
+Sonnet-in-harness repaired 19/100 pooled. The harness/thinking-mediator
+analysis summarized above is detailed in results-repl/thinking-audit.md
+(regenerated by harness/thinking_audit.py). A day-level paired analysis,
+which treats market day rather than individual run as the sampling unit,
+gives a smaller but still positive effect: mean +46 points (t(5)=3.38,
+p=0.020) pooled over all six days, +42 points (p=0.058) on the five
+replication days alone. Details in RESULTS.md and
+results-repl/REPLICATION.md.
+
+## Leaderboard (v0.1)
+
+Two tables, kept visually separate on purpose: they differ in N, in access
+path, and in time base, and are not meant to be read against each other
+row-for-row. See "Method in one paragraph" below and RESULTS.md for the
+full definitions.
+
+### One-shot, single snapshot (2026-08-21, N=50 per model)
+
+| Model | Access path | Repair rate (exp 2) | Dispersion, pts (exp 1) |
+|---|---|---|---|
+| Gemini 3.1 Pro (high) | one-shot API | 100% | 3.65 [3.07, 4.06] |
+| Gemini 3.7 Flash (high) | one-shot API | 100% | 2.31 [1.96, 2.57] |
+| Kimi-K3 | one-shot API | 100% | 6.27 [5.50, 6.85] |
+| Qwen3.6-27B | one-shot API | 98% | 4.98 [4.27, 5.46] |
+| GLM-5.2 | one-shot API | 96% | 3.11 [2.66, 3.41] |
+| Claude Sonnet 5 | Claude Code harness | 4% | 3.85 [3.24, 4.24] |
+
+Repair rate here is full R1-R4 rule compliance (RESULTS.md). Dispersion is
+the mean pairwise distance between 50 runs on an identical prompt, in
+percentage points of the portfolio; brackets are bootstrap 95% CIs. The
+Claude Sonnet 5 row is this single day only, and it is the worst of the
+six days measured below - see the next table for the pooled, matched
+comparison; do not compare this 4% to the Opus rows there.
+
+### Claude access-path comparison, pooled across six market days (2026-08-14 to 2026-08-21)
+
+| Model | Access path | N | Repair rate (exp 2, pooled) | Repair rate, thinking_tokens > 0 only |
 |---|---|---|---|---|
-| Gemini 3.1 Pro (high) | one-shot API | 100% | 3.65 [3.07, 4.06] | 0%* |
-| Gemini 3.7 Flash (high) | one-shot API | 100% | 2.31 [1.96, 2.57] | 0%* |
-| Kimi-K3 | one-shot API | 100% | 6.27 [5.50, 6.85] | 8% |
-| Qwen3.6-27B | one-shot API | 98% | 4.98 [4.27, 5.46] | 10% |
-| GLM-5.2 | one-shot API | 96% | 3.11 [2.66, 3.41] | 10% |
-| Claude Sonnet 5 | Claude Code harness | 4% | 3.85 [3.24, 4.24] | 10% |
-| Claude Sonnet 5 | minimal system prompt (control, n=10) | 70% | - | - |
-| Claude Opus 5 | Claude Code harness (n=60, 6 days pooled) | 100% | 2.69** | - |
-| Claude Opus 5 | minimal system prompt (n=60, 6 days pooled) | 100% | - | - |
+| Claude Sonnet 5 | Claude Code harness | 100 | 19% (19/100) | 76% (19/25) |
+| Claude Sonnet 5 | minimal system prompt | 60 | 75% (45/60) | 75% (45/60; thinking ran in all 60) |
+| Claude Opus 5 | Claude Code harness | 60 | 100% (60/60) | 100% (60/60; thinking ran in all 60) |
+| Claude Opus 5 | minimal system prompt | 60 | 100% (60/60) | 100% (60/60; thinking ran in all 60) |
 
-Dispersion is the mean pairwise distance between 50 runs on an identical
-prompt, in percentage points of the portfolio; brackets are bootstrap 95%
-CIs. **Opus dispersion is pooled within-day across the six snapshots
-(N=10 each), not directly comparable to the single-day N=50 rows. *The contradiction judge is a Gemini model scoring its own family;
-treat those rows as unaudited. The two Claude rows differ only in
-surrounding context, which is the point: rows measure model-plus-path, and
-paths are stated rather than hidden.
+Repair rate here is R1 (position cap) and R2 (cash floor) cleared only,
+matching `harness/replication_report.py`, not the stricter R1-R4 definition
+used in the table above; under R1-R4 the pooled one-shot replication rate
+(not shown here) would read 94-100% rather than 98-100%, since nine
+open-weights runs cleared R1/R2 while violating R3 (RESULTS.md). Sonnet
+harness runs with zero thinking tokens repaired 0/75; conditional on
+extended thinking having run, harness and minimal-prompt control are
+statistically indistinguishable. This mediator relationship is
+observational, not causal - a thinking-forced harness arm has not been run.
+Opus in-harness runs also carried 6.7-7.2k input tokens against Sonnet's
+11.8-12.1k on the same days, so "identical harness" is not accurate for
+this comparison either.
+
+Reasoning-contradiction rates were also measured (roughly one decision in
+ten, for three of six models) but are not part of either table above: at
+N=50 the measurement has no resolving power (0/50 vs 5/50, Fisher p=0.056)
+and the judge scored its own model family. It is reported in RESULTS.md as
+a preliminary, clearly scoped observation, not a ranking.
 
 ## Method in one paragraph
 
@@ -98,6 +156,8 @@ every number in the report can be recomputed from raw data:
     python3 harness/judge_analyze.py results                  # judge summary
     harness/run_replication.sh: see header; per-day analyze.py runs plus
     python3 harness/replication_report.py                     # replication
+    python3 harness/thinking_audit.py                          # thinking mediator, -> results-repl/thinking-audit.md
+    python3 harness/bootstrap_ci.py                            # dispersion bootstrap CIs
 
 Python 3.12+ standard library only; no dependencies.
 

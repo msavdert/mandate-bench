@@ -1,19 +1,35 @@
 {
   "version": "0.1",
   "snapshot_date": "2026-08-21",
-  "n_per_cell": 50,
   "metrics": {
-    "repair_rate": "share of exp-2 runs ending fully compliant (R1-R4)",
-    "dispersion_pts": "mean pairwise distance across 50 identical exp-1 runs, percentage points, with bootstrap 95% CI",
-    "contradiction_rate": "share of exp-1 runs whose rationale directly contradicts the executed weights, per LLM judge"
+    "repair_rate": "share of exp-2 runs ending fully compliant; the rule set scored varies by row, see repair_rate_definition on each row",
+    "dispersion_pts": "mean pairwise distance across identical exp-1 runs, percentage points, with bootstrap 95% CI where available",
+    "contradiction_rate": "share of exp-1 runs whose rationale directly contradicts the executed weights, per LLM judge (google-antigravity/gemini-3.7-flash:high, harness/judge.py:23). Preliminary observation only: at N=50 it has no resolving power (0/50 vs 5/50 Fisher p=0.056) and the judge scores its own model family. Not used for ranking; not part of the README/docs leaderboard tables."
   },
+  "tables": [
+    {
+      "id": "one_shot_single_snapshot",
+      "caption": "One-shot, single snapshot (2026-08-21, N=50 per model)",
+      "n_per_row": 50,
+      "date_basis": "2026-08-21 only"
+    },
+    {
+      "id": "claude_access_path_comparison",
+      "caption": "Claude access-path comparison, pooled across six market days (2026-08-14 to 2026-08-21)",
+      "date_basis": "six days pooled: 2026-08-14, 08-17, 08-18, 08-19, 08-20, 08-21"
+    }
+  ],
   "rows": [
-    {"model": "gemini-3.1-pro", "label": "Gemini 3.1 Pro (high)", "access_path": "one-shot API", "repair_rate": 1.00, "dispersion_pts": 3.65, "dispersion_ci": [3.07, 4.06], "contradiction_rate": 0.00, "judge_conflict": true},
-    {"model": "gemini-3.7-flash", "label": "Gemini 3.7 Flash (high)", "access_path": "one-shot API", "repair_rate": 1.00, "dispersion_pts": 2.31, "dispersion_ci": [1.96, 2.57], "contradiction_rate": 0.00, "judge_conflict": true},
-    {"model": "kimi-k3", "label": "Kimi-K3", "access_path": "one-shot API", "repair_rate": 1.00, "dispersion_pts": 6.27, "dispersion_ci": [5.50, 6.85], "contradiction_rate": 0.08, "judge_conflict": false},
-    {"model": "qwen3.6-27b", "label": "Qwen3.6-27B", "access_path": "one-shot API", "repair_rate": 0.98, "dispersion_pts": 4.98, "dispersion_ci": [4.27, 5.46], "contradiction_rate": 0.10, "judge_conflict": false},
-    {"model": "glm-5.2", "label": "GLM-5.2", "access_path": "one-shot API", "repair_rate": 0.96, "dispersion_pts": 3.11, "dispersion_ci": [2.66, 3.41], "contradiction_rate": 0.10, "judge_conflict": false},
-    {"model": "claude-sonnet-5-harness", "label": "Claude Sonnet 5", "access_path": "Claude Code harness", "repair_rate": 0.04, "dispersion_pts": 3.85, "dispersion_ci": [3.24, 4.24], "contradiction_rate": 0.10, "judge_conflict": false},
-    {"model": "claude-sonnet-5-minimal", "label": "Claude Sonnet 5", "access_path": "minimal system prompt (control)", "repair_rate": 0.70, "n_override": 10, "dispersion_pts": null, "contradiction_rate": null, "judge_conflict": false}
+    {"table": "one_shot_single_snapshot", "model": "gemini-3.1-pro", "label": "Gemini 3.1 Pro (high)", "access_path": "one-shot API", "n": 50, "repair_rate": 1.00, "repair_rate_definition": "R1-R4", "dispersion_pts": 3.65, "dispersion_ci": [3.07, 4.06], "contradiction_rate": 0.00, "judge_conflict": true},
+    {"table": "one_shot_single_snapshot", "model": "gemini-3.7-flash", "label": "Gemini 3.7 Flash (high)", "access_path": "one-shot API", "n": 50, "repair_rate": 1.00, "repair_rate_definition": "R1-R4", "dispersion_pts": 2.31, "dispersion_ci": [1.96, 2.57], "contradiction_rate": 0.00, "judge_conflict": true},
+    {"table": "one_shot_single_snapshot", "model": "kimi-k3", "label": "Kimi-K3", "access_path": "one-shot API", "n": 50, "repair_rate": 1.00, "repair_rate_definition": "R1-R4", "dispersion_pts": 6.27, "dispersion_ci": [5.50, 6.85], "contradiction_rate": 0.08, "judge_conflict": false},
+    {"table": "one_shot_single_snapshot", "model": "qwen3.6-27b", "label": "Qwen3.6-27B", "access_path": "one-shot API", "n": 50, "repair_rate": 0.98, "repair_rate_definition": "R1-R4", "dispersion_pts": 4.98, "dispersion_ci": [4.27, 5.46], "contradiction_rate": 0.10, "judge_conflict": false},
+    {"table": "one_shot_single_snapshot", "model": "glm-5.2", "label": "GLM-5.2", "access_path": "one-shot API", "n": 50, "repair_rate": 0.96, "repair_rate_definition": "R1-R4", "dispersion_pts": 3.11, "dispersion_ci": [2.66, 3.41], "contradiction_rate": 0.10, "judge_conflict": false},
+    {"table": "one_shot_single_snapshot", "model": "claude-sonnet-5-harness", "label": "Claude Sonnet 5", "access_path": "Claude Code harness", "n": 50, "date_basis": "2026-08-21 only", "repair_rate": 0.04, "repair_rate_definition": "R1-R4", "dispersion_pts": 3.85, "dispersion_ci": [3.24, 4.24], "contradiction_rate": 0.10, "judge_conflict": false, "note": "worst of six days measured in the replication; see claude-sonnet-5-harness-pooled in table claude_access_path_comparison for the matched six-day figure (0.19)"},
+
+    {"table": "claude_access_path_comparison", "model": "claude-sonnet-5-harness-pooled", "label": "Claude Sonnet 5", "access_path": "Claude Code harness", "n": 100, "date_basis": "six days pooled, 2026-08-14 to 2026-08-21", "repair_rate": 0.19, "repair_rate_definition": "R1+R2", "repair_rate_by_day": {"2026-08-21": 0.04, "2026-08-14": 0.20, "2026-08-17": 0.60, "2026-08-18": 0.00, "2026-08-19": 0.00, "2026-08-20": 0.90}, "n_by_day": {"2026-08-21": 50, "2026-08-14": 10, "2026-08-17": 10, "2026-08-18": 10, "2026-08-19": 10, "2026-08-20": 10}, "repair_rate_thinking_gt0": 0.76, "n_thinking_gt0": 25, "repair_rate_thinking_eq0": 0.00, "n_thinking_eq0": 75, "input_tokens_k": [11.8, 12.1], "note": "thinking-mediator relationship is observational; a thinking-forced harness arm has not been run"},
+    {"table": "claude_access_path_comparison", "model": "claude-sonnet-5-minimal-pooled", "label": "Claude Sonnet 5", "access_path": "minimal system prompt", "n": 60, "date_basis": "six days pooled, 2026-08-14 to 2026-08-21", "repair_rate": 0.75, "repair_rate_definition": "R1+R2", "repair_rate_thinking_gt0": 0.75, "n_thinking_gt0": 60, "note": "extended thinking ran in all 60 runs"},
+    {"table": "claude_access_path_comparison", "model": "claude-opus-5-harness-pooled", "label": "Claude Opus 5", "access_path": "Claude Code harness", "n": 60, "date_basis": "six days pooled, 2026-08-14 to 2026-08-21", "repair_rate": 1.00, "repair_rate_definition": "R1+R2", "dispersion_pts": 2.69, "dispersion_note": "pooled within-day across six snapshots (n=10 each), not comparable to the N=50 single-day dispersion rows above", "repair_rate_thinking_gt0": 1.00, "n_thinking_gt0": 60, "input_tokens_k": [6.7, 7.2], "note": "extended thinking ran in all 60 runs; input tokens 6.7-7.2k vs 11.8-12.1k for claude-sonnet-5-harness-pooled on the same days, so this is not the same amount of harness context"},
+    {"table": "claude_access_path_comparison", "model": "claude-opus-5-minimal-pooled", "label": "Claude Opus 5", "access_path": "minimal system prompt", "n": 60, "date_basis": "six days pooled, 2026-08-14 to 2026-08-21", "repair_rate": 1.00, "repair_rate_definition": "R1+R2", "repair_rate_thinking_gt0": 1.00, "n_thinking_gt0": 60, "note": "extended thinking ran in all 60 runs"}
   ]
 }
