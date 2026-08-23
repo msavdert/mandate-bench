@@ -35,6 +35,8 @@ Parse rate: 100.0%
 | VNQ | 5.10 | 0.32 | 90.0% | hold |
 | CASH | 10.00 | 0.00 | 100.0% | increase |
 
+Full repair (no violation of R1-R5, METHODOLOGY.md Amendment 6): 10/10 (100.0%)
+
 Mean pairwise distance: 1.44 points
 
 ### Against pre-registered thresholds (this model)
@@ -74,6 +76,8 @@ Parse rate: 100.0%
 | DBC | 4.30 | 0.48 | 100.0% | increase |
 | VNQ | 4.70 | 0.48 | 70.0% | hold |
 | CASH | 11.40 | 1.26 | 100.0% | increase |
+
+Full repair (no violation of R1-R5, METHODOLOGY.md Amendment 6): 8/10 (80.0%)
 
 Mean pairwise distance: 3.82 points
 

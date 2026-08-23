@@ -3,7 +3,8 @@
 Open work items, most blocking first.
 
 Revised 2026-08-22, after auditing the five items raised earlier the same
-day. The audit changed the picture enough that the old numbering is not
+day. Updated later that day: A2's diagnostic ran and confirmed the defect,
+A3 is closed, and the CLAUDE.md contamination it surfaced is now A9. The audit changed the picture enough that the old numbering is not
 worth preserving; what the previous items got right, got wrong, and missed
 is recorded under "Disposition of the 2026-08-22 morning items" at the
 bottom, and the corrections that closed them are already in the tree.
@@ -50,10 +51,34 @@ whichever way it falls. A second, cheaper diagnostic is worth running at the
 same time: whether the harness system prompt itself suppresses thinking, by
 varying only that while holding the task prompt fixed.
 
+Since 2026-08-22 the arm will run under the corrected scratch path (A2), so
+it is not context-identical to the committed in-harness runs. Say so when
+comparing; ideally re-run a plain in-harness arm alongside it so the
+thinking-forced condition has a clean-context baseline of its own.
+
 ## A2. Rule out workspace-context contamination of the in-harness arms
 
-**Status:** open, blocking publication. Needs two diagnostic model calls,
-then possibly a re-run of the Opus arm.
+**Status:** diagnosed and fixed 2026-08-22; still open and still blocking
+publication, because the Opus arm has not been re-run.
+
+**Confirmed.** Four probes (research/harness-context-probe.md) established
+directly, not by inference, that a `claude -p` session started inside this
+repository receives a `gitStatus` block with branch, working-tree status and
+the five most recent commit subjects; that a session started outside a git
+tree does not; and that the minimal-prompt control's `--system-prompt`
+override removes the block. The contamination is therefore asymmetric
+between the two arms of the headline comparison. A second contamination was
+found in the process and is tracked separately as A9.
+
+**Done since:** `SCRATCH_DIR` now defaults outside the repository and
+`run_claude.sh` refuses to start inside a git working tree; METHODOLOGY.md
+Amendment 5 records the defect and its scope; the family-non-generalization
+claim is withdrawn from README.md, RESULTS.md, docs/index.html, report.html
+and data/leaderboard.json.
+
+**Still to do:** re-run the Opus arm (three arms x six days x N=10) under
+the clean context and report whichever way it falls. Until then the
+withdrawal stands.
 
 `harness/run_claude.sh:30` sets `SCRATCH_DIR="$ROOT/harness/_clauderun"`,
 inside this repository's working tree. Claude Code injects a workspace
@@ -92,34 +117,37 @@ Neither point is established: raw request payloads are not persisted, so
 whether `claude -p` includes the workspace block in this CLI version
 (2.1.241) is inferred from token accounting, not observed.
 
-**Done when:** it has been confirmed or refuted, by two `claude -p` calls -
-one from inside the repository, one from a scratch directory outside it -
-whether the workspace block and recent commit subjects reach the model. If
-they do: `SCRATCH_DIR` moves outside the repository, the Opus arm is re-run
-under the clean context, and the family-non-generalization claim is
-withdrawn from the README and the Pages site until that re-run reports. If
-they do not, record the negative result and the evidence for it, and the
-per-day token variation is explained some other way before A1 proceeds,
-since A1 inherits whatever context A1's arm runs in.
+**Done when:** the Opus arm has been re-run under the corrected scratch
+path and reported. If the clean-context Opus arm still repairs at or near
+60/60, the family-non-generalization claim comes back, with the re-run as
+its evidence; if it does not, the claim was an artifact and the report says
+so.
 
 ## A3. Unify the repair-metric definition
 
-**Status:** open. No new runs needed.
+**Status:** closed 2026-08-22.
 
-Three definitions are currently in use: all-rules compliance in the original
-single-day table, R1+R2 only in `harness/replication_report.py:48`, and
-"R1-R4" as documented in `data/leaderboard.json`. Nine runs across the three
-open-weights models count as fully repaired while violating R3. Under the
-strict definition the replication's headline "98-100%" reads 94-100%.
+Canonical definition, recorded as METHODOLOGY.md Amendment 6: a run is a
+full repair if it is usable and violates none of R1-R5. `analyze.py` holds
+the single definition (`REPAIR_RULES`, `is_full_repair`), writes a
+`full_repair` column into `parsed.csv` and a per-model line into
+`summary.md`; `replication_report.py` imports the same constant. All 18
+per-directory `parsed.csv`/`summary.md` pairs and the replication report
+were regenerated; a field-by-field diff confirms nothing moved except the
+new column, the new summary line, and the intended rate changes.
 
-As of this revision every table says which definition it uses, so nothing
-published is now mislabelled - but a benchmark with three definitions of its
-primary metric is still a benchmark whose primary metric is undefined.
+What changed: only R3 is ever violated in the committed data (17 runs, zero
+R4, zero R5), so R1-R4 and R1-R5 coincide here and the real change is
+R1+R2 -> all-rules. Replication exp-2 open-weights rows drop to 94%, 96%,
+96% (REP2-B range 98-100% -> 94-100%); every Claude figure is unchanged,
+and all five pre-registered criteria keep their verdicts. Restated figures
+are tabulated in RESULTS.md under "Repair metric".
 
-**Done when:** one definition is chosen as canonical, `analyze.py` and
-`replication_report.py` compute it the same way, every table is regenerated
-under it, and any figure that changes is restated rather than quietly
-carried over.
+Two things found while doing it: `results-repl/REPLICATION.md` had never
+been regenerated after the Amendment 4 Opus arms landed and was missing
+them, and REP2-B's "every omp model" filter was written as "not the two
+Sonnet arms", which would have silently scored the Opus rows against an
+omp-only criterion. Both fixed.
 
 ## A4. Pin sampling settings before ranking dispersion across models
 
@@ -224,6 +252,34 @@ without a fetched commit timestamp behind it.
 blocked, or replaced by the arXiv mirror; and every "activity" cell is
 either backed by a fetched commit date or dropped from the table.
 
+## A9. Operator CLAUDE.md files are in every Claude run
+
+**Status:** open, not a publication blocker for the arm contrast; is one
+for reproducibility claims.
+
+Found while probing A2. `/etc/claude-code/CLAUDE.md` (machine policy) and
+`/home/agent/.claude/CLAUDE.md` (the operator's global preferences) are
+loaded into every `claude -p` session regardless of working directory, and
+the `--system-prompt` override does not remove them: both the in-harness
+and the minimal-prompt control arm ran with them in context. Each was
+confirmed by name and by a quoted sentence in
+research/harness-context-probe.md.
+
+Because it is common to both arms it does not confound the harness contrast.
+It does mean no arm here is a bare model, that part of what was in context
+is itself instruction-following guidance, and that nobody else re-running
+this repository reproduces the same context - which is a problem for a
+benchmark whose whole point is that context changes behaviour.
+
+**Done when:** the Claude arms run with a controlled instruction-file
+context - most likely by pointing `HOME` at the scratch directory and
+checking with the same probe that neither file is present, with whatever
+remains loaded documented verbatim in METHODOLOGY.md. Whether a `HOME`
+override actually suppresses the machine-level file is untested. Whichever
+runs are used for publication should be collected under that controlled
+context, so this is worth settling before A1 and the A2 Opus re-run rather
+than after.
+
 ---
 
 ## Disposition of the 2026-08-22 morning items
@@ -287,8 +343,8 @@ single day against Opus's six-day pooled figure. All of that is now split
 into two separate tables with the matched 19/100 Sonnet figure alongside the
 Opus rows.
 
-**Missed by all five items:** day-level clustering (A5), the three
-incompatible repair-metric definitions (A2), the absence of any committed
+**Missed by all five items:** day-level clustering (A6), the three
+incompatible repair-metric definitions (A3), the absence of any committed
 code behind the published bootstrap CIs (now `harness/bootstrap_ci.py`, and
 all seven published intervals reproduce), a stale `data/leaderboard.json`
 (regenerated), and the post-hoc provenance of the original minimal-prompt

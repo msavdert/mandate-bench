@@ -5,9 +5,19 @@
 #
 # For i in 1..N, skips results/claude-sonnet/run_<i>.json if it already
 # exists (resumable). Each run pipes prompts/prompt.txt into `claude -p`
-# from inside an empty scratch directory so no project CLAUDE.md is picked
-# up, and writes the raw --output-format json response to
-# results/claude-sonnet/run_<i>.json.
+# from inside a scratch directory OUTSIDE this repository, and writes the
+# raw --output-format json response to results/claude-sonnet/run_<i>.json.
+#
+# The scratch directory must be outside the repository. Until 2026-08-22 it
+# was $ROOT/harness/_clauderun, on the assumption that an empty directory
+# prevents context pickup. It does not: an empty directory prevents a
+# project CLAUDE.md from loading, but Claude Code still injects a workspace
+# block for any session started inside a git repository, carrying the
+# branch, git status and the most recent commit subjects. That was measured
+# on 2026-08-22 (research/harness-context-probe.md) and the affected runs
+# are recorded in METHODOLOGY.md Amendment 5. Note that user- and
+# machine-level CLAUDE.md files are loaded regardless of directory and are
+# NOT removed by this change.
 #
 # Notes on flags (checked against `claude -p --help` / `claude --help` on
 # this machine before writing this script):
@@ -27,7 +37,9 @@ RESULTS_DIR="${RESULTS_DIR:-$ROOT/results/claude-sonnet}"
 # MODEL (optional, METHODOLOGY.md Amendment 4): claude model to pin.
 # Unset, behavior is identical to the original experiments.
 MODEL="${MODEL:-sonnet}"
-SCRATCH_DIR="$ROOT/harness/_clauderun"
+# Outside the repository on purpose - see the header. Overridable, but any
+# override must also be outside a git working tree.
+SCRATCH_DIR="${SCRATCH_DIR:-${TMPDIR:-/tmp}/mandate-bench-clauderun}"
 
 N="${1:?usage: run_claude.sh <N> [concurrency]}"
 CONCURRENCY="${2:-4}"
@@ -38,6 +50,15 @@ if [[ ! -f "$PROMPT_FILE" ]]; then
 fi
 
 mkdir -p "$RESULTS_DIR" "$SCRATCH_DIR"
+
+# Guard against the 2026-08-22 defect returning: a scratch directory inside a
+# git working tree makes Claude Code inject that repository's branch, status
+# and recent commit subjects into every run.
+if (cd "$SCRATCH_DIR" && git rev-parse --is-inside-work-tree >/dev/null 2>&1); then
+    echo "ERROR: SCRATCH_DIR ($SCRATCH_DIR) is inside a git working tree." >&2
+    echo "       Workspace context would leak into every run; pick a path outside." >&2
+    exit 1
+fi
 
 run_one() {
     local idx="$1"

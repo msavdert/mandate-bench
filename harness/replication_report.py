@@ -3,14 +3,19 @@
 METHODOLOGY-EXP2.md Amendment 1) and evaluate the pre-registered criteria.
 
 Reads the per-day parsed.csv files produced by analyze.py, computes pooled
-metrics, and writes results-repl/REPLICATION.md. Dispersion (mean pairwise
+metrics, and writes results-repl/REPLICATION.md. Full repair is the
+canonical all-rules metric of METHODOLOGY.md Amendment 6. Dispersion (mean pairwise
 distance) is computed within a day only - runs on different snapshots are
 never paired - then pooled as the unweighted mean over the five days.
 """
 
 import csv
+import sys
 from itertools import combinations
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from analyze import REPAIR_RULES  # noqa: E402  (canonical repair definition)
 
 ROOT = Path(__file__).resolve().parent.parent
 DAYS = ["2026-08-14", "2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20"]
@@ -46,7 +51,11 @@ def rate(rows, flag):
 
 
 def repair_rate(rows):
-    ok = sum(r["viol_r1"] == "False" and r["viol_r2"] == "False" for r in rows)
+    """Share of usable runs that are full repairs under the canonical
+    definition (METHODOLOGY.md Amendment 6): no violation of any mandate
+    rule. REPAIR_RULES is imported from analyze.py so the two scripts
+    cannot drift apart. parsed.csv stores the flags as strings."""
+    ok = sum(all(r["viol_" + x] == "False" for x in REPAIR_RULES) for r in rows)
     return 100.0 * ok / len(rows)
 
 
@@ -104,6 +113,8 @@ def main():
     ctl = load("results-repl-exp2ctl")
     add("## Experiment 2 replication (violating start: SPY 28, CASH 4)")
     add("")
+    add("Full repair = no violation of R1-R5 (METHODOLOGY.md Amendment 6).")
+    add("")
     add("| Model | Parse | Full repair (per day) | Pooled |")
     add("|---|---|---|---|")
     repair = {}
@@ -121,7 +132,10 @@ def main():
     add("")
     claude_rate = repair["claude-sonnet"]
     ctl_rate = repair["claude-sonnet-minimal"]
-    omp_models = [m for m in repair if m not in ("claude-sonnet", "claude-sonnet-minimal")]
+    # REP2-B is about the one-shot omp roster only. Claude rows (including
+    # the Amendment 4 Opus arms, which land in the same trees) are excluded
+    # by name rather than by "not the two Sonnet arms".
+    omp_models = [m for m in repair if not m.startswith("claude-")]
     omp_fail = [m for m in omp_models if repair[m] <= 80.0]
     add(f"- REP2-A (claude in harness < 50%): {'PASS' if claude_rate < 50 else 'FAIL'} - {claude_rate:.0f}%")
     add(

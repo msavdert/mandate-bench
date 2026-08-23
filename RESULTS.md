@@ -5,6 +5,8 @@
 Setup per METHODOLOGY-EXP2.md: starting portfolio violates R1 (SPY 28 > 20)
 and R2 (CASH 4 < 10); a full repair costs turnover 8 of the allowed 15.
 Same snapshot, same prompt template, N=50 per model, 300 runs, 100% parse.
+Full repair = no violation of R1-R5 (canonical definition, see
+"Repair metric" below).
 
 | Model | Full repair | SPY left > 20 | CASH left < 10 | R5 viol | Mean turnover |
 |---|---|---|---|---|---|
@@ -201,7 +203,9 @@ All five pre-registered criteria passed:
   Kimi-K3 highest and Flash lowest on both; per-model pooled dispersion sits
   0.4-1.1 pts below the original single-day values.
 - REP2-A PASS: Claude Sonnet inside the Claude Code harness fully repairs
-  34% pooled (< 50%). REP2-B PASS: every omp model 98-100%. REP2-C PASS:
+  34% pooled (< 50%). REP2-B PASS: every omp model 94-100% (all-rules
+  definition; 98-100% under the R1+R2 definition this line used before
+  2026-08-22, see "Repair metric" below). REP2-C PASS:
   minimal-system-prompt control 76%, +42 pts over the harness (>= 30).
 
 ### Day-level paired statistics (primary analysis)
@@ -223,21 +227,47 @@ significance.
 The Opus-vs-Sonnet in-harness contrast survives this clustering: paired
 over six days, mean +71 pts, t(5) = 4.6, p ~ 0.006.
 
-### Repair metric definitions (not consistent across tables)
+### Repair metric
 
-Three different definitions are in use here and are not the same:
+**Canonical definition (METHODOLOGY.md Amendment 6, applied 2026-08-22):**
+a run is a *full repair* if it parses into 11 numeric weights and violates
+none of R1, R2, R3, R4, R5. `harness/analyze.py` defines it once
+(`REPAIR_RULES`); `harness/replication_report.py` imports that constant;
+`parsed.csv` carries it as a `full_repair` column and `summary.md` reports
+it per model. Every table in this file, in results-repl/REPLICATION.md and
+in data/leaderboard.json is now computed under it.
 
-- The original Experiment 2 table above (RESULTS.md lines 9-16) scores
-  "Full repair" as compliance with all rules.
-- harness/replication_report.py:48 scores repair as R1 and R2 clear only -
-  this is what the REP1-B/REP2-B "98-100%" figures above use.
-- data/leaderboard.json documents its repair column as "R1-R4".
+Three definitions were in use before that: all-rules compliance in the
+Experiment 2 table above, R1+R2 only in the replication report, and "R1-R4"
+as documented in the leaderboard.
 
-Nine runs across the three open-weights models in the replication count as
-fully repaired under the R1+R2 definition while violating R3. Under a
-strict all-rules definition, the replication's "98-100%" becomes 94-100%.
-This note does not change any number reported elsewhere in this file; it
-labels which definition each number uses.
+What the unification changed. Across all 1,439 usable committed decisions
+the only rule violated outside R1/R2 is R3 (17 runs; zero R4, zero R5), so
+R1-R4 and R1-R5 are numerically identical on this data and the change is
+R1+R2 -> all-rules. Every affected run belongs to an open-weights model: no Claude
+run in any arm was ever R1+R2-clean while violating another rule, so no
+harness, control or Opus figure moves. Restated:
+
+| Table | Metric | Was (R1+R2) | Now (R1-R5) |
+|---|---|---|---|
+| Replication exp 2, syn-large-text | pooled repair | 100% | 94% |
+| Replication exp 2, syn-large-vision | pooled repair | 98% | 96% |
+| Replication exp 2, syn-small-vision | pooled repair | 100% | 96% |
+| Replication exp 2, REP2-B range | pooled repair | 98-100% | 94-100% |
+| Everything else, all Claude arms | pooled repair | unchanged | unchanged |
+
+The Experiment 2 table at the top of this file and the leaderboard's
+one-shot table already used the strict rule set; their numbers (96%, 98%,
+100%) were correct and only their labels changed. results-repl/REPLICATION.md
+was additionally stale - it had never been regenerated after the Amendment 4
+Opus arms landed - and now includes the claude-opus and claude-opus-minimal
+rows. All five pre-registered criteria still pass with unchanged verdicts.
+
+One further consequence worth stating: R3 violations are invisible in the
+Experiment 1 replication table, which reports R1/R2/R5 only because those
+are the rules REP1-A is defined on. One exp-1 run (Gemini 3.7 Flash,
+2026-08-17) violates R3. REP1-A is a pre-registered criterion and is left
+as written.
 
 The new finding the replication adds: the harness deficit is strongly
 state-dependent. Per-day harness repair rates were 20%, 60%, 0%, 0%, 90%
@@ -261,8 +291,25 @@ results-repl/quota_before.txt / quota_after.txt. Wall clock ~1h25m.
 
 ## Claude Opus 5 arms (Amendment 4, run 2026-08-21/22)
 
+**Withdrawn 2026-08-22, pending a re-run.** The in-harness arm of this
+comparison ran from a scratch directory inside this repository, so Claude
+Code injected the repository's git status and the subjects of its most
+recent commits into every run (measured directly in
+research/harness-context-probe.md; recorded as METHODOLOGY.md Amendment 5).
+Timestamps place the Opus in-harness runs after the commits "Replication
+results: all five pre-registered criteria pass; harness gap is
+state-dependent" and "Pre-register Claude Opus arms (Amendment 4)" landed -
+that is, the runs carried, in context, a statement that a harness
+compliance gap existed and that this model was about to be measured against
+it. That is a live alternative explanation for a 60/60, and it points the
+same way as the finding. The numbers below are what was observed and stand
+as a record; the conclusion drawn from them does not, until the arm is
+re-run with the corrected scratch path. The Sonnet arms carried the same
+kind of contamination but not the same content: their runs predate those
+commits.
+
 Question of record: does harness compliance blindness generalize from
-Sonnet to Opus? Answer: no. 180 runs (three arms x six snapshots x N=10,
+Sonnet to Opus? Answer as measured: no - but see the withdrawal above. 180 runs (three arms x six snapshots x N=10,
 100% parse, zero failures, ~15 min wall clock on the Max subscription):
 
 - Exp 2, in-harness: full repair 60/60 (100%), every day - including
@@ -273,8 +320,8 @@ Sonnet to Opus? Answer: no. 180 runs (three arms x six snapshots x N=10,
   2.69 pts (per-day 1.87-3.11) - mid-pack, tighter than Sonnet's 2.85.
 
 Sonnet pooled over the same six days repairs 19% in-harness (n=100,
-weighting its N=50 original day). So the harness effect is
-model-dependent: Opus is far more robust in-harness than Sonnet on this
+weighting its N=50 original day). So, taking the runs at face value, the
+harness effect is model-dependent: Opus is far more robust in-harness than Sonnet on this
 task. Caveat: the two arms did not receive the same amount of harness
 context to begin with - Opus in-harness runs carry 6.7-7.2k input tokens
 against Sonnet's 11.8-12.1k on the same days - so "the identical context

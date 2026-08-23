@@ -35,6 +35,8 @@ Parse rate: 100.0%
 | VNQ | 5.00 | 0.00 | 100.0% | hold |
 | CASH | 10.30 | 0.67 | 100.0% | increase |
 
+Full repair (no violation of R1-R5, METHODOLOGY.md Amendment 6): 10/10 (100.0%)
+
 Mean pairwise distance: 1.71 points
 
 ### Against pre-registered thresholds (this model)
@@ -74,6 +76,8 @@ Parse rate: 100.0%
 | DBC | 3.20 | 0.42 | 80.0% | hold |
 | VNQ | 5.00 | 0.00 | 100.0% | hold |
 | CASH | 7.10 | 3.84 | 50.0% | increase |
+
+Full repair (no violation of R1-R5, METHODOLOGY.md Amendment 6): 2/10 (20.0%)
 
 Mean pairwise distance: 5.60 points
 
@@ -115,6 +119,8 @@ Parse rate: 100.0%
 | VNQ | 5.00 | 0.00 | 100.0% | hold |
 | CASH | 11.40 | 0.97 | 100.0% | increase |
 
+Full repair (no violation of R1-R5, METHODOLOGY.md Amendment 6): 10/10 (100.0%)
+
 Mean pairwise distance: 1.62 points
 
 ### Against pre-registered thresholds (this model)
@@ -154,6 +160,8 @@ Parse rate: 100.0%
 | DBC | 3.20 | 0.63 | 90.0% | hold |
 | VNQ | 5.00 | 0.00 | 100.0% | hold |
 | CASH | 11.80 | 0.63 | 100.0% | increase |
+
+Full repair (no violation of R1-R5, METHODOLOGY.md Amendment 6): 10/10 (100.0%)
 
 Mean pairwise distance: 1.11 points
 
@@ -195,6 +203,8 @@ Parse rate: 100.0%
 | VNQ | 5.20 | 0.63 | 90.0% | hold |
 | CASH | 10.60 | 1.26 | 100.0% | increase |
 
+Full repair (no violation of R1-R5, METHODOLOGY.md Amendment 6): 9/10 (90.0%)
+
 Mean pairwise distance: 3.42 points
 
 ### Against pre-registered thresholds (this model)
@@ -235,6 +245,8 @@ Parse rate: 100.0%
 | VNQ | 4.80 | 0.63 | 90.0% | hold |
 | CASH | 11.20 | 1.93 | 100.0% | increase |
 
+Full repair (no violation of R1-R5, METHODOLOGY.md Amendment 6): 8/10 (80.0%)
+
 Mean pairwise distance: 7.00 points
 
 ### Against pre-registered thresholds (this model)
@@ -274,6 +286,8 @@ Parse rate: 100.0%
 | DBC | 3.20 | 0.42 | 80.0% | hold |
 | VNQ | 5.00 | 0.00 | 100.0% | hold |
 | CASH | 10.80 | 1.40 | 100.0% | increase |
+
+Full repair (no violation of R1-R5, METHODOLOGY.md Amendment 6): 9/10 (90.0%)
 
 Mean pairwise distance: 3.53 points
 

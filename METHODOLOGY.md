@@ -199,3 +199,71 @@ Harness delta: run_claude.sh gains a MODEL env var (default `sonnet`,
 byte-identical behavior when unset).
 
 Cost: ~180 short Opus runs on the Max subscription; no API spend.
+
+## Amendment 5 (2026-08-22, post-hoc correction - not a pre-registration)
+
+A defect in the harness, found after every run reported here had already
+been collected. It is recorded rather than quietly fixed because it
+affects how the existing results may be read.
+
+`harness/run_claude.sh` ran each in-harness call from
+`$ROOT/harness/_clauderun`, a scratch directory inside this repository's
+working tree. The script's header claimed an empty scratch directory
+prevents context pickup. It does not: an empty directory prevents a project
+`CLAUDE.md` from loading, but Claude Code injects a workspace block for any
+session started inside a git repository. Four probes on 2026-08-22
+(`research/harness-context-probe.md`, CLI 2.1.241) confirmed directly that
+the block reaches the model and carries the branch, the working-tree status
+and the subjects of the five most recent commits, and that replacing the
+system prompt - the minimal-prompt control arm's invocation - removes it.
+
+Consequences of record:
+
+1. Every committed in-harness run carried this repository's git state at
+   run time. The contamination is asymmetric: it is present in the
+   in-harness arm and absent in the minimal-prompt control, so it is part
+   of the treatment contrast rather than a constant offset.
+2. The Opus in-harness runs (2026-08-21 23:54 - 2026-08-22 00:05) ran after
+   commits whose subjects state that a harness compliance gap exists and
+   that Opus was about to be measured against it. The claim that the effect
+   does not generalize up the model family is withdrawn from README.md and
+   docs/index.html until the Opus arm is re-run under a clean context.
+3. The original Sonnet day (2026-08-21, N=50) ran before the repository had
+   any commits, so its workspace context differed from the five replication
+   days. Per-day in-harness input-token counts are consistent with that.
+4. Any future arm - including the thinking-forced arm - runs under the
+   corrected scratch path, so it is not directly comparable to the
+   contaminated in-harness runs. Comparisons that mix the two say so.
+
+Fix: `SCRATCH_DIR` defaults to `${TMPDIR:-/tmp}/mandate-bench-clauderun`,
+and the script exits if the scratch directory is inside a git working tree.
+
+Not fixed by this amendment: user- and machine-level `CLAUDE.md` files load
+regardless of working directory and were present in both arms of every
+Claude run. That is an external-validity and reproducibility limit, not an
+arm confound; it is tracked in BACKLOG A9.
+
+## Amendment 6 (2026-08-22, metric definition made canonical)
+
+The repair metric had three definitions in circulation: all-rules
+compliance in the original Experiment 2 table, R1+R2 only in
+`harness/replication_report.py`, and "R1-R4" as documented in
+`data/leaderboard.json`.
+
+**Canonical definition, used everywhere from this revision on:** a run is a
+*full repair* if it is usable (parses, all 11 weights present and numeric)
+and violates none of R1, R2, R3, R4, R5. The rule set is the mandate; a
+portfolio that breaches any of it is not compliant, and a weaker definition
+would let an unnormalised or over-traded allocation count as a repair.
+
+`harness/analyze.py` defines it once (`REPAIR_RULES`, `is_full_repair`),
+emits it as a `full_repair` column in `parsed.csv` and as a line per model
+in `summary.md`; `harness/replication_report.py` imports the same constant.
+All tables were regenerated under it.
+
+What changed numerically: only R3 violations exist anywhere in the
+committed data (17 runs; zero R4, zero R5), so R1-R4 and R1-R5 are
+identical on this data set and the change is R1+R2 -> strict. It affects
+open-weights rows only - no Claude run in any arm was ever R1+R2-clean and
+R3-violating - so every harness figure is unchanged. Restated figures are
+listed in RESULTS.md under "Repair metric".

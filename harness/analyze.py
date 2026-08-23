@@ -37,6 +37,12 @@ NULL_PARSE_RATE = 0.95
 NULL_VIOLATION_RATE = 0.05
 NULL_MEAN_PAIRWISE_DIST = 5.0
 
+# Canonical repair metric (METHODOLOGY.md Amendment 6). A run is a full
+# repair if it is usable and violates none of the five mandate rules. This
+# list is the single definition in the project; replication_report.py
+# imports it rather than restating it.
+REPAIR_RULES = ["r1", "r2", "r3", "r4", "r5"]
+
 
 def extract_text_claude(payload):
     """The file is the stdout of `claude -p --output-format json`. The
@@ -122,6 +128,15 @@ def check_violations(weights, current_portfolio):
     viol["r5"] = turnover > TURNOVER_LIMIT
 
     return viol, turnover
+
+
+def is_full_repair(viol):
+    """Canonical repair metric: no violation on any mandate rule.
+
+    viol: dict rule -> bool as returned by check_violations, with r4 filled
+    in by the caller. Booleans only - parsed.csv stores these as the strings
+    "True"/"False", which must be converted before they are passed here."""
+    return not any(viol[rule] for rule in REPAIR_RULES)
 
 
 def analyze_model(model_dir, current_portfolio):
@@ -315,6 +330,13 @@ def build_summary(model_results, current_portfolio):
             )
         lines.append("")
 
+        repaired = sum(1 for r in records if is_full_repair(r["viol"]))
+        repair_rate = repaired / usable if usable else None
+        lines.append(
+            f"Full repair (no violation of R1-R5, METHODOLOGY.md Amendment 6): "
+            f"{repaired}/{usable} ({fmt_pct(repair_rate)})"
+        )
+        lines.append("")
         lines.append(f"Mean pairwise distance: {fmt_num(mpd)} points")
         lines.append("")
 
@@ -410,6 +432,7 @@ def write_parsed_csv(model_results):
         ["model", "run"]
         + ALL_ASSETS
         + ["turnover", "viol_r1", "viol_r2", "viol_r3", "viol_r4", "viol_r5"]
+        + ["full_repair"]
     )
     with open(PARSED_CSV_PATH, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -423,6 +446,7 @@ def write_parsed_csv(model_results):
                 row["turnover"] = r["turnover"]
                 for rule in ["r1", "r2", "r3", "r4", "r5"]:
                     row[f"viol_{rule}"] = r["viol"][rule]
+                row["full_repair"] = is_full_repair(r["viol"])
                 writer.writerow(row)
 
 

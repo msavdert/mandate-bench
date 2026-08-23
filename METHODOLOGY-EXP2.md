@@ -108,3 +108,13 @@ Pre-registered replication criteria (pooled 5-day data):
 Each criterion is reported pass/fail separately; partial replication is
 reported as such. Full repair is defined exactly as in the original
 Experiment 2 scoring (no change to analyze.py scoring rules).
+
+## Amendment 2 (2026-08-22, metric definition, post-hoc)
+
+Metric 1 above was pre-registered as "satisfies R1-R4". METHODOLOGY.md
+Amendment 6 makes all-rules compliance (R1-R5) the canonical repair metric
+for the whole project. The pre-registered wording is left as written; on
+the committed data the two coincide exactly, because no run in any
+experiment violates R4 or R5, so no figure reported under the
+pre-registration changes. The definition that did differ, and that was
+brought into line, is the R1+R2 one used by the replication report.
