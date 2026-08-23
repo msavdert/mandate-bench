@@ -236,7 +236,7 @@ fabricated; the 2026 identifiers that looked suspicious are real papers with
 matching titles and dates. The item was right that unverified citations were
 carrying the novelty claim and right that closing it was cheap. It was wrong
 to rank this first: the reputational risk it feared did not exist, and the
-four real defects it would have caught are footnote-scale. Residue is A7.
+four real defects it would have caught are footnote-scale. Residue is A8.
 
 **Old B2, rule out the trivial explanation - closed as ruled out, but it
 named the wrong confound.** Its hypothesis was that the two arms received
@@ -253,7 +253,7 @@ actual explanation was in the persisted `thinking_tokens` field the whole
 time. Nine other candidate confounds were checked and ruled out in the same
 pass (truncation, model-snapshot drift, parse failures scored as
 non-repairs, retries, tool routing, cross-run state); two remain open and
-are now A1 and A3.
+are now A1 and A4.
 
 One further error the item did not catch: the "3.6 versus 8.0-10.7 turnover"
 row it cited as its evidence compares Sonnet against four models reached
@@ -276,7 +276,7 @@ the README and the Pages site and survives in RESULTS.md as a scoped
 observation. The conflict of interest was real but was not the disqualifying
 problem: at N=50 the column has no resolving power at all (0/50 against
 5/50 is Fisher p = 0.056, and every row's interval contains every other's),
-and the style confound in A4 means a cross-family judge would have shipped a
+and the style confound in A5 means a cross-family judge would have shipped a
 re-ranked column that still could not separate 8% from 10%. Remedy (a) would
 have looked like a fix and would not have been one.
 
